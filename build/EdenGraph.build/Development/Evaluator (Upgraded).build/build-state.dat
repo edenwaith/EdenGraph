@@ -1,7 +1,7 @@
 TEvaluator (Upgraded)
 v7
 r0
-t392005337.223716
+t392005781.428806
 cCheck dependencies
 cYacc /Users/admin/Programs/Mac/EdenGraph/grammar.y
 cLex /Users/admin/Programs/Mac/EdenGraph/rules.l
@@ -12,6 +12,11 @@ N/Developer/SDKs/MacOSX10.4u.sdk
 c000000004D29070B00000000000000EE
 t1294534411
 s238
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/alloca.h
+c00000000463BAA5A0000000000000588
+t1178315354
+s1416
 
 N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/errno.h
 c00000000463BAA5A00000000000003EB
@@ -58,6 +63,11 @@ c00000000463BAA5A0000000000004EED
 t1178315354
 s20205
 
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/lib/gcc/powerpc-apple-darwin10/4.0.1/include/stddef.h
+c000000004C2394B30000000000003193
+t1277400243
+s12691
+
 N/Users/admin/Programs/Mac/EdenGraph/build/Development/Evaluator
 t2
 s0
@@ -65,10 +75,27 @@ s0
 N/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/rules.yy.c
 t1370312524
 s50095
+i<stdio.h>
+i<string.h>
+i<errno.h>
+i<stdlib.h>
+i<inttypes.h>
+i"y.tab.h"
+i<stdlib.h>
+i<unistd.h>
 
 N/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/y.tab.c
 t1370312524
 s54530
+i<libc.h>
+i<math.h>
+i<stddef.h>
+i<libintl.h>
+i<alloca.h>
+i<malloc.h>
+i<stdlib.h>
+i<stdlib.h>
+i<stdio.h>
 
 N/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/y.tab.h
 t1370312524
@@ -99,7 +126,7 @@ s902
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies392005337#392005337#0(0"0(0#1#0"8614710720#0"0#
+lSLF07#2@18"Check dependencies392005781#392005781#0(0"0(0#1#0"8610610688#0"0#
 
 CCompileC "build/EdenGraph.build/Development/Evaluator (Upgraded).build/Objects-normal/i386/rules.yy.o" "/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/rules.yy.c" normal i386 c com.apple.compilers.gcc.4_0
 s392005324.639548
@@ -119,8 +146,8 @@ CCompileC "build/EdenGraph.build/Development/Evaluator (Upgraded).build/Objects-
 r0
 
 CCompileC "build/EdenGraph.build/Development/Evaluator (Upgraded).build/Objects-normal/i386/y.tab.o" "/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/y.tab.c" normal i386 c com.apple.compilers.gcc.4_0
-s392005337.137618
-e392005337.223636
+s392005781.354322
+e392005781.428733
 r0
 xCompileC
 xbuild/EdenGraph.build/Development/Evaluator (Upgraded).build/Objects-normal/i386/y.tab.o
@@ -138,7 +165,7 @@ o/Users/admin/Programs/Mac/EdenGraph/grammar.y:119: error: conflicting types for
 o/Users/admin/Programs/Mac/EdenGraph/grammar.y:97: error: previous implicit declaration of 'factorial' was here
 o/Users/admin/Programs/Mac/EdenGraph/grammar.y:129: warning: conflicting types for 'yyerror'
 o/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/y.tab.c:1694: warning: previous implicit declaration of 'yyerror' was here
-lSLF07#2@127"Compile /Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/y.tab.c392005337#392005337#0(1145"/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/y.tab.c: In function 'yyparse':/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/y.tab.c:1381: warning: implicit declaration of function 'yylex'/Users/admin/Programs/Mac/EdenGraph/grammar.y:97: warning: implicit declaration of function 'factorial'/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/y.tab.c:1694: warning: implicit declaration of function 'yyerror'/Users/admin/Programs/Mac/EdenGraph/grammar.y: At top level:/Users/admin/Programs/Mac/EdenGraph/grammar.y:119: error: conflicting types for 'factorial'/Users/admin/Programs/Mac/EdenGraph/grammar.y:97: error: previous implicit declaration of 'factorial' was here/Users/admin/Programs/Mac/EdenGraph/grammar.y:129: warning: conflicting types for 'yyerror'/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/y.tab.c:1694: warning: previous implicit declaration of 'yyerror' was here8(22@40"Implicit declaration of function 'yylex'392005337#144#176#0(6@119"/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/y.tab.c392005324#1381#0#1381#0#36"implicit declaration of function '*'0(22@44"Implicit declaration of function 'factorial'392005337#320#104#0(6@45"/Users/admin/Programs/Mac/EdenGraph/grammar.y392005317#97#0#97#0#36"implicit declaration of function '*'0(22@42"Implicit declaration of function 'yyerror'392005337#424#178#0(6@119"/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/y.tab.c392005324#1694#0#1694#0#36"implicit declaration of function '*'0(23@13"At top level:392005337#602#61#0(6@45"/Users/admin/Programs/Mac/EdenGraph/grammar.y392005317#0#0#0#0#0"0(4@33"Conflicting types for 'factorial'392005337#663#92#0(6@45"/Users/admin/Programs/Mac/EdenGraph/grammar.y392005317#119#0#119#0#25"conflicting types for '*'0(13@53"Previous implicit declaration of 'factorial' was here392005337#755#111#0(6@45"/Users/admin/Programs/Mac/EdenGraph/grammar.y392005317#97#0#97#0#45"previous implicit declaration of '*' was here0(22@31"Conflicting types for 'yyerror'392005337#866#92#0(6@45"/Users/admin/Programs/Mac/EdenGraph/grammar.y392005317#129#0#129#0#25"conflicting types for '*'0(22@51"Previous implicit declaration of 'yyerror' was here392005337#958#187#0(6@119"/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/y.tab.c392005324#1694#0#1694#0#45"previous implicit declaration of '*' was here0(0#0#119"/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/y.tab.c8616246112#1073"    cd /Users/admin/Programs/Mac/EdenGraph    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/Evaluator.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/admin/Programs/Mac/EdenGraph/build/Development -I/Users/admin/Programs/Mac/EdenGraph/build/Development/include "-I/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/i386" "-I/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources" -c "/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/y.tab.c" -o "/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/Objects-normal/i386/y.tab.o"1#
+lSLF07#2@127"Compile /Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/y.tab.c392005781#392005781#0(1145"/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/y.tab.c: In function 'yyparse':/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/y.tab.c:1381: warning: implicit declaration of function 'yylex'/Users/admin/Programs/Mac/EdenGraph/grammar.y:97: warning: implicit declaration of function 'factorial'/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/y.tab.c:1694: warning: implicit declaration of function 'yyerror'/Users/admin/Programs/Mac/EdenGraph/grammar.y: At top level:/Users/admin/Programs/Mac/EdenGraph/grammar.y:119: error: conflicting types for 'factorial'/Users/admin/Programs/Mac/EdenGraph/grammar.y:97: error: previous implicit declaration of 'factorial' was here/Users/admin/Programs/Mac/EdenGraph/grammar.y:129: warning: conflicting types for 'yyerror'/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/y.tab.c:1694: warning: previous implicit declaration of 'yyerror' was here8(22@40"Implicit declaration of function 'yylex'392005781#144#176#0(6@119"/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/y.tab.c392005324#1381#0#1381#0#36"implicit declaration of function '*'0(22@44"Implicit declaration of function 'factorial'392005781#320#104#0(6@45"/Users/admin/Programs/Mac/EdenGraph/grammar.y392005317#97#0#97#0#36"implicit declaration of function '*'0(22@42"Implicit declaration of function 'yyerror'392005781#424#178#0(6@119"/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/y.tab.c392005324#1694#0#1694#0#36"implicit declaration of function '*'0(23@13"At top level:392005781#602#61#0(6@45"/Users/admin/Programs/Mac/EdenGraph/grammar.y392005317#0#0#0#0#0"0(4@33"Conflicting types for 'factorial'392005781#663#92#0(6@45"/Users/admin/Programs/Mac/EdenGraph/grammar.y392005317#119#0#119#0#25"conflicting types for '*'0(13@53"Previous implicit declaration of 'factorial' was here392005781#755#111#0(6@45"/Users/admin/Programs/Mac/EdenGraph/grammar.y392005317#97#0#97#0#45"previous implicit declaration of '*' was here0(22@31"Conflicting types for 'yyerror'392005781#866#92#0(6@45"/Users/admin/Programs/Mac/EdenGraph/grammar.y392005317#129#0#129#0#25"conflicting types for '*'0(22@51"Previous implicit declaration of 'yyerror' was here392005781#958#187#0(6@119"/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/y.tab.c392005324#1694#0#1694#0#45"previous implicit declaration of '*' was here0(0#0#119"/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/y.tab.c8619214560#1073"    cd /Users/admin/Programs/Mac/EdenGraph    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/Evaluator.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/admin/Programs/Mac/EdenGraph/build/Development -I/Users/admin/Programs/Mac/EdenGraph/build/Development/include "-I/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/i386" "-I/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources" -c "/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/y.tab.c" -o "/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/Objects-normal/i386/y.tab.o"1#
 
 CCompileC "build/EdenGraph.build/Development/Evaluator (Upgraded).build/Objects-normal/i386/y.tab.o" "/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/Evaluator (Upgraded).build/DerivedSources/y.tab.c" normal i386 c com.apple.compilers.gcc.4_2
 r0
