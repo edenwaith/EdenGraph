@@ -1,0 +1,938 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXApplicationTarget section */
+		29B97326FDCFA39411CA2CEA /* EdenGraph */ = {
+			isa = PBXApplicationTarget;
+			buildConfigurationList = 84DF6B8908A6E049001034E5 /* Build configuration list for PBXApplicationTarget "EdenGraph" */;
+			buildPhases = (
+				29B97327FDCFA39411CA2CEA /* Headers */,
+				29B97328FDCFA39411CA2CEA /* Resources */,
+				29B9732BFDCFA39411CA2CEA /* Sources */,
+				29B9732DFDCFA39411CA2CEA /* Frameworks */,
+			);
+			dependencies = (
+			);
+			name = EdenGraph;
+			productInstallPath = "$(HOME)/Applications";
+			productName = EdenGraph;
+			productReference = 17587328FF379C6511CA2CBB /* EdenGraph.app */;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>EdenGraph</string>
+	<key>CFBundleGetInfoString</key>
+	<string>1.2.2</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>Help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>EdenGraph Help</string>
+	<key>CFBundleIconFile</key>
+	<string>EdenGraph</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.edenwaith.edengraph</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>EdenGraph</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.2.2</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>10</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>
+";
+		};
+/* End PBXApplicationTarget section */
+
+/* Begin PBXBuildFile section */
+		080E96DCFE201CFB7F000001 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		089C165EFE840E0CC02AAC07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		1058C7A3FEA54F0111CA2CBB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		29B9732CFDCFA39411CA2CEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		842376D808DBE33E0097FFDB /* Clear.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 842376D708DBE33E0097FFDB /* Clear.tiff */; };
+		849B0D2A06F7C53E00211E73 /* EdenGraph.icns in Resources */ = {isa = PBXBuildFile; fileRef = 849B0D2906F7C53E00211E73 /* EdenGraph.icns */; };
+		849B0D2C06F7C55600211E73 /* Origin.png in Resources */ = {isa = PBXBuildFile; fileRef = 849B0D2B06F7C55600211E73 /* Origin.png */; };
+		849B0D2F06F7C5BA00211E73 /* ZoomIn.tif in Resources */ = {isa = PBXBuildFile; fileRef = 849B0D2D06F7C5BA00211E73 /* ZoomIn.tif */; };
+		849B0D3006F7C5BA00211E73 /* ZoomOut.tif in Resources */ = {isa = PBXBuildFile; fileRef = 849B0D2E06F7C5BA00211E73 /* ZoomOut.tif */; };
+		849C751504C0EA78002A2AE4 /* Stop-red.tif in Resources */ = {isa = PBXBuildFile; fileRef = 849C751404C0EA78002A2AE4 /* Stop-red.tif */; };
+		84A5A04D0498B7A200B6EFD8 /* TheParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A5A04B0498B7A200B6EFD8 /* TheParser.h */; };
+		84A5A04E0498B7A200B6EFD8 /* TheParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A5A04C0498B7A200B6EFD8 /* TheParser.m */; };
+		84B779580A410E4A006BFE97 /* Floppy.tif in Resources */ = {isa = PBXBuildFile; fileRef = 84B779570A410E4A006BFE97 /* Floppy.tif */; };
+		84B779590A410E4A006BFE97 /* Floppy.tif in Resources */ = {isa = PBXBuildFile; fileRef = 84B779570A410E4A006BFE97 /* Floppy.tif */; };
+		84B779930A4111B4006BFE97 /* Floppy.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B779920A4111B4006BFE97 /* Floppy.png */; };
+		84B779940A4111B4006BFE97 /* Floppy.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B779920A4111B4006BFE97 /* Floppy.png */; };
+		84DB33E509C67AC4005CF812 /* AddEquation_Pressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 84DB33E109C67AC4005CF812 /* AddEquation_Pressed.tiff */; };
+		84DB33E609C67AC4005CF812 /* AddEquation.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 84DB33E209C67AC4005CF812 /* AddEquation.tiff */; };
+		84DB33E709C67AC4005CF812 /* RemoveEquation_Pressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 84DB33E309C67AC4005CF812 /* RemoveEquation_Pressed.tiff */; };
+		84DB33E809C67AC4005CF812 /* RemoveEquation.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 84DB33E409C67AC4005CF812 /* RemoveEquation.tiff */; };
+		84F883290A296B75006A2528 /* grammar.y in Sources */ = {isa = PBXBuildFile; fileRef = F51C931902A577F401C87CDC /* grammar.y */; };
+		84F8832A0A296B75006A2528 /* rules.l in Sources */ = {isa = PBXBuildFile; fileRef = F51C931A02A577F401C87CDC /* rules.l */; };
+		84F883360A296B91006A2528 /* EGView.h in Headers */ = {isa = PBXBuildFile; fileRef = F543F6CE02A7181601C28F32 /* EGView.h */; };
+		84F883370A296B91006A2528 /* Segment.h in Headers */ = {isa = PBXBuildFile; fileRef = F51C409F02B1B0EC01000002 /* Segment.h */; };
+		84F883380A296B91006A2528 /* Label.h in Headers */ = {isa = PBXBuildFile; fileRef = F51C40A302B1B7C301000002 /* Label.h */; };
+		84F883390A296B91006A2528 /* ToolbarDelegateCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = F5172A5B032A8B9001219549 /* ToolbarDelegateCategory.h */; };
+		84F8833A0A296B91006A2528 /* EGController.h in Headers */ = {isa = PBXBuildFile; fileRef = F53C6E5A03E7DFA5015A706C /* EGController.h */; };
+		84F8833B0A296B91006A2528 /* TheParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A5A04B0498B7A200B6EFD8 /* TheParser.h */; };
+		84F8833D0A296B91006A2528 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		84F8833E0A296B91006A2528 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		84F8833F0A296B91006A2528 /* Evaluator in Resources */ = {isa = PBXBuildFile; fileRef = F51C932702A578A201C87CDC /* Evaluator */; };
+		84F883400A296B91006A2528 /* Help in Resources */ = {isa = PBXBuildFile; fileRef = F5F54B0402DE40F80172AE52 /* Help */; };
+		84F883410A296B91006A2528 /* Stop-red.tif in Resources */ = {isa = PBXBuildFile; fileRef = 849C751404C0EA78002A2AE4 /* Stop-red.tif */; };
+		84F883440A296B91006A2528 /* EdenGraph.icns in Resources */ = {isa = PBXBuildFile; fileRef = 849B0D2906F7C53E00211E73 /* EdenGraph.icns */; };
+		84F883450A296B91006A2528 /* Origin.png in Resources */ = {isa = PBXBuildFile; fileRef = 849B0D2B06F7C55600211E73 /* Origin.png */; };
+		84F883460A296B91006A2528 /* ZoomIn.tif in Resources */ = {isa = PBXBuildFile; fileRef = 849B0D2D06F7C5BA00211E73 /* ZoomIn.tif */; };
+		84F883470A296B91006A2528 /* ZoomOut.tif in Resources */ = {isa = PBXBuildFile; fileRef = 849B0D2E06F7C5BA00211E73 /* ZoomOut.tif */; };
+		84F883480A296B91006A2528 /* Clear.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 842376D708DBE33E0097FFDB /* Clear.tiff */; };
+		84F883490A296B91006A2528 /* AddEquation_Pressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 84DB33E109C67AC4005CF812 /* AddEquation_Pressed.tiff */; };
+		84F8834A0A296B91006A2528 /* AddEquation.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 84DB33E209C67AC4005CF812 /* AddEquation.tiff */; };
+		84F8834B0A296B91006A2528 /* RemoveEquation_Pressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 84DB33E309C67AC4005CF812 /* RemoveEquation_Pressed.tiff */; };
+		84F8834C0A296B91006A2528 /* RemoveEquation.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 84DB33E409C67AC4005CF812 /* RemoveEquation.tiff */; };
+		84F8834E0A296B91006A2528 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		84F8834F0A296B91006A2528 /* EGView.m in Sources */ = {isa = PBXBuildFile; fileRef = F543F6CF02A7181601C28F32 /* EGView.m */; };
+		84F883500A296B91006A2528 /* Segment.m in Sources */ = {isa = PBXBuildFile; fileRef = F51C40A002B1B0EC01000002 /* Segment.m */; };
+		84F883510A296B91006A2528 /* Label.m in Sources */ = {isa = PBXBuildFile; fileRef = F51C40A402B1B7C301000002 /* Label.m */; };
+		84F883520A296B91006A2528 /* ToolbarDelegateCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F5172A5D032A8C1601219549 /* ToolbarDelegateCategory.m */; };
+		84F883530A296B91006A2528 /* EGController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53C6E5B03E7DFA5015A706C /* EGController.m */; };
+		84F883540A296B91006A2528 /* TheParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A5A04C0498B7A200B6EFD8 /* TheParser.m */; };
+		84F883560A296B91006A2528 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		F5172A5C032A8B9001219549 /* ToolbarDelegateCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = F5172A5B032A8B9001219549 /* ToolbarDelegateCategory.h */; };
+		F5172A5E032A8C1601219549 /* ToolbarDelegateCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F5172A5D032A8C1601219549 /* ToolbarDelegateCategory.m */; };
+		F51C40A102B1B0EC01000002 /* Segment.h in Headers */ = {isa = PBXBuildFile; fileRef = F51C409F02B1B0EC01000002 /* Segment.h */; };
+		F51C40A202B1B0EC01000002 /* Segment.m in Sources */ = {isa = PBXBuildFile; fileRef = F51C40A002B1B0EC01000002 /* Segment.m */; };
+		F51C40A502B1B7C301000002 /* Label.h in Headers */ = {isa = PBXBuildFile; fileRef = F51C40A302B1B7C301000002 /* Label.h */; };
+		F51C40A602B1B7C301000002 /* Label.m in Sources */ = {isa = PBXBuildFile; fileRef = F51C40A402B1B7C301000002 /* Label.m */; };
+		F51C931F02A577F401C87CDC /* grammar.y in Sources */ = {isa = PBXBuildFile; fileRef = F51C931902A577F401C87CDC /* grammar.y */; };
+		F51C932002A577F401C87CDC /* rules.l in Sources */ = {isa = PBXBuildFile; fileRef = F51C931A02A577F401C87CDC /* rules.l */; };
+		F51C932802A578A201C87CDC /* Evaluator in Resources */ = {isa = PBXBuildFile; fileRef = F51C932702A578A201C87CDC /* Evaluator */; };
+		F53C6E5C03E7DFA5015A706C /* EGController.h in Headers */ = {isa = PBXBuildFile; fileRef = F53C6E5A03E7DFA5015A706C /* EGController.h */; };
+		F53C6E5D03E7DFA5015A706C /* EGController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53C6E5B03E7DFA5015A706C /* EGController.m */; };
+		F543F6D002A7181601C28F32 /* EGView.h in Headers */ = {isa = PBXBuildFile; fileRef = F543F6CE02A7181601C28F32 /* EGView.h */; };
+		F543F6D102A7181601C28F32 /* EGView.m in Sources */ = {isa = PBXBuildFile; fileRef = F543F6CF02A7181601C28F32 /* EGView.m */; };
+		F5F54B0502DE40F80172AE52 /* Help in Resources */ = {isa = PBXBuildFile; fileRef = F5F54B0402DE40F80172AE52 /* Help */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		17587328FF379C6511CA2CBB /* EdenGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = EdenGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		842376D708DBE33E0097FFDB /* Clear.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Clear.tiff; sourceTree = "<group>"; };
+		849B0D2906F7C53E00211E73 /* EdenGraph.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = EdenGraph.icns; sourceTree = "<group>"; };
+		849B0D2B06F7C55600211E73 /* Origin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Origin.png; sourceTree = "<group>"; };
+		849B0D2D06F7C5BA00211E73 /* ZoomIn.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ZoomIn.tif; sourceTree = "<group>"; };
+		849B0D2E06F7C5BA00211E73 /* ZoomOut.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ZoomOut.tif; sourceTree = "<group>"; };
+		849C751404C0EA78002A2AE4 /* Stop-red.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Stop-red.tif"; sourceTree = "<group>"; };
+		84A5A04B0498B7A200B6EFD8 /* TheParser.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TheParser.h; sourceTree = "<group>"; };
+		84A5A04C0498B7A200B6EFD8 /* TheParser.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TheParser.m; sourceTree = "<group>"; };
+		84B779570A410E4A006BFE97 /* Floppy.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Floppy.tif; sourceTree = "<group>"; };
+		84B779920A4111B4006BFE97 /* Floppy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Floppy.png; sourceTree = "<group>"; };
+		84DB33E109C67AC4005CF812 /* AddEquation_Pressed.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = AddEquation_Pressed.tiff; sourceTree = "<group>"; };
+		84DB33E209C67AC4005CF812 /* AddEquation.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = AddEquation.tiff; sourceTree = "<group>"; };
+		84DB33E309C67AC4005CF812 /* RemoveEquation_Pressed.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = RemoveEquation_Pressed.tiff; sourceTree = "<group>"; };
+		84DB33E409C67AC4005CF812 /* RemoveEquation.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = RemoveEquation.tiff; sourceTree = "<group>"; };
+		84F883310A296B75006A2528 /* Evaluator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Evaluator; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F8835B0A296B91006A2528 /* Info-EdenGraph__Upgraded_.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-EdenGraph__Upgraded_.plist"; sourceTree = "<group>"; };
+		84F8835C0A296B91006A2528 /* EdenGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdenGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5172A5B032A8B9001219549 /* ToolbarDelegateCategory.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ToolbarDelegateCategory.h; sourceTree = "<group>"; };
+		F5172A5D032A8C1601219549 /* ToolbarDelegateCategory.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ToolbarDelegateCategory.m; sourceTree = "<group>"; };
+		F51C409F02B1B0EC01000002 /* Segment.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Segment.h; sourceTree = "<group>"; };
+		F51C40A002B1B0EC01000002 /* Segment.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Segment.m; sourceTree = "<group>"; };
+		F51C40A302B1B7C301000002 /* Label.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Label.h; sourceTree = "<group>"; };
+		F51C40A402B1B7C301000002 /* Label.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Label.m; sourceTree = "<group>"; };
+		F51C931902A577F401C87CDC /* grammar.y */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.yacc; path = grammar.y; sourceTree = "<group>"; };
+		F51C931A02A577F401C87CDC /* rules.l */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.lex; path = rules.l; sourceTree = "<group>"; };
+		F51C931B02A577F401C87CDC /* Evaluator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Evaluator; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51C932702A578A201C87CDC /* Evaluator */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = Evaluator; path = build/Evaluator; sourceTree = "<group>"; };
+		F53C6E5A03E7DFA5015A706C /* EGController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = EGController.h; sourceTree = "<group>"; };
+		F53C6E5B03E7DFA5015A706C /* EGController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = EGController.m; sourceTree = "<group>"; };
+		F543F6CE02A7181601C28F32 /* EGView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = EGView.h; sourceTree = "<group>"; };
+		F543F6CF02A7181601C28F32 /* EGView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = EGView.m; sourceTree = "<group>"; };
+		F5F54B0402DE40F80172AE52 /* Help */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = folder; path = Help; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29B9732DFDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1058C7A3FEA54F0111CA2CBB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F8832B0A296B75006A2528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F883550A296B91006A2528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F883560A296B91006A2528 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51C932102A577F401C87CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F543F6CE02A7181601C28F32 /* EGView.h */,
+				F543F6CF02A7181601C28F32 /* EGView.m */,
+				F51C409F02B1B0EC01000002 /* Segment.h */,
+				F51C40A002B1B0EC01000002 /* Segment.m */,
+				F51C40A302B1B7C301000002 /* Label.h */,
+				F51C40A402B1B7C301000002 /* Label.m */,
+				F5172A5B032A8B9001219549 /* ToolbarDelegateCategory.h */,
+				F5172A5D032A8C1601219549 /* ToolbarDelegateCategory.m */,
+				F53C6E5A03E7DFA5015A706C /* EGController.h */,
+				F53C6E5B03E7DFA5015A706C /* EGController.m */,
+				84A5A04B0498B7A200B6EFD8 /* TheParser.h */,
+				84A5A04C0498B7A200B6EFD8 /* TheParser.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17587328FF379C6511CA2CBB /* EdenGraph.app */,
+				F51C931B02A577F401C87CDC /* Evaluator */,
+				84F883310A296B75006A2528 /* Evaluator */,
+				84F8835C0A296B91006A2528 /* EdenGraph.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* EdenGraph */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				84F8835B0A296B91006A2528 /* Info-EdenGraph__Upgraded_.plist */,
+			);
+			name = EdenGraph;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8454652906EA820600237B23 /* Images */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				F51C931902A577F401C87CDC /* grammar.y */,
+				F51C931A02A577F401C87CDC /* rules.l */,
+				F51C932702A578A201C87CDC /* Evaluator */,
+				F5F54B0402DE40F80172AE52 /* Help */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8454652906EA820600237B23 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				84B779920A4111B4006BFE97 /* Floppy.png */,
+				84B779570A410E4A006BFE97 /* Floppy.tif */,
+				84DB33E109C67AC4005CF812 /* AddEquation_Pressed.tiff */,
+				84DB33E209C67AC4005CF812 /* AddEquation.tiff */,
+				84DB33E309C67AC4005CF812 /* RemoveEquation_Pressed.tiff */,
+				84DB33E409C67AC4005CF812 /* RemoveEquation.tiff */,
+				842376D708DBE33E0097FFDB /* Clear.tiff */,
+				849B0D2B06F7C55600211E73 /* Origin.png */,
+				849C751404C0EA78002A2AE4 /* Stop-red.tif */,
+				849B0D2906F7C53E00211E73 /* EdenGraph.icns */,
+				849B0D2D06F7C5BA00211E73 /* ZoomIn.tif */,
+				849B0D2E06F7C5BA00211E73 /* ZoomOut.tif */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		29B97327FDCFA39411CA2CEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F543F6D002A7181601C28F32 /* EGView.h in Headers */,
+				F51C40A102B1B0EC01000002 /* Segment.h in Headers */,
+				F51C40A502B1B7C301000002 /* Label.h in Headers */,
+				F5172A5C032A8B9001219549 /* ToolbarDelegateCategory.h in Headers */,
+				F53C6E5C03E7DFA5015A706C /* EGController.h in Headers */,
+				84A5A04D0498B7A200B6EFD8 /* TheParser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F883270A296B75006A2528 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F883350A296B91006A2528 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F883360A296B91006A2528 /* EGView.h in Headers */,
+				84F883370A296B91006A2528 /* Segment.h in Headers */,
+				84F883380A296B91006A2528 /* Label.h in Headers */,
+				84F883390A296B91006A2528 /* ToolbarDelegateCategory.h in Headers */,
+				84F8833A0A296B91006A2528 /* EGController.h in Headers */,
+				84F8833B0A296B91006A2528 /* TheParser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51C931D02A577F401C87CDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		84F883260A296B75006A2528 /* Evaluator (Upgraded) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F8832D0A296B75006A2528 /* Build configuration list for PBXNativeTarget "Evaluator (Upgraded)" */;
+			buildPhases = (
+				84F883270A296B75006A2528 /* Headers */,
+				84F883280A296B75006A2528 /* Sources */,
+				84F8832B0A296B75006A2528 /* Frameworks */,
+				84F8832C0A296B75006A2528 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Evaluator (Upgraded)";
+			productInstallPath = /usr/local/bin;
+			productName = Evaluator;
+			productReference = 84F883310A296B75006A2528 /* Evaluator */;
+			productType = "com.apple.product-type.tool";
+		};
+		84F883340A296B91006A2528 /* EdenGraph (Upgraded) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F883570A296B91006A2528 /* Build configuration list for PBXNativeTarget "EdenGraph (Upgraded)" */;
+			buildPhases = (
+				84F883350A296B91006A2528 /* Headers */,
+				84F8833C0A296B91006A2528 /* Resources */,
+				84F8834D0A296B91006A2528 /* Sources */,
+				84F883550A296B91006A2528 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EdenGraph (Upgraded)";
+			productInstallPath = "$(HOME)/Applications";
+			productName = EdenGraph;
+			productReference = 84F8835C0A296B91006A2528 /* EdenGraph.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 84DF6B9108A6E049001034E5 /* Build configuration list for PBXProject "EdenGraph" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* EdenGraph */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84F883340A296B91006A2528 /* EdenGraph (Upgraded) */,
+				29B97326FDCFA39411CA2CEA /* EdenGraph */,
+				F51C931C02A577F401C87CDC /* Evaluator */,
+				84F883260A296B75006A2528 /* Evaluator (Upgraded) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29B97328FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080E96DCFE201CFB7F000001 /* MainMenu.nib in Resources */,
+				089C165EFE840E0CC02AAC07 /* InfoPlist.strings in Resources */,
+				F51C932802A578A201C87CDC /* Evaluator in Resources */,
+				F5F54B0502DE40F80172AE52 /* Help in Resources */,
+				849C751504C0EA78002A2AE4 /* Stop-red.tif in Resources */,
+				849B0D2A06F7C53E00211E73 /* EdenGraph.icns in Resources */,
+				849B0D2C06F7C55600211E73 /* Origin.png in Resources */,
+				849B0D2F06F7C5BA00211E73 /* ZoomIn.tif in Resources */,
+				849B0D3006F7C5BA00211E73 /* ZoomOut.tif in Resources */,
+				842376D808DBE33E0097FFDB /* Clear.tiff in Resources */,
+				84DB33E509C67AC4005CF812 /* AddEquation_Pressed.tiff in Resources */,
+				84DB33E609C67AC4005CF812 /* AddEquation.tiff in Resources */,
+				84DB33E709C67AC4005CF812 /* RemoveEquation_Pressed.tiff in Resources */,
+				84DB33E809C67AC4005CF812 /* RemoveEquation.tiff in Resources */,
+				84B779580A410E4A006BFE97 /* Floppy.tif in Resources */,
+				84B779930A4111B4006BFE97 /* Floppy.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F8833C0A296B91006A2528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F8833D0A296B91006A2528 /* MainMenu.nib in Resources */,
+				84F8833E0A296B91006A2528 /* InfoPlist.strings in Resources */,
+				84F8833F0A296B91006A2528 /* Evaluator in Resources */,
+				84F883400A296B91006A2528 /* Help in Resources */,
+				84F883410A296B91006A2528 /* Stop-red.tif in Resources */,
+				84F883440A296B91006A2528 /* EdenGraph.icns in Resources */,
+				84F883450A296B91006A2528 /* Origin.png in Resources */,
+				84F883460A296B91006A2528 /* ZoomIn.tif in Resources */,
+				84F883470A296B91006A2528 /* ZoomOut.tif in Resources */,
+				84F883480A296B91006A2528 /* Clear.tiff in Resources */,
+				84F883490A296B91006A2528 /* AddEquation_Pressed.tiff in Resources */,
+				84F8834A0A296B91006A2528 /* AddEquation.tiff in Resources */,
+				84F8834B0A296B91006A2528 /* RemoveEquation_Pressed.tiff in Resources */,
+				84F8834C0A296B91006A2528 /* RemoveEquation.tiff in Resources */,
+				84B779590A410E4A006BFE97 /* Floppy.tif in Resources */,
+				84B779940A4111B4006BFE97 /* Floppy.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		84F8832C0A296B75006A2528 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51C932202A577F401C87CDC /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29B9732BFDCFA39411CA2CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B9732CFDCFA39411CA2CEA /* main.m in Sources */,
+				F543F6D102A7181601C28F32 /* EGView.m in Sources */,
+				F51C40A202B1B0EC01000002 /* Segment.m in Sources */,
+				F51C40A602B1B7C301000002 /* Label.m in Sources */,
+				F5172A5E032A8C1601219549 /* ToolbarDelegateCategory.m in Sources */,
+				F53C6E5D03E7DFA5015A706C /* EGController.m in Sources */,
+				84A5A04E0498B7A200B6EFD8 /* TheParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F883280A296B75006A2528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F883290A296B75006A2528 /* grammar.y in Sources */,
+				84F8832A0A296B75006A2528 /* rules.l in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F8834D0A296B91006A2528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F8834E0A296B91006A2528 /* main.m in Sources */,
+				84F8834F0A296B91006A2528 /* EGView.m in Sources */,
+				84F883500A296B91006A2528 /* Segment.m in Sources */,
+				84F883510A296B91006A2528 /* Label.m in Sources */,
+				84F883520A296B91006A2528 /* ToolbarDelegateCategory.m in Sources */,
+				84F883530A296B91006A2528 /* EGController.m in Sources */,
+				84F883540A296B91006A2528 /* TheParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51C931E02A577F401C87CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51C931F02A577F401C87CDC /* grammar.y in Sources */,
+				F51C932002A577F401C87CDC /* rules.l in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXToolTarget section */
+		F51C931C02A577F401C87CDC /* Evaluator */ = {
+			isa = PBXToolTarget;
+			buildConfigurationList = 84DF6B8D08A6E049001034E5 /* Build configuration list for PBXToolTarget "Evaluator" */;
+			buildPhases = (
+				F51C931D02A577F401C87CDC /* Headers */,
+				F51C931E02A577F401C87CDC /* Sources */,
+				F51C932102A577F401C87CDC /* Frameworks */,
+				F51C932202A577F401C87CDC /* Rez */,
+			);
+			dependencies = (
+			);
+			name = Evaluator;
+			productInstallPath = /usr/local/bin;
+			productName = Evaluator;
+			productReference = F51C931B02A577F401C87CDC /* Evaluator */;
+		};
+/* End PBXToolTarget section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84DF6B8A08A6E049001034E5 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = EdenGraph;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		84DF6B8B08A6E049001034E5 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = EdenGraph;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		84DF6B8C08A6E049001034E5 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = EdenGraph;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		84DF6B8E08A6E049001034E5 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Evaluator;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		84DF6B8F08A6E049001034E5 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Evaluator;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		84DF6B9008A6E049001034E5 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Evaluator;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		84DF6B9208A6E049001034E5 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_VERSION = 4.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Development;
+		};
+		84DF6B9308A6E049001034E5 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_VERSION = 4.0;
+				GCC_VERSION_i386 = 4.0;
+				GCC_VERSION_pcc = 3.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MACOSX_DEPLOYMENT_TARGET_i386 = 10.4;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.2;
+				OTHER_LDFLAGS_ppc = "-prebind";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_i386 = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.2.8.sdk;
+			};
+			name = Deployment;
+		};
+		84DF6B9408A6E049001034E5 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Default;
+		};
+		84F8832E0A296B75006A2528 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Evaluator;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		84F8832F0A296B75006A2528 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Evaluator;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		84F883300A296B75006A2528 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Evaluator;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		84F883580A296B91006A2528 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-EdenGraph__Upgraded_.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = EdenGraph;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		84F883590A296B91006A2528 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-EdenGraph__Upgraded_.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = EdenGraph;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		84F8835A0A296B91006A2528 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-EdenGraph__Upgraded_.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = EdenGraph;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84DF6B8908A6E049001034E5 /* Build configuration list for PBXApplicationTarget "EdenGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DF6B8A08A6E049001034E5 /* Development */,
+				84DF6B8B08A6E049001034E5 /* Deployment */,
+				84DF6B8C08A6E049001034E5 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		84DF6B8D08A6E049001034E5 /* Build configuration list for PBXToolTarget "Evaluator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DF6B8E08A6E049001034E5 /* Development */,
+				84DF6B8F08A6E049001034E5 /* Deployment */,
+				84DF6B9008A6E049001034E5 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		84DF6B9108A6E049001034E5 /* Build configuration list for PBXProject "EdenGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DF6B9208A6E049001034E5 /* Development */,
+				84DF6B9308A6E049001034E5 /* Deployment */,
+				84DF6B9408A6E049001034E5 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		84F8832D0A296B75006A2528 /* Build configuration list for PBXNativeTarget "Evaluator (Upgraded)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F8832E0A296B75006A2528 /* Development */,
+				84F8832F0A296B75006A2528 /* Deployment */,
+				84F883300A296B75006A2528 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		84F883570A296B91006A2528 /* Build configuration list for PBXNativeTarget "EdenGraph (Upgraded)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F883580A296B91006A2528 /* Development */,
+				84F883590A296B91006A2528 /* Deployment */,
+				84F8835A0A296B91006A2528 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

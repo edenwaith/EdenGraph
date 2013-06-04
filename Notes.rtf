@@ -1,0 +1,117 @@
+{\rtf1\mac\ansicpg10000\cocoartf102
+{\fonttbl\f0\fswiss\fcharset77 Helvetica-Bold;\f1\fswiss\fcharset77 Helvetica;\f2\fswiss\fcharset77 Helvetica-Oblique;
+\f3\fnil\fcharset77 Verdana;}
+{\colortbl;\red255\green255\blue255;\red26\green26\blue255;}
+\margl1440\margr1440\vieww9000\viewh8140\viewkind0
+\pard\tx1440\tx2880\tx4320\tx5760\tx7200\ql\qnatural
+
+\f0\b\fs24 \cf0 EdenGraph Notes:
+\f1\b0 \
+\
+5. Pop up errors if the command line string (for lack of a better name right now) which doesn't evaluate correctly.\
+6. Provide to catch for error if there is no formula entered and the Graph button is pressed.  If the formula is empty, return an error message.\
+7b. asin and the other 'arc' functions don't seem to be working.  [Note: This does work, just refer to #37.  Sometimes some functions aren't drawing the first time.]\
+9. Also check for any other graph modifying functions like zoomIn or zoomOut to see if a graph is present or not.\
+16. When zooming, perhaps have the number of multiplication appear briefly and then disappear-fade out.\
+23. In the Help section, have a list of identified/returned errors and what they mean.\
+26. Add better printing support.  A good resource is at \cf2 \ul http://developer.apple.com/techpubs/macosx/Cocoa/TasksAndConcepts/ProgrammingTopics/Printing/Tasks/CreatingPrintJob.html\cf0 \ulnone \
+28. Have an option to turn tracking on/off.\
+37. Some operations like square root (sqrt) don't work too well, or don't always graph.  Same when e is used (x^3).  Also look into using ln and log.\
+42. When zooming in or out by right-clicking (or CTRL+click), the mouse loses focus for tracking over the view.\
+43. When shifting, perhaps have a little hand appear when "grabbing".\
+44. Add a preference tab for Tracking, and be able to turn it on or off and be able to change the color of the tracking # and backgrounds.\
+46. At least two people have asked for window resizing, so this is probably a feature I should add in a future version of EG.\
+49. Enter does not always work to create a graph.  The focus cannot be over the view, for example.\
+50. Need to make some modifications to TheParser so an expression like 2|x| will evaluate to 2*|(x)|.  It would also be useful for expressions like 2sinx, 2absx, etc. to also work appropriately.\
+51. Have numbers appear along the grid lines.\
+53. If Equation Editor is empty, it doesn't seem to like to add new equations right now.\
+54. Add new icons in the tool bar for the equation editor and Return to Origin.\
+55. Be able to use Command-E to toggle the Equation Editor to open or close, instead of just open it.  Hmmm...maybe.  This may or may not work.\
+56. After pressing enter to edit an equation, deselect all.\
+58. Be able to add a new equation below a single selection in the Equation Editor.  Otherwise, just add new equation at the end...or maybe this would make things much more complicated.  Hmmm...\
+59. Add some means to easily access the available functions.  Perhaps a floating palette, a la Mathematica.  Being able to have the drop down menus a la OmniGraffle would be really cool.  Or maybe use outliner in a drawer.  That might work well, too.\
+60. When the mouse comes near the drawn line, turn into some symbol like cross-hairs, and click on the line to track it and have some lines trace along it, or have the cross-hairs draw along it.  Or something like that.\
+\
+
+\f2\i Fixes for EdenGraph 1.2.1
+\f1\i0 \
+61. When the view is right-clicked and an option selected (Origin, Zoom Out, etc.), check to make sure the mouse then retains the focus so when it moves, the X and Y coordinates will work.  This just might need to be something inside the mouseMoved function.\
+62. Get the quick scrolling to work in Mac OS 10.3\
+63. Subclass NSTableView so it will deselect the rows when it is done editing.\
+64. If possible get the handle cursor to appear when dragging.  IF this is possible.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f3 \cf0 - Updated Check For Updates manager which will have the option to check\
+for new updates automatically.  Have an option in preferences to turn\
+on/off Automatic Check For Updates.\
+- New Evaluator, which will be the same evaluator built from scratch for\
+EdenMath 1.2.  This will reduce the dependency upon the old Building Cocoa\
+Application's version of the Evaluator.  Also, be able to remove those\
+guys' name from the credits.\
+- If I really want to eliminate other companies/products' dependencies,\
+also redo the zoom icons.  Maybe.\
+- Have more than one evaluator.  Have evaluators for Pre-fix or Post-fix\
+notation.  Perhaps a little bizarre, but an interesting concept.  This\
+just might end up being more of a overblown feature, but someone might\
+like it.  Who knows.  The current Evaluator is 48 K in size.  Not too\
+large, so adding a few more might not be bad.  Either that, or just\
+translate the pre or postfix notation to infix.\
+- Already in the process of rewriting the evaluator for standard infix\
+notation.\
+- Be able to save images as JPG or GIF.  Look for something like a\
+TIFF2GIF or TIFF2JPG converter, or code.  That might be the easiest,\
+versus PDF to whatever...\
+- It might not be too difficult to allow something like y > x^2 type\
+equations and be able to fill in.  Hmmm...That would be a really nice\
+feature.  y>= x^2 might be a little more difficult if the line is to be\
+dashed.
+\f1 \
+\pard\tx1440\tx2880\tx4320\tx5760\tx7200\ql\qnatural
+\cf0 \
+Done\
+--------\
+When getting the string, parse through it and look for these conditions.\
+1. If 'x' is a capital letter, shrink it down so the evaluator understands it.\
+2. If there is a number or expression next to the 'x', add in a * symbol so the expression is calculated properly.  2x does not show the same thing as 2*x. \
+3. Try and correct the synchronization and odd error drawing problems when the graph is moved/shifted.\
+(Completed #4, 12, 14, 17, 19, 20 on the night of 3-4 October 2002)\
+(#13 & 18 added to the Done list 2. February 2003.  Happy Groundhogs Day!)\
+4. Figure out why the program isn't registering the mouse being moved unless the view is clicked on.\
+7a. Find way to translate the position of the mouse to be only in the view, and not dependent on the EdenGraph window.\
+8. When a constant is typed in (3, 5+2, pi), just draw a straight line across the view where the constant would be.  Or have something like 3 + .0001*x, which comes close to a straight line.\
+10. Related to #3, figure out why shifting isn't correct.  If moving then stops, the graph keeps moving.  This isn't right.  Perhaps need to reinitialize the difference between the old point and the new one then check again?\
+11. Also, probably should not have the actual line redraw itself while shifting...perhaps just the main axes.\
+12. Get the View to know when the mouse is moving over it.  Look around pg. 503 of Cocoa Applications, this might help.  It seems like that the View loses focus until it is clicked on.  Need to move the focus back to it, or at least register when the mouse moves back over it.\
+13. Make new Zoom In and Zoom Out icons.  Also have an eraser for the Clear icon which should probably be a default item.  Perhaps don't make Customize a default item on the Tool Bar.  Zoom In/Out, Clear, Print are pretty good items for now.  Perhaps more to come later.  Maybe even have an On/Off option for tracking.  Just remember, if you keep adding too many features, it will never be done.\
+14. Add a Quit button to the toolbar.  I like Quit buttons.  Something like a Stop sign with the word Quit in it.\
+15. Perhaps have a return back to normal view button, too.  Or at least a menu option.  This is when the graph is centered with 1x zooming.\
+17. Have EdenGraph close when last (or only) window is closed.  This is pretty simple.\
+18. Add somewhere a place to show what coordinates the mouse is hovering over.\
+19.  Check why the mouseEntered and mouseExited and mouseUp methods don't seem to work.\
+20. When the TAB key is pressed, move the focus to the formula text field.\
+21. Have the Cmd+= zoom in, same as when Cmd++ is pressed.  Watch Photoshop react.  The View menu does not flash when Cmd+= is pressed, but it does when Cmd++ is.  Need to figure out a way to get the program to respond when the Command (Open Apple) button is down and the = key is selected.  [Completed 23. November 2002]\
+22. Identify the number e, and perhaps if Pi is typed in. [Completed 10. July 2003.  Pi was already recognize by the Evaluator, but E had to be programmed in and the Evaluator recompiled.]\
+24. Got PDF saving to work on 2. February 2003, but when it saves, there are two problems. \
+  - it clips part of the graph when saving.  Only probably saving what is visible.  Might need to modify the code...forget the tempWindow crap.\
+  - The tracking system disappears after saving.  It is okay when shifting and drawing, but once a save has been made, they disappear.\
+25. The drawing and tracking tends to get sluggish after several usages and moving things about.\
+27. Be able to right-click on the NSView to perform actions such as zooming.\
+29. Have an option to change the color of the graph.\
+30. Have other lines indicating increments along the graph (1, 5, 10, 20, etc.)\
+31. Have rapid scrolling when the mouse drags and goes off the window.\
+32. Be able to change the background color.\
+33. Return to origin option.\
+34. In the Toolbar, add an eraser for the Clear command.\
+35. If possible, add a Save icon to the toolbar.\
+36. Figure out why EGParser does not seem to work with OS 10.1.\
+38. When EG first starts, it will track the mouse position, even if it isn't in the view. [11. July 2003.  Corrected by adding checkBounds.]\
+38. Zooming in seems to focus on the origin, and not the center of the screen.  However, when zooming out, it seems to focus more on the center of the screen or something...somewhat odd behavior.\
+39. Save preferences.\
+40. Add an Equations menu to add, delete, and edit equations.\
+41. When checking for a new version, if there is no internet connection present, return an appropriate response instead of thinking a new version is available.\
+45. In the menu, have several options for zooming, such as 25%, 50%, 100%, 200%, etc.\
+47. Have the equation field be a drop down menu to remember old equations, sort of like the drop down bar (URL or search field) in web browsers.\
+48. If the main window isn't in focus, pressing the Clear button will result in a SBOD.\
+52. Check the Equation Editor some more.  Do not allow for blank entries.\
+57. Equation Editor doesn't seem to want to add new equations.  Or at least not past three.  ?}

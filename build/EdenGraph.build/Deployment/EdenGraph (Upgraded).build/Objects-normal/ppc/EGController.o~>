@@ -1,0 +1,3 @@
+/Users/admin/Programs/EdenGraph/EGController.m:22: warning: method possibly missing a [super dealloc] call
+/Users/admin/Programs/EdenGraph/EGController.m:124: warning: incomplete implementation of class 'EGController'
+/Users/admin/Programs/EdenGraph/EGController.m:124: warning: method definition for '-printFoo' not found
