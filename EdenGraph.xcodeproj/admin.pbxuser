@@ -2,8 +2,9 @@
 {
 	089C165DFE840E0CC02AAC07 /* English */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {675, 378}}";
-			sepNavSelRange = "{241, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {600, 435}}";
+			sepNavSelRange = "{253, 0}";
+			sepNavVisRange = "{0, 288}";
 			sepNavVisRect = "{{0, 0}, {675, 378}}";
 		};
 	};
@@ -12,7 +13,6 @@
 		activeExecutable = 84F8835D0A296B91006A2528 /* EdenGraph (Upgraded) */;
 		activeTarget = 84F883340A296B91006A2528 /* EdenGraph (Upgraded) */;
 		addToTargets = (
-			29B97326FDCFA39411CA2CEA /* EdenGraph */,
 			84F883340A296B91006A2528 /* EdenGraph (Upgraded) */,
 		);
 		breakpoints = (
@@ -22,10 +22,8 @@
 		);
 		codeSenseManager = 843CC9930842CD090010D2A0 /* Code sense */;
 		executables = (
-			F51C932302A577F401C87CDC /* Evaluator */,
-			F51C931502A5767A01C87CDC /* EdenGraph */,
-			84F883320A296B75006A2528 /* Evaluator (Upgraded) */,
 			84F8835D0A296B91006A2528 /* EdenGraph (Upgraded) */,
+			840FB2BF175ED33900B13F8A /* MathCore */,
 		);
 		perUserDictionary = {
 			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
@@ -48,7 +46,7 @@
 				PBXFileTableDataSourceColumnWidthsKey = (
 					22,
 					300,
-					252,
+					307,
 				);
 				PBXFileTableDataSourceColumnsKey = (
 					PBXExecutablesDataSource_ActiveFlagID,
@@ -61,7 +59,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					379,
+					419,
 					20,
 					48,
 					43,
@@ -107,8 +105,8 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					200,
-					184,
+					379,
+					60,
 					20,
 					48,
 					43,
@@ -1339,9 +1337,30 @@
 			840FB251175D889F00B13F8A /* PlistBookmark */ = 840FB251175D889F00B13F8A /* PlistBookmark */;
 			840FB252175D889F00B13F8A /* PlistBookmark */ = 840FB252175D889F00B13F8A /* PlistBookmark */;
 			840FB263175D88B600B13F8A /* PlistBookmark */ = 840FB263175D88B600B13F8A /* PlistBookmark */;
+			840FB2AE175ED22100B13F8A /* PlistBookmark */ = 840FB2AE175ED22100B13F8A /* PlistBookmark */;
+			840FB2AF175ED22100B13F8A /* XCBuildMessageTextBookmark */ = 840FB2AF175ED22100B13F8A /* XCBuildMessageTextBookmark */;
+			840FB2B0175ED22100B13F8A /* PBXTextBookmark */ = 840FB2B0175ED22100B13F8A /* PBXTextBookmark */;
+			840FB2C7175ED36500B13F8A /* PBXTextBookmark */ = 840FB2C7175ED36500B13F8A /* PBXTextBookmark */;
+			840FB2C8175ED36500B13F8A /* XCBuildMessageTextBookmark */ = 840FB2C8175ED36500B13F8A /* XCBuildMessageTextBookmark */;
+			840FB2CA175ED36500B13F8A /* PBXTextBookmark */ = 840FB2CA175ED36500B13F8A /* PBXTextBookmark */;
+			840FB2DA175ED4CD00B13F8A /* PBXTextBookmark */ = 840FB2DA175ED4CD00B13F8A /* PBXTextBookmark */;
+			840FB2DB175ED4CD00B13F8A /* PBXTextBookmark */ = 840FB2DB175ED4CD00B13F8A /* PBXTextBookmark */;
+			840FB2DC175ED4CD00B13F8A /* PBXTextBookmark */ = 840FB2DC175ED4CD00B13F8A /* PBXTextBookmark */;
+			840FB2DD175ED4CD00B13F8A /* PBXTextBookmark */ = 840FB2DD175ED4CD00B13F8A /* PBXTextBookmark */;
+			840FB2E3175ED52300B13F8A /* PBXTextBookmark */ = 840FB2E3175ED52300B13F8A /* PBXTextBookmark */;
+			840FB2EF175ED6EE00B13F8A /* PBXTextBookmark */ = 840FB2EF175ED6EE00B13F8A /* PBXTextBookmark */;
+			840FB2F0175ED6EE00B13F8A /* PlistBookmark */ = 840FB2F0175ED6EE00B13F8A /* PlistBookmark */;
+			840FB2F1175ED6EE00B13F8A /* PBXTextBookmark */ = 840FB2F1175ED6EE00B13F8A /* PBXTextBookmark */;
+			840FB2F2175ED6EE00B13F8A /* PBXTextBookmark */ = 840FB2F2175ED6EE00B13F8A /* PBXTextBookmark */;
+			840FB2F3175ED6EE00B13F8A /* PBXBookmark */ = 840FB2F3175ED6EE00B13F8A /* PBXBookmark */;
+			840FB2F4175ED6EE00B13F8A /* PBXTextBookmark */ = 840FB2F4175ED6EE00B13F8A /* PBXTextBookmark */;
+			840FB2FC175ED76C00B13F8A /* PBXTextBookmark */ = 840FB2FC175ED76C00B13F8A /* PBXTextBookmark */;
+			840FB300175ED80900B13F8A /* PBXTextBookmark */ = 840FB300175ED80900B13F8A /* PBXTextBookmark */;
+			840FB30B175ED89700B13F8A /* PBXTextBookmark */ = 840FB30B175ED89700B13F8A /* PBXTextBookmark */;
 		};
 		sourceControlManager = 843CC9920842CD090010D2A0 /* Source Control */;
 		userBuildSettings = {
+			SYMROOT = "~/Programs/builds/EdenGraph/build";
 		};
 	};
 	29B97316FDCFA39411CA2CEA /* main.m */ = {
@@ -1351,12 +1370,6 @@
 			sepNavVisRect = "{{0, 0}, {675, 378}}";
 			sepNavWindowFrame = "{{61, 70}, {794, 629}}";
 		};
-	};
-	29B97326FDCFA39411CA2CEA /* EdenGraph */ = {
-		activeExec = 0;
-		executables = (
-			F51C931502A5767A01C87CDC /* EdenGraph */,
-		);
 	};
 	840FB236175D886800B13F8A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1433,6 +1446,255 @@
 		rLen = 0;
 		rLoc = 9223372036854775807;
 	};
+	840FB2AE175ED22100B13F8A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 84F8835B0A296B91006A2528 /* Info-EdenGraph__Upgraded_.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleVersion,
+		);
+		name = "/Users/admin/Programs/Mac/EdenGraph/Info-EdenGraph__Upgraded_.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	840FB2AF175ED22100B13F8A /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Conflicting types for 'factorial'";
+		fRef = F51C931902A577F401C87CDC /* grammar.y */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 118;
+		rType = 1;
+	};
+	840FB2B0175ED22100B13F8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F51C931902A577F401C87CDC /* grammar.y */;
+		name = "grammar.y: 119";
+		rLen = 0;
+		rLoc = 2939;
+		rType = 0;
+		vrLen = 724;
+		vrLoc = 2494;
+	};
+	840FB2B1175ED22F00B13F8A /* grammar.y */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {597, 1924}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{2773, 574}";
+		};
+	};
+	840FB2BD175ED33900B13F8A /* MathCore */ = {
+		activeExec = 0;
+		executables = (
+			840FB2BF175ED33900B13F8A /* MathCore */,
+		);
+	};
+	840FB2BF175ED33900B13F8A /* MathCore */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MathCore;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	840FB2C7175ED36500B13F8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F51C931902A577F401C87CDC /* grammar.y */;
+		name = "grammar.y: 119";
+		rLen = 0;
+		rLoc = 2939;
+		rType = 0;
+		vrLen = 358;
+		vrLoc = 2742;
+	};
+	840FB2C8175ED36500B13F8A /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Syntax error before '@' token";
+		fRef = 840FB2C9175ED36500B13F8A /* NSObjCRuntime.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 59;
+		rType = 1;
+	};
+	840FB2C9175ED36500B13F8A /* NSObjCRuntime.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSObjCRuntime.h;
+		path = /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h;
+		sourceTree = "<absolute>";
+	};
+	840FB2CA175ED36500B13F8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 840FB2CB175ED36500B13F8A /* NSObjCRuntime.h */;
+		name = "NSObjCRuntime.h: 60";
+		rLen = 0;
+		rLoc = 1535;
+		rType = 0;
+		vrLen = 368;
+		vrLoc = 766;
+	};
+	840FB2CB175ED36500B13F8A /* NSObjCRuntime.h */ = {
+		isa = PBXFileReference;
+		name = NSObjCRuntime.h;
+		path = /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h;
+		sourceTree = "<absolute>";
+	};
+	840FB2DA175ED4CD00B13F8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F51C931902A577F401C87CDC /* grammar.y */;
+		name = "grammar.y: 119";
+		rLen = 0;
+		rLoc = 2939;
+		rType = 0;
+		vrLen = 724;
+		vrLoc = 2494;
+	};
+	840FB2DB175ED4CD00B13F8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 840FB2B1175ED22F00B13F8A /* grammar.y */;
+		name = "grammar.y: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 574;
+		vrLoc = 2773;
+	};
+	840FB2DC175ED4CD00B13F8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
+		rLen = 8;
+		rLoc = 1215;
+		rType = 0;
+	};
+	840FB2DD175ED4CD00B13F8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
+		name = "EGView.m: 46";
+		rLen = 0;
+		rLoc = 1223;
+		rType = 0;
+		vrLen = 1038;
+		vrLoc = 702;
+	};
+	840FB2E3175ED52300B13F8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
+		name = "EGView.m: 46";
+		rLen = 0;
+		rLoc = 1223;
+		rType = 0;
+		vrLen = 1038;
+		vrLoc = 702;
+	};
+	840FB2EF175ED6EE00B13F8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
+		name = "EGView.m: 46";
+		rLen = 0;
+		rLoc = 1223;
+		rType = 0;
+		vrLen = 1085;
+		vrLoc = 702;
+	};
+	840FB2F0175ED6EE00B13F8A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 84F8835B0A296B91006A2528 /* Info-EdenGraph__Upgraded_.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleHelpBookFolder,
+		);
+		name = "/Users/admin/Programs/Mac/EdenGraph/Info-EdenGraph__Upgraded_.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	840FB2F1175ED6EE00B13F8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 6";
+		rLen = 0;
+		rLoc = 253;
+		rType = 0;
+		vrLen = 288;
+		vrLoc = 0;
+	};
+	840FB2F2175ED6EE00B13F8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F51C40A402B1B7C301000002 /* Label.m */;
+		name = "Label.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 670;
+		vrLoc = 0;
+	};
+	840FB2F3175ED6EE00B13F8A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F51C40A002B1B0EC01000002 /* Segment.m */;
+	};
+	840FB2F4175ED6EE00B13F8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F51C40A002B1B0EC01000002 /* Segment.m */;
+		name = "Segment.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 835;
+		vrLoc = 5041;
+	};
+	840FB2FC175ED76C00B13F8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F51C40A002B1B0EC01000002 /* Segment.m */;
+		name = "Segment.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 835;
+		vrLoc = 5041;
+	};
+	840FB300175ED80900B13F8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F51C40A002B1B0EC01000002 /* Segment.m */;
+		name = "Segment.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 835;
+		vrLoc = 5041;
+	};
+	840FB30B175ED89700B13F8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F51C40A002B1B0EC01000002 /* Segment.m */;
+		name = "Segment.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 835;
+		vrLoc = 5041;
+	};
 	842B3C9508B8239F00F5B8D5 /* EGView.m:1967 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
@@ -1483,40 +1745,6 @@
 			sepNavSelRange = "{5531, 0}";
 			sepNavVisRect = "{{0, 2198}, {675, 378}}";
 		};
-	};
-	84F883260A296B75006A2528 /* Evaluator (Upgraded) */ = {
-		activeExec = 0;
-		executables = (
-			84F883320A296B75006A2528 /* Evaluator (Upgraded) */,
-		);
-	};
-	84F883320A296B75006A2528 /* Evaluator (Upgraded) */ = {
-		isa = PBXExecutable;
-		activeArgIndices = (
-		);
-		argumentStrings = (
-		);
-		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
-		configStateDict = {
-		};
-		customDataFormattersEnabled = 1;
-		dataTipCustomDataFormattersEnabled = 1;
-		dataTipShowTypeColumn = 1;
-		dataTipSortType = 0;
-		debuggerPlugin = GDBDebugging;
-		disassemblyDisplayState = 0;
-		dylibVariantSuffix = "";
-		enableDebugStr = 1;
-		environmentEntries = (
-		);
-		executableSystemSymbolLevel = 0;
-		executableUserSymbolLevel = 0;
-		libgmallocEnabled = 0;
-		name = "Evaluator (Upgraded)";
-		showTypeColumn = 0;
-		sourceDirectories = (
-		);
 	};
 	84F883340A296B91006A2528 /* EdenGraph (Upgraded) */ = {
 		activeExec = 0;
@@ -1620,8 +1848,9 @@
 	};
 	F51C40A002B1B0EC01000002 /* Segment.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {675, 2688}}";
-			sepNavSelRange = "{5597, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {677, 2496}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{5041, 835}";
 			sepNavVisRect = "{{0, 2310}, {675, 378}}";
 		};
 	};
@@ -1635,46 +1864,17 @@
 	};
 	F51C40A402B1B7C301000002 /* Label.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {675, 1358}}";
-			sepNavSelRange = "{1857, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {597, 1261}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 670}";
 			sepNavVisRect = "{{0, 0}, {675, 378}}";
 		};
 	};
-	F51C931502A5767A01C87CDC /* EdenGraph */ = {
-		isa = PBXExecutable;
-		activeArgIndices = (
-		);
-		argumentStrings = (
-		);
-		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
-		configStateDict = {
-		};
-		customDataFormattersEnabled = 1;
-		dataTipCustomDataFormattersEnabled = 1;
-		dataTipShowTypeColumn = 1;
-		dataTipSortType = 0;
-		debuggerPlugin = GDBDebugging;
-		disassemblyDisplayState = 0;
-		dylibVariantSuffix = "";
-		enableDebugStr = 1;
-		environmentEntries = (
-		);
-		executableSystemSymbolLevel = 0;
-		executableUserSymbolLevel = 0;
-		libgmallocEnabled = 0;
-		name = EdenGraph;
-		savedGlobals = {
-		};
-		showTypeColumn = 0;
-		sourceDirectories = (
-		);
-	};
 	F51C931902A577F401C87CDC /* grammar.y */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {558, 1937}}";
+			sepNavIntBoundsRect = "{{0, 0}, {558, 1885}}";
 			sepNavSelRange = "{2939, 0}";
-			sepNavVisRange = "{2742, 356}";
+			sepNavVisRange = "{2494, 724}";
 			sepNavVisRect = "{{0, 0}, {675, 378}}";
 		};
 	};
@@ -1685,40 +1885,6 @@
 			sepNavVisRange = "{22, 743}";
 			sepNavVisRect = "{{0, 0}, {675, 378}}";
 		};
-	};
-	F51C931C02A577F401C87CDC /* Evaluator */ = {
-		activeExec = 0;
-		executables = (
-			F51C932302A577F401C87CDC /* Evaluator */,
-		);
-	};
-	F51C932302A577F401C87CDC /* Evaluator */ = {
-		isa = PBXExecutable;
-		activeArgIndices = (
-		);
-		argumentStrings = (
-		);
-		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
-		configStateDict = {
-		};
-		customDataFormattersEnabled = 1;
-		dataTipCustomDataFormattersEnabled = 1;
-		dataTipShowTypeColumn = 1;
-		dataTipSortType = 0;
-		debuggerPlugin = GDBDebugging;
-		disassemblyDisplayState = 0;
-		dylibVariantSuffix = "";
-		enableDebugStr = 1;
-		environmentEntries = (
-		);
-		executableSystemSymbolLevel = 0;
-		executableUserSymbolLevel = 0;
-		libgmallocEnabled = 0;
-		name = Evaluator;
-		showTypeColumn = 0;
-		sourceDirectories = (
-		);
 	};
 	F53C6E5A03E7DFA5015A706C /* EGController.h */ = {
 		uiCtxt = {
@@ -1745,8 +1911,9 @@
 	};
 	F543F6CF02A7181601C28F32 /* EGView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1370, 31024}}";
-			sepNavSelRange = "{49973, 12}";
+			sepNavIntBoundsRect = "{{0, 0}, {929, 29224}}";
+			sepNavSelRange = "{1223, 0}";
+			sepNavVisRange = "{702, 1085}";
 			sepNavVisRect = "{{0, 2744}, {675, 378}}";
 			sepNavWindowFrame = "{{15, 112}, {794, 629}}";
 		};

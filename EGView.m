@@ -43,7 +43,7 @@
 
     // What follows is largely from MathPaper
     path  = [ [NSBundle mainBundle]
-               pathForResource:@"Evaluator" ofType:@""];
+               pathForResource:@"MathCore" ofType:@""];
                
     //mlPath = [ [NSBundle mainBundle] pathForResource:@"MathKernel" ofType:@".app" inDirectory:@"/Applications/Mathematica 4.2/"];
                
@@ -55,7 +55,7 @@
 
     if (!path) 
     {
-        NSLog(@"%@: Cannot find Evaluator",[self description]);
+        NSLog(@"%@: Cannot find MathCore",[self description]);
     }
     else 
     {

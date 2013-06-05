@@ -1,640 +1,0 @@
-TEdenGraph (Upgraded)
-v7
-r0
-t392005812.500072
-cCheck dependencies
-cProcessInfoPlistFile /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Info.plist Info-EdenGraph__Upgraded_.plist
-cStripNIB /Users/admin/Programs/Mac/EdenGraph/English.lproj/MainMenu.nib
-cCopyStringsFile /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cCpResource build/Development/EdenGraph.app/Contents/Resources/Evaluator build/Evaluator
-cCpResource build/Development/EdenGraph.app/Contents/Resources/Help Help
-cCopyTiffFile /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/Stop-red.tif Stop-red.tif
-cCpResource build/Development/EdenGraph.app/Contents/Resources/EdenGraph.icns EdenGraph.icns
-cCpResource build/Development/EdenGraph.app/Contents/Resources/Origin.png Origin.png
-cCopyTiffFile /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/ZoomIn.tif ZoomIn.tif
-cCopyTiffFile /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/ZoomOut.tif ZoomOut.tif
-cCopyTiffFile /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/Clear.tiff Clear.tiff
-cCopyTiffFile /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/AddEquation_Pressed.tiff AddEquation_Pressed.tiff
-cCopyTiffFile /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/AddEquation.tiff AddEquation.tiff
-cCopyTiffFile /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/RemoveEquation_Pressed.tiff RemoveEquation_Pressed.tiff
-cCopyTiffFile /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/RemoveEquation.tiff RemoveEquation.tiff
-cCopyTiffFile /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/Floppy.tif Floppy.tif
-cCpResource build/Development/EdenGraph.app/Contents/Resources/Floppy.png Floppy.png
-cCompileC "build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/main.o" /Users/admin/Programs/Mac/EdenGraph/main.m normal i386 objective-c com.apple.compilers.gcc.4_0
-cCompileC "build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/EGView.o" /Users/admin/Programs/Mac/EdenGraph/EGView.m normal i386 objective-c com.apple.compilers.gcc.4_0
-cCompileC "build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/Segment.o" /Users/admin/Programs/Mac/EdenGraph/Segment.m normal i386 objective-c com.apple.compilers.gcc.4_0
-cCompileC "build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/Label.o" /Users/admin/Programs/Mac/EdenGraph/Label.m normal i386 objective-c com.apple.compilers.gcc.4_0
-cCompileC "build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/ToolbarDelegateCategory.o" /Users/admin/Programs/Mac/EdenGraph/ToolbarDelegateCategory.m normal i386 objective-c com.apple.compilers.gcc.4_0
-cCompileC "build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/EGController.o" /Users/admin/Programs/Mac/EdenGraph/EGController.m normal i386 objective-c com.apple.compilers.gcc.4_0
-cCompileC "build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/TheParser.o" /Users/admin/Programs/Mac/EdenGraph/TheParser.m normal i386 objective-c com.apple.compilers.gcc.4_0
-cLd /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/MacOS/EdenGraph normal i386
-cTouch /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app
-
-N/Developer/SDKs/MacOSX10.4u.sdk
-c000000004D29070B00000000000000EE
-t1294534411
-s238
-
-N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000040C4AA6800000000000001E5
-t1086630504
-s485
-
-N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c00000000462EB9B00000000000001382
-t1177467312
-s4994
-
-N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/ctype.h
-c00000000463BAA5B0000000000002627
-t1178315355
-s9767
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004A1F2D63000000000000A5E0
-t1243557219
-s42464
-
-N/Users/admin/Programs/Mac/EdenGraph/AddEquation.tiff
-c00000000423FF1EB00000000000002D8
-t1111486955
-s728
-
-N/Users/admin/Programs/Mac/EdenGraph/AddEquation_Pressed.tiff
-c00000000423FF1EB00000000000002B0
-t1111486955
-s688
-
-N/Users/admin/Programs/Mac/EdenGraph/Clear.tiff
-c00000000423E3B5E0000000000000996
-t1111374686
-s2454
-
-N/Users/admin/Programs/Mac/EdenGraph/EGController.h
-c000000004621ADFF000000000000035D
-t1176612351
-s861
-i<Cocoa/Cocoa.h>
-i"EGView.h"
-
-N/Users/admin/Programs/Mac/EdenGraph/EGController.m
-c000000004621ADEF0000000000000B6A
-t1176612335
-s2922
-i"EGController.h"
-
-N/Users/admin/Programs/Mac/EdenGraph/EGView.h
-c000000004621B2240000000000001596
-t1176613412
-s5526
-i<Cocoa/Cocoa.h>
-i"TheParser.h"
-
-N/Users/admin/Programs/Mac/EdenGraph/EGView.m
-c000000004622A92E00000000000128E6
-t1176676654
-s76006
-i"EGView.h"
-i"Segment.h"
-i"Label.h"
-i"EGController.h"
-i"ToolbarDelegateCategory.h"
-
-N/Users/admin/Programs/Mac/EdenGraph/EdenGraph.icns
-c0000000040F36567000000000000A960
-t1089693031
-s43360
-
-N/Users/admin/Programs/Mac/EdenGraph/English.lproj/InfoPlist.strings
-c0000000046D37EE6000000000000022A
-t1188265702
-s554
-
-N/Users/admin/Programs/Mac/EdenGraph/English.lproj/MainMenu.nib
-c000000004622E6B000000000000000AA
-t1176692400
-s170
-
-N/Users/admin/Programs/Mac/EdenGraph/Floppy.png
-c000000004490D7EB0000000000002141
-t1150343147
-s8513
-
-N/Users/admin/Programs/Mac/EdenGraph/Floppy.tif
-c000000004490D694000000000001693C
-t1150342804
-s92476
-
-N/Users/admin/Programs/Mac/EdenGraph/Help
-c0000000051AD4E1300000000000001BA
-t1370312211
-s442
-
-N/Users/admin/Programs/Mac/EdenGraph/Label.h
-c00000000458B40D300000000000001BB
-t1166754003
-s443
-i<Cocoa/Cocoa.h>
-i"EGView.h"
-
-N/Users/admin/Programs/Mac/EdenGraph/Label.m
-c000000004621AF310000000000000746
-t1176612657
-s1862
-i"Label.h"
-
-N/Users/admin/Programs/Mac/EdenGraph/Origin.png
-c0000000041478C510000000000001395
-t1095208017
-s5013
-
-N/Users/admin/Programs/Mac/EdenGraph/RemoveEquation.tiff
-c00000000423FF1EB00000000000002B6
-t1111486955
-s694
-
-N/Users/admin/Programs/Mac/EdenGraph/RemoveEquation_Pressed.tiff
-c00000000423FF1EB0000000000000290
-t1111486955
-s656
-
-N/Users/admin/Programs/Mac/EdenGraph/Segment.h
-c0000000040E5FC5A000000000000020A
-t1088814170
-s522
-i<Cocoa/Cocoa.h>
-i"EGView.h"
-
-N/Users/admin/Programs/Mac/EdenGraph/Segment.m
-c0000000046D3770C00000000000016F4
-t1188263692
-s5876
-i"Segment.h"
-
-N/Users/admin/Programs/Mac/EdenGraph/Stop-red.tif
-c000000003F10B2E30000000000004824
-t1058058979
-s18468
-
-N/Users/admin/Programs/Mac/EdenGraph/TheParser.h
-c00000000458B3F440000000000000196
-t1166753604
-s406
-i<Foundation/Foundation.h>
-i<ctype.h>
-
-N/Users/admin/Programs/Mac/EdenGraph/TheParser.m
-c00000000458B3FBD00000000000015A3
-t1166753725
-s5539
-i"TheParser.h"
-
-N/Users/admin/Programs/Mac/EdenGraph/ToolbarDelegateCategory.h
-c000000004621AE200000000000000291
-t1176612384
-s657
-i<Cocoa/Cocoa.h>
-i"EGView.h"
-
-N/Users/admin/Programs/Mac/EdenGraph/ToolbarDelegateCategory.m
-c000000004621AEAC000000000000176C
-t1176612524
-s5996
-i"ToolbarDelegateCategory.h"
-
-N/Users/admin/Programs/Mac/EdenGraph/ZoomIn.tif
-c000000003F3000C20000000000005948
-t1060110530
-s22856
-
-N/Users/admin/Programs/Mac/EdenGraph/ZoomOut.tif
-c000000003F3001B40000000000005928
-t1060110772
-s22824
-
-N/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app
-t1370313012
-s102
-
-N/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Info.plist
-t1370313009
-s1074
-
-N/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/MacOS/EdenGraph
-t1370313012
-s87936
-
-N/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/PkgInfo
-t1370313009
-s8
-
-N/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/AddEquation.tiff
-t1370313009
-s728
-
-N/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/AddEquation_Pressed.tiff
-t1370313009
-s688
-
-N/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/Clear.tiff
-t1370313009
-s2454
-
-N/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/EdenGraph.icns
-t1370313009
-s43360
-
-N/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1370313009
-s554
-
-N/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/English.lproj/MainMenu.nib
-t1370313009
-s102
-
-N/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/Evaluator
-t1370313009
-s46168
-
-N/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/Floppy.png
-t1370313009
-s8513
-
-N/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/Floppy.tif
-t1370313009
-s92476
-
-N/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/Help
-t1370313009
-s408
-
-N/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/Origin.png
-t1370313009
-s5013
-
-N/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/RemoveEquation.tiff
-t1370313009
-s694
-
-N/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/RemoveEquation_Pressed.tiff
-t1370313009
-s656
-
-N/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/Stop-red.tif
-t1370313009
-s18468
-
-N/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/ZoomIn.tif
-t1370313009
-s22856
-
-N/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/ZoomOut.tif
-t1370313009
-s22824
-
-N/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/EGController.o
-t1370313012
-s34552
-
-N/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/EGView.o
-t1370313010
-s140012
-
-N/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/EdenGraph.LinkFileList
-c0000000051AD5131000000000000038A
-t1370313009
-s906
-
-N/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/Label.o
-t1370313011
-s22832
-
-N/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/Segment.o
-t1370313011
-s18096
-
-N/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/TheParser.o
-t1370313012
-s12012
-
-N/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/ToolbarDelegateCategory.o
-t1370313011
-s38728
-
-N/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/main.o
-t1370313010
-s4672
-
-N/Users/admin/Programs/Mac/EdenGraph/build/Evaluator
-c0000000040EA1433000000000000B458
-t1089082419
-s46168
-
-N/Users/admin/Programs/Mac/EdenGraph/main.m
-c000000003B937428000000000000006E
-t999519272
-s110
-i<Cocoa/Cocoa.h>
-
-NInfo-EdenGraph__Upgraded_.plist
-c0000000051AD51120000000000000432
-t1370312978
-s1074
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies392005809#392005809#0(0"0(0#1#0"8608345248#0"0#
-
-CCompileC "build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/EGController.o" /Users/admin/Programs/Mac/EdenGraph/EGController.m normal i386 objective-c com.apple.compilers.gcc.4_0
-s392005811.562147
-e392005812.222038
-r1
-xCompileC
-xbuild/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/EGController.o
-x/Users/admin/Programs/Mac/EdenGraph/EGController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-o/Users/admin/Programs/Mac/EdenGraph/EGController.m:22: warning: method possibly missing a [super dealloc] call
-lSLF07#2@58"Compile /Users/admin/Programs/Mac/EdenGraph/EGController.m392005811#392005812#0(111"/Users/admin/Programs/Mac/EdenGraph/EGController.m:22: warning: method possibly missing a [super dealloc] call1(22@46"Method possibly missing a [super dealloc] call392005812#0#111#0(6@50"/Users/admin/Programs/Mac/EdenGraph/EGController.m198305135#22#0#22#0#46"method possibly missing a [super dealloc] call0(0#0#50"/Users/admin/Programs/Mac/EdenGraph/EGController.m8620850816#1019"    cd /Users/admin/Programs/Mac/EdenGraph    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/EdenGraph.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/admin/Programs/Mac/EdenGraph/build/Development -I/Users/admin/Programs/Mac/EdenGraph/build/Development/include "-I/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/DerivedSources/i386" "-I/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/DerivedSources" -c /Users/admin/Programs/Mac/EdenGraph/EGController.m -o "/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/EGController.o"0#
-
-CCompileC "build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/EGController.o" /Users/admin/Programs/Mac/EdenGraph/EGController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC "build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/EGView.o" /Users/admin/Programs/Mac/EdenGraph/EGView.m normal i386 objective-c com.apple.compilers.gcc.4_0
-s392005809.935513
-e392005810.886208
-r1
-xCompileC
-xbuild/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/EGView.o
-x/Users/admin/Programs/Mac/EdenGraph/EGView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@52"Compile /Users/admin/Programs/Mac/EdenGraph/EGView.m392005809#392005810#0(0"0(0#0#44"/Users/admin/Programs/Mac/EdenGraph/EGView.m8605282464#1007"    cd /Users/admin/Programs/Mac/EdenGraph    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/EdenGraph.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/admin/Programs/Mac/EdenGraph/build/Development -I/Users/admin/Programs/Mac/EdenGraph/build/Development/include "-I/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/DerivedSources/i386" "-I/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/DerivedSources" -c /Users/admin/Programs/Mac/EdenGraph/EGView.m -o "/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/EGView.o"0#
-
-CCompileC "build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/EGView.o" /Users/admin/Programs/Mac/EdenGraph/EGView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC "build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/Label.o" /Users/admin/Programs/Mac/EdenGraph/Label.m normal i386 objective-c com.apple.compilers.gcc.4_0
-s392005810.886314
-e392005811.562046
-r1
-xCompileC
-xbuild/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/Label.o
-x/Users/admin/Programs/Mac/EdenGraph/Label.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@51"Compile /Users/admin/Programs/Mac/EdenGraph/Label.m392005810#392005811#0(0"0(0#0#43"/Users/admin/Programs/Mac/EdenGraph/Label.m8621223392#1005"    cd /Users/admin/Programs/Mac/EdenGraph    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/EdenGraph.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/admin/Programs/Mac/EdenGraph/build/Development -I/Users/admin/Programs/Mac/EdenGraph/build/Development/include "-I/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/DerivedSources/i386" "-I/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/DerivedSources" -c /Users/admin/Programs/Mac/EdenGraph/Label.m -o "/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/Label.o"0#
-
-CCompileC "build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/Label.o" /Users/admin/Programs/Mac/EdenGraph/Label.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC "build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/Segment.o" /Users/admin/Programs/Mac/EdenGraph/Segment.m normal i386 objective-c com.apple.compilers.gcc.4_0
-s392005810.636758
-e392005811.273194
-r1
-xCompileC
-xbuild/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/Segment.o
-x/Users/admin/Programs/Mac/EdenGraph/Segment.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-o/Users/admin/Programs/Mac/EdenGraph/Segment.m: In function '-[Segment stroke]':
-o/Users/admin/Programs/Mac/EdenGraph/Segment.m:169: warning: 'NSBezierPath' may not respond to '+setLineWidth:'
-o/Users/admin/Programs/Mac/EdenGraph/Segment.m:169: warning: (Messages without a matching method signature
-o/Users/admin/Programs/Mac/EdenGraph/Segment.m:169: warning: will be assumed to return 'id' and accept
-o/Users/admin/Programs/Mac/EdenGraph/Segment.m:169: warning: '...' as arguments.)
-o/Users/admin/Programs/Mac/EdenGraph/Segment.m:175: warning: 'NSBezierPath' may not respond to '+setLineWidth:'
-o/Users/admin/Programs/Mac/EdenGraph/Segment.m:180: warning: 'NSBezierPath' may not respond to '+setLineWidth:'
-lSLF07#2@53"Compile /Users/admin/Programs/Mac/EdenGraph/Segment.m392005810#392005811#0(702"/Users/admin/Programs/Mac/EdenGraph/Segment.m: In function '-[Segment stroke]':/Users/admin/Programs/Mac/EdenGraph/Segment.m:169: warning: 'NSBezierPath' may not respond to '+setLineWidth:'/Users/admin/Programs/Mac/EdenGraph/Segment.m:169: warning: (Messages without a matching method signature/Users/admin/Programs/Mac/EdenGraph/Segment.m:169: warning: will be assumed to return 'id' and accept/Users/admin/Programs/Mac/EdenGraph/Segment.m:169: warning: '...' as arguments.)/Users/admin/Programs/Mac/EdenGraph/Segment.m:175: warning: 'NSBezierPath' may not respond to '+setLineWidth:'/Users/admin/Programs/Mac/EdenGraph/Segment.m:180: warning: 'NSBezierPath' may not respond to '+setLineWidth:'4(22@50"'NSBezierPath' may not respond to '+setLineWidth:'392005811#80#111#0(6@45"/Users/admin/Programs/Mac/EdenGraph/Segment.m209956492#169#0#169#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)392005811#191#106#0(6@45"/Users/admin/Programs/Mac/EdenGraph/Segment.m209956492#169#0#169#0#0"0(22@50"'NSBezierPath' may not respond to '+setLineWidth:'392005811#480#111#0(6@45"/Users/admin/Programs/Mac/EdenGraph/Segment.m209956492#175#0#175#0#26"'*' may not respond to '*'0(22@50"'NSBezierPath' may not respond to '+setLineWidth:'392005811#591#111#0(6@45"/Users/admin/Programs/Mac/EdenGraph/Segment.m209956492#180#0#180#0#26"'*' may not respond to '*'0(0#0#45"/Users/admin/Programs/Mac/EdenGraph/Segment.m8619537408#1009"    cd /Users/admin/Programs/Mac/EdenGraph    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/EdenGraph.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/admin/Programs/Mac/EdenGraph/build/Development -I/Users/admin/Programs/Mac/EdenGraph/build/Development/include "-I/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/DerivedSources/i386" "-I/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/DerivedSources" -c /Users/admin/Programs/Mac/EdenGraph/Segment.m -o "/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/Segment.o"0#
-
-CCompileC "build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/Segment.o" /Users/admin/Programs/Mac/EdenGraph/Segment.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC "build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/TheParser.o" /Users/admin/Programs/Mac/EdenGraph/TheParser.m normal i386 objective-c com.apple.compilers.gcc.4_0
-s392005811.983076
-e392005812.439052
-r1
-xCompileC
-xbuild/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/TheParser.o
-x/Users/admin/Programs/Mac/EdenGraph/TheParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-o/Users/admin/Programs/Mac/EdenGraph/TheParser.m: In function '-[TheParser recurse:index:inc:]':
-o/Users/admin/Programs/Mac/EdenGraph/TheParser.m:152: warning: conflicting types for '-(BOOL)recurse:(NSString *)formula index:(int)index inc:(int)inc'
-o/Users/admin/Programs/Mac/EdenGraph/TheParser.h:20: warning: previous declaration of '-(BOOL)recurse:(id)formula index:(int)index inc:(int)inc'
-lSLF07#2@55"Compile /Users/admin/Programs/Mac/EdenGraph/TheParser.m392005811#392005812#0(391"/Users/admin/Programs/Mac/EdenGraph/TheParser.m: In function '-[TheParser recurse:index:inc:]':/Users/admin/Programs/Mac/EdenGraph/TheParser.m:152: warning: conflicting types for '-(BOOL)recurse:(NSString *)formula index:(int)index inc:(int)inc'/Users/admin/Programs/Mac/EdenGraph/TheParser.h:20: warning: previous declaration of '-(BOOL)recurse:(id)formula index:(int)index inc:(int)inc'2(22@88"Conflicting types for '-(BOOL)recurse:(NSString *)formula index:(int)index inc:(int)inc'392005812#96#151#0(6@47"/Users/admin/Programs/Mac/EdenGraph/TheParser.m188446525#152#0#152#0#25"conflicting types for '*'0(22@82"Previous declaration of '-(BOOL)recurse:(id)formula index:(int)index inc:(int)inc'392005812#247#144#0(6@47"/Users/admin/Programs/Mac/EdenGraph/TheParser.h188446404#20#0#20#0#0"0(0#0#47"/Users/admin/Programs/Mac/EdenGraph/TheParser.m8614382752#1013"    cd /Users/admin/Programs/Mac/EdenGraph    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/EdenGraph.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/admin/Programs/Mac/EdenGraph/build/Development -I/Users/admin/Programs/Mac/EdenGraph/build/Development/include "-I/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/DerivedSources/i386" "-I/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/DerivedSources" -c /Users/admin/Programs/Mac/EdenGraph/TheParser.m -o "/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/TheParser.o"0#
-
-CCompileC "build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/TheParser.o" /Users/admin/Programs/Mac/EdenGraph/TheParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC "build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/ToolbarDelegateCategory.o" /Users/admin/Programs/Mac/EdenGraph/ToolbarDelegateCategory.m normal i386 objective-c com.apple.compilers.gcc.4_0
-s392005811.273379
-e392005811.982977
-r1
-xCompileC
-xbuild/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/ToolbarDelegateCategory.o
-x/Users/admin/Programs/Mac/EdenGraph/ToolbarDelegateCategory.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@69"Compile /Users/admin/Programs/Mac/EdenGraph/ToolbarDelegateCategory.m392005811#392005811#0(0"0(0#0#61"/Users/admin/Programs/Mac/EdenGraph/ToolbarDelegateCategory.m8619604832#1041"    cd /Users/admin/Programs/Mac/EdenGraph    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/EdenGraph.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/admin/Programs/Mac/EdenGraph/build/Development -I/Users/admin/Programs/Mac/EdenGraph/build/Development/include "-I/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/DerivedSources/i386" "-I/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/DerivedSources" -c /Users/admin/Programs/Mac/EdenGraph/ToolbarDelegateCategory.m -o "/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/ToolbarDelegateCategory.o"0#
-
-CCompileC "build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/ToolbarDelegateCategory.o" /Users/admin/Programs/Mac/EdenGraph/ToolbarDelegateCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC "build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/main.o" /Users/admin/Programs/Mac/EdenGraph/main.m normal i386 objective-c com.apple.compilers.gcc.4_0
-s392005809.934062
-e392005810.636657
-r1
-xCompileC
-xbuild/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/main.o
-x/Users/admin/Programs/Mac/EdenGraph/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@50"Compile /Users/admin/Programs/Mac/EdenGraph/main.m392005809#392005810#0(0"0(0#0#42"/Users/admin/Programs/Mac/EdenGraph/main.m8606761920#1003"    cd /Users/admin/Programs/Mac/EdenGraph    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/EdenGraph.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/admin/Programs/Mac/EdenGraph/build/Development -I/Users/admin/Programs/Mac/EdenGraph/build/Development/include "-I/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/DerivedSources/i386" "-I/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/DerivedSources" -c /Users/admin/Programs/Mac/EdenGraph/main.m -o "/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/main.o"0#
-
-CCompileC "build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/main.o" /Users/admin/Programs/Mac/EdenGraph/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCopyStringsFile /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-s392005809.640304
-e392005809.691056
-r1
-xCopyStringsFile
-x/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/English.lproj/InfoPlist.strings
-xEnglish.lproj/InfoPlist.strings
-lSLF07#2@36"Copy English.lproj/InfoPlist.strings392005809#392005809#0(0"0(0#0#67"/Users/admin/Programs/Mac/EdenGraph/English.lproj/InfoPlist.strings8610042336#368"    cd /Users/admin/Programs/Mac/EdenGraph    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/English.lproj0#
-
-CCopyTiffFile /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/AddEquation.tiff AddEquation.tiff
-s392005809.867050
-e392005809.893882
-r1
-xCopyTiffFile
-x/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/AddEquation.tiff
-xAddEquation.tiff
-lSLF07#2@21"Copy AddEquation.tiff392005809#392005809#0(0"0(0#0#52"/Users/admin/Programs/Mac/EdenGraph/AddEquation.tiff8621151616#246"    cd /Users/admin/Programs/Mac/EdenGraph    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff AddEquation.tiff --outdir /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources0#
-
-CCopyTiffFile /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/AddEquation_Pressed.tiff AddEquation_Pressed.tiff
-s392005809.847124
-e392005809.866954
-r1
-xCopyTiffFile
-x/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/AddEquation_Pressed.tiff
-xAddEquation_Pressed.tiff
-lSLF07#2@29"Copy AddEquation_Pressed.tiff392005809#392005809#0(0"0(0#0#60"/Users/admin/Programs/Mac/EdenGraph/AddEquation_Pressed.tiff8622027232#254"    cd /Users/admin/Programs/Mac/EdenGraph    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff AddEquation_Pressed.tiff --outdir /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources0#
-
-CCopyTiffFile /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/Clear.tiff Clear.tiff
-s392005809.814775
-e392005809.847033
-r1
-xCopyTiffFile
-x/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/Clear.tiff
-xClear.tiff
-lSLF07#2@15"Copy Clear.tiff392005809#392005809#0(0"0(0#0#46"/Users/admin/Programs/Mac/EdenGraph/Clear.tiff8620850080#240"    cd /Users/admin/Programs/Mac/EdenGraph    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff Clear.tiff --outdir /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources0#
-
-CCopyTiffFile /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/Floppy.tif Floppy.tif
-s392005809.913879
-e392005809.933830
-r1
-xCopyTiffFile
-x/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/Floppy.tif
-xFloppy.tif
-lSLF07#2@15"Copy Floppy.tif392005809#392005809#0(0"0(0#0#46"/Users/admin/Programs/Mac/EdenGraph/Floppy.tif8609937376#240"    cd /Users/admin/Programs/Mac/EdenGraph    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff Floppy.tif --outdir /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources0#
-
-CCopyTiffFile /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/RemoveEquation.tiff RemoveEquation.tiff
-s392005809.893969
-e392005809.918970
-r1
-xCopyTiffFile
-x/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/RemoveEquation.tiff
-xRemoveEquation.tiff
-lSLF07#2@24"Copy RemoveEquation.tiff392005809#392005809#0(0"0(0#0#55"/Users/admin/Programs/Mac/EdenGraph/RemoveEquation.tiff8611510048#249"    cd /Users/admin/Programs/Mac/EdenGraph    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff RemoveEquation.tiff --outdir /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources0#
-
-CCopyTiffFile /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/RemoveEquation_Pressed.tiff RemoveEquation_Pressed.tiff
-s392005809.884661
-e392005809.913777
-r1
-xCopyTiffFile
-x/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/RemoveEquation_Pressed.tiff
-xRemoveEquation_Pressed.tiff
-lSLF07#2@32"Copy RemoveEquation_Pressed.tiff392005809#392005809#0(0"0(0#0#63"/Users/admin/Programs/Mac/EdenGraph/RemoveEquation_Pressed.tiff8619343328#257"    cd /Users/admin/Programs/Mac/EdenGraph    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff RemoveEquation_Pressed.tiff --outdir /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources0#
-
-CCopyTiffFile /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/Stop-red.tif Stop-red.tif
-s392005809.693841
-e392005809.731846
-r1
-xCopyTiffFile
-x/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/Stop-red.tif
-xStop-red.tif
-lSLF07#2@17"Copy Stop-red.tif392005809#392005809#0(0"0(0#0#48"/Users/admin/Programs/Mac/EdenGraph/Stop-red.tif8605647616#242"    cd /Users/admin/Programs/Mac/EdenGraph    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff Stop-red.tif --outdir /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources0#
-
-CCopyTiffFile /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/ZoomIn.tif ZoomIn.tif
-s392005809.735603
-e392005809.762324
-r1
-xCopyTiffFile
-x/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/ZoomIn.tif
-xZoomIn.tif
-lSLF07#2@15"Copy ZoomIn.tif392005809#392005809#0(0"0(0#0#46"/Users/admin/Programs/Mac/EdenGraph/ZoomIn.tif8622325248#240"    cd /Users/admin/Programs/Mac/EdenGraph    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff ZoomIn.tif --outdir /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources0#
-
-CCopyTiffFile /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/ZoomOut.tif ZoomOut.tif
-s392005809.762419
-e392005809.814570
-r1
-xCopyTiffFile
-x/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/ZoomOut.tif
-xZoomOut.tif
-lSLF07#2@16"Copy ZoomOut.tif392005809#392005809#0(0"0(0#0#47"/Users/admin/Programs/Mac/EdenGraph/ZoomOut.tif8622001216#241"    cd /Users/admin/Programs/Mac/EdenGraph    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff ZoomOut.tif --outdir /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources0#
-
-CCpResource build/Development/EdenGraph.app/Contents/Resources/EdenGraph.icns EdenGraph.icns
-s392005809.731940
-e392005809.738841
-r1
-xCpResource
-xbuild/Development/EdenGraph.app/Contents/Resources/EdenGraph.icns
-xEdenGraph.icns
-lSLF07#2@19"Copy EdenGraph.icns392005809#392005809#0(0"0(0#0#50"/Users/admin/Programs/Mac/EdenGraph/EdenGraph.icns8602945504#343"    cd /Users/admin/Programs/Mac/EdenGraph    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/admin/Programs/Mac/EdenGraph/EdenGraph.icns /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources0#
-
-CCpResource build/Development/EdenGraph.app/Contents/Resources/Evaluator build/Evaluator
-s392005809.691152
-e392005809.697203
-r1
-xCpResource
-xbuild/Development/EdenGraph.app/Contents/Resources/Evaluator
-xbuild/Evaluator
-lSLF07#2@20"Copy build/Evaluator392005809#392005809#0(0"0(0#0#51"/Users/admin/Programs/Mac/EdenGraph/build/Evaluator8608058816#344"    cd /Users/admin/Programs/Mac/EdenGraph    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/admin/Programs/Mac/EdenGraph/build/Evaluator /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources0#
-
-CCpResource build/Development/EdenGraph.app/Contents/Resources/Floppy.png Floppy.png
-s392005809.919070
-e392005809.924593
-r1
-xCpResource
-xbuild/Development/EdenGraph.app/Contents/Resources/Floppy.png
-xFloppy.png
-lSLF07#2@15"Copy Floppy.png392005809#392005809#0(0"0(0#0#46"/Users/admin/Programs/Mac/EdenGraph/Floppy.png8608099264#339"    cd /Users/admin/Programs/Mac/EdenGraph    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/admin/Programs/Mac/EdenGraph/Floppy.png /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources0#
-
-CCpResource build/Development/EdenGraph.app/Contents/Resources/Help Help
-s392005809.691979
-e392005809.710987
-r1
-xCpResource
-xbuild/Development/EdenGraph.app/Contents/Resources/Help
-xHelp
-lSLF07#2@9"Copy Help392005809#392005809#0(0"0(0#0#40"/Users/admin/Programs/Mac/EdenGraph/Help8606803776#333"    cd /Users/admin/Programs/Mac/EdenGraph    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/admin/Programs/Mac/EdenGraph/Help /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources0#
-
-CCpResource build/Development/EdenGraph.app/Contents/Resources/Origin.png Origin.png
-s392005809.733960
-e392005809.740403
-r1
-xCpResource
-xbuild/Development/EdenGraph.app/Contents/Resources/Origin.png
-xOrigin.png
-lSLF07#2@15"Copy Origin.png392005809#392005809#0(0"0(0#0#46"/Users/admin/Programs/Mac/EdenGraph/Origin.png8625144544#339"    cd /Users/admin/Programs/Mac/EdenGraph    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/admin/Programs/Mac/EdenGraph/Origin.png /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources0#
-
-CLd /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/MacOS/EdenGraph normal i386
-s392005812.439140
-e392005812.496467
-r1
-xLd
-x/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/MacOS/EdenGraph
-xnormal
-xi386
-lSLF07#2@97"Link /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/MacOS/EdenGraph392005812#392005812#0(0"0(0#0#0"8603179168#580"    cd /Users/admin/Programs/Mac/EdenGraph    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Developer/usr/bin/gcc-4.0 -arch i386 -isysroot /Developer/SDKs/MacOSX10.4u.sdk -L/Users/admin/Programs/Mac/EdenGraph/build/Development -F/Users/admin/Programs/Mac/EdenGraph/build/Development -filelist "/Users/admin/Programs/Mac/EdenGraph/build/EdenGraph.build/Development/EdenGraph (Upgraded).build/Objects-normal/i386/EdenGraph.LinkFileList" -mmacosx-version-min=10.4 -framework Cocoa -prebind -o /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/MacOS/EdenGraph0#
-
-CProcessInfoPlistFile /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Info.plist Info-EdenGraph__Upgraded_.plist
-s392005809.635155
-e392005809.639315
-r1
-xProcessInfoPlistFile
-x/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Info.plist
-xInfo-EdenGraph__Upgraded_.plist
-lSLF07#2@39"Process Info-EdenGraph__Upgraded_.plist392005809#392005809#0(0"0(0#0#67"/Users/admin/Programs/Mac/EdenGraph/Info-EdenGraph__Upgraded_.plist8614546624#330"    cd /Users/admin/Programs/Mac/EdenGraph    builtin-infoPlistUtility Info-EdenGraph__Upgraded_.plist -genpkginfo /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Info.plist0#
-
-CStripNIB /Users/admin/Programs/Mac/EdenGraph/English.lproj/MainMenu.nib
-s392005809.639418
-e392005809.884575
-r1
-xStripNIB
-x/Users/admin/Programs/Mac/EdenGraph/English.lproj/MainMenu.nib
-lSLF07#2@35"StripNIB English.lproj/MainMenu.nib392005809#392005809#0(0"0(0#0#62"/Users/admin/Programs/Mac/EdenGraph/English.lproj/MainMenu.nib8611295424#294"    cd /Users/admin/Programs/Mac/EdenGraph    /Developer/usr/bin/ibtool --strip /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app/Contents/Resources/English.lproj/MainMenu.nib --output-format human-readable-text /Users/admin/Programs/Mac/EdenGraph/English.lproj/MainMenu.nib0#
-
-CTouch /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app
-s392005812.496560
-e392005812.500034
-r1
-xTouch
-x/Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app
-lSLF07#2@73"Touch /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app392005812#392005812#0(0"0(0#0#0"8624877408#133"    cd /Users/admin/Programs/Mac/EdenGraph    /usr/bin/touch -c /Users/admin/Programs/Mac/EdenGraph/build/Development/EdenGraph.app0#
-
