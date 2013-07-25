@@ -41,6 +41,16 @@
 		84F883560A296B91006A2528 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		840FB32B175EE34600B13F8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840FB2BD175ED33900B13F8A;
+			remoteInfo = MathCore;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
@@ -267,6 +277,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				840FB32C175EE34600B13F8A /* PBXTargetDependency */,
 			);
 			name = "EdenGraph (Upgraded)";
 			productInstallPath = "$(HOME)/Applications";
@@ -350,6 +361,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		840FB32C175EE34600B13F8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840FB2BD175ED33900B13F8A /* MathCore */;
+			targetProxy = 840FB32B175EE34600B13F8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
