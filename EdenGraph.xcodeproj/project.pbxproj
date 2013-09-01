@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8408E30F17C85737004604E2 /* EditEquations.nib in Resources */ = {isa = PBXBuildFile; fileRef = 8408E30E17C85737004604E2 /* EditEquations.nib */; };
+		8408E31417C857B7004604E2 /* EditEquationsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */; };
+		8408E31517C857B7004604E2 /* EditEquationsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */; };
 		840FB2C3175ED35300B13F8A /* grammar.y in Sources */ = {isa = PBXBuildFile; fileRef = 840FB2B1175ED22F00B13F8A /* grammar.y */; };
 		840FB2C4175ED35300B13F8A /* rules.l in Sources */ = {isa = PBXBuildFile; fileRef = 840FB2B2175ED22F00B13F8A /* rules.l */; };
-		840FB306175ED87200B13F8A /* MathCore in Resources */ = {isa = PBXBuildFile; fileRef = 840FB305175ED87200B13F8A /* MathCore */; };
+		84886DF117B5ABC100544C6E /* MathCore in CopyFiles */ = {isa = PBXBuildFile; fileRef = 840FB2BE175ED33900B13F8A /* MathCore */; };
 		84B779590A410E4A006BFE97 /* Floppy.tif in Resources */ = {isa = PBXBuildFile; fileRef = 84B779570A410E4A006BFE97 /* Floppy.tif */; };
 		84B779940A4111B4006BFE97 /* Floppy.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B779920A4111B4006BFE97 /* Floppy.png */; };
 		84F883360A296B91006A2528 /* EGView.h in Headers */ = {isa = PBXBuildFile; fileRef = F543F6CE02A7181601C28F32 /* EGView.h */; };
@@ -51,6 +54,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		84886DE717B5A95000544C6E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				84886DF117B5ABC100544C6E /* MathCore in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
@@ -58,11 +74,14 @@
 		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8408E30C17C8571B004604E2 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/EditEquations.nib; sourceTree = "<group>"; };
+		8408E31217C857B7004604E2 /* EditEquationsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditEquationsController.h; sourceTree = "<group>"; };
+		8408E31317C857B7004604E2 /* EditEquationsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditEquationsController.m; sourceTree = "<group>"; };
 		840FB2B1175ED22F00B13F8A /* grammar.y */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.yacc; name = grammar.y; path = MathCore/grammar.y; sourceTree = "<group>"; };
 		840FB2B2175ED22F00B13F8A /* rules.l */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.lex; name = rules.l; path = MathCore/rules.l; sourceTree = "<group>"; };
 		840FB2BE175ED33900B13F8A /* MathCore */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MathCore; sourceTree = BUILT_PRODUCTS_DIR; };
-		840FB305175ED87200B13F8A /* MathCore */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = MathCore; path = ../../builds/EdenGraph/build/Development/MathCore; sourceTree = SOURCE_ROOT; };
 		842376D708DBE33E0097FFDB /* Clear.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Clear.tiff; sourceTree = "<group>"; };
+		84886DDF17AF2E7300544C6E /* MathCore */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = MathCore; path = ../builds/EdenGraph/build/Development/MathCore; sourceTree = SOURCE_ROOT; };
 		849B0D2906F7C53E00211E73 /* EdenGraph.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = EdenGraph.icns; sourceTree = "<group>"; };
 		849B0D2B06F7C55600211E73 /* Origin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Origin.png; sourceTree = "<group>"; };
 		849B0D2D06F7C5BA00211E73 /* ZoomIn.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ZoomIn.tif; sourceTree = "<group>"; };
@@ -127,6 +146,8 @@
 				F53C6E5B03E7DFA5015A706C /* EGController.m */,
 				84A5A04B0498B7A200B6EFD8 /* TheParser.h */,
 				84A5A04C0498B7A200B6EFD8 /* TheParser.m */,
+				8408E31217C857B7004604E2 /* EditEquationsController.h */,
+				8408E31317C857B7004604E2 /* EditEquationsController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -182,10 +203,11 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				84886DDF17AF2E7300544C6E /* MathCore */,
 				8454652906EA820600237B23 /* Images */,
+				8408E30E17C85737004604E2 /* EditEquations.nib */,
 				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
-				840FB305175ED87200B13F8A /* MathCore */,
 				F51C931902A577F401C87CDC /* grammar.y */,
 				F51C931A02A577F401C87CDC /* rules.l */,
 				F5F54B0402DE40F80172AE52 /* Help */,
@@ -243,6 +265,7 @@
 				84F883390A296B91006A2528 /* ToolbarDelegateCategory.h in Headers */,
 				84F8833A0A296B91006A2528 /* EGController.h in Headers */,
 				84F8833B0A296B91006A2528 /* TheParser.h in Headers */,
+				8408E31417C857B7004604E2 /* EditEquationsController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +294,7 @@
 			buildPhases = (
 				84F883350A296B91006A2528 /* Headers */,
 				84F8833C0A296B91006A2528 /* Resources */,
+				84886DE717B5A95000544C6E /* CopyFiles */,
 				84F8834D0A296B91006A2528 /* Sources */,
 				84F883550A296B91006A2528 /* Frameworks */,
 			);
@@ -292,7 +316,6 @@
 			isa = PBXProject;
 			buildConfigurationList = 84DF6B9108A6E049001034E5 /* Build configuration list for PBXProject "EdenGraph" */;
 			compatibilityVersion = "Xcode 2.4";
-			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				English,
@@ -330,7 +353,7 @@
 				84F8834C0A296B91006A2528 /* RemoveEquation.tiff in Resources */,
 				84B779590A410E4A006BFE97 /* Floppy.tif in Resources */,
 				84B779940A4111B4006BFE97 /* Floppy.png in Resources */,
-				840FB306175ED87200B13F8A /* MathCore in Resources */,
+				8408E30F17C85737004604E2 /* EditEquations.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +380,7 @@
 				84F883520A296B91006A2528 /* ToolbarDelegateCategory.m in Sources */,
 				84F883530A296B91006A2528 /* EGController.m in Sources */,
 				84F883540A296B91006A2528 /* TheParser.m in Sources */,
+				8408E31517C857B7004604E2 /* EditEquationsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +409,14 @@
 				29B97319FDCFA39411CA2CEA /* English */,
 			);
 			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		8408E30E17C85737004604E2 /* EditEquations.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8408E30C17C8571B004604E2 /* English */,
+			);
+			name = EditEquations.nib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -453,12 +485,12 @@
 				GCC_VERSION_pcc = 3.3;
 				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				MACOSX_DEPLOYMENT_TARGET_i386 = 10.4;
-				MACOSX_DEPLOYMENT_TARGET_ppc = 10.2;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.4;
 				OTHER_LDFLAGS_ppc = "-prebind";
 				PREBINDING = NO;
 				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
 				SDKROOT_i386 = /Developer/SDKs/MacOSX10.4u.sdk;
-				SDKROOT_ppc = /Developer/SDKs/MacOSX10.2.8.sdk;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.4u.sdk;
 			};
 			name = Deployment;
 		};

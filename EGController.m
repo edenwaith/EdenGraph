@@ -19,6 +19,8 @@
 - (void) dealloc
 {
     [[NSNotificationCenter defaultCenter] removeObserver: self name: @"SaveImageNotification" object: nil];
+	
+	[super dealloc];
 }
 
 

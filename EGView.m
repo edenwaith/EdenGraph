@@ -216,6 +216,7 @@
     
     [self setString]; // initialize the x_string and y_strings
     
+//	[formulaView setBackgroundColor: [NSColor lightGrayColor]];
     
     if ([prefs floatForKey:@"Precision"] != nil)
     {
@@ -357,6 +358,14 @@
     [self drawGraph];  // initially draw the axes
 }
 
+- (void)windowDidResize:(NSNotification *)notification
+{
+	NSLog(@"Window did resize");
+}
+
+// - (NSSize)windowWillResize:(NSWindow *)sender toSize:(NSSize)frameSize
+#pragma mark -
+
 // =========================================================================
 // (void) off: (id) sender
 // -------------------------------------------------------------------------
@@ -400,11 +409,22 @@ owner:nil];
 // =========================================================================
 - (void) setString
 {
-    [x_string setString:@"X: -"];
-    [y_string setString:@"Y: -"];
-    
-    [xCoordField setStringValue: x_string];
-    [yCoordField setStringValue: y_string];
+//    [x_string setString:@"X: -"];
+//    [y_string setString:@"Y: -"];
+//    
+//    [xCoordField setStringValue: x_string];
+//    [yCoordField setStringValue: y_string];
+	
+	if (x_string == nil || y_string == nil || [x_string isEqualToString:@""] || [y_string isEqualToString:@""])
+	{
+		[coordinatesField setHidden: YES];
+	}
+	else
+	{
+		[coordinatesField setHidden: NO];
+		[coordinatesField setStringValue: [NSString stringWithFormat:@"x: %@  y: %@", x_string, y_string]];
+		[coordinatesField sizeToFit];
+	}
     
     // [kernelType setString: [kernelButton titleOfSelectedItem]];
     
@@ -676,19 +696,26 @@ owner:nil];
                                                           
 	// Perhaps add some option here to eventually allow some preference so
 	// the user can specify the level of precision they want here.
-    [x_string setString: [NSString stringWithFormat: @"X: %.3f", myPoint.x]];
-    [y_string setString: [NSString stringWithFormat: @"Y: %.3f", myPoint.y]];
+    [x_string setString: [NSString stringWithFormat: @"%.3f", myPoint.x]];
+    [y_string setString: [NSString stringWithFormat: @"%.3f", myPoint.y]];
     
     if ([ [self window] acceptsMouseMovedEvents] == YES && [self checkBounds: p] == YES )
     {
-        [xCoordField setStringValue: x_string];
-        [yCoordField setStringValue: y_string];
+//        [xCoordField setStringValue: x_string];
+//        [yCoordField setStringValue: y_string];
+		[coordinatesField setHidden: NO];
+		[coordinatesField setStringValue: [NSString stringWithFormat:@"x: %@  y: %@", x_string, y_string]];
+		[coordinatesField sizeToFit];
     }
     else
     {
-        [xCoordField setStringValue: @"X: -"];
-        [yCoordField setStringValue: @"Y: -"];
+//        [xCoordField setStringValue: @"X: -"];
+//        [yCoordField setStringValue: @"Y: -"];
+//		[coordinatesField setStringValue: @"x: - y: -"];
+		[coordinatesField setHidden: YES];
     }
+	
+
     
 }
 
@@ -1108,6 +1135,8 @@ owner:nil];
     stop_sending = YES;
 }
 
+#pragma mark -
+#pragma mark Zoom Methods
 
 // =========================================================================
 // (IBAction) zoomIn: (id)sender
@@ -1127,8 +1156,11 @@ owner:nil];
     zoom_factor = zoom_factor * 2.0;
     zoom_percent *= 2.0;
     
-    [[self window] setTitle: [[NSString alloc] initWithFormat: @"EdenGraph : %1.0f%%", zoom_percent]];
-    
+//    [[self window] setTitle: [[NSString alloc] initWithFormat: @"EdenGraph : %1.0f%%", zoom_percent]];
+    [zoomLevelField setStringValue: [NSString stringWithFormat:@"%1.0f%%", zoom_percent]];
+	[zoomLevelSlider setFloatValue:zoom_percent];
+	// set the slider if the sender is not also equal to the zoom value
+	
     [self drawGraph];
 }
 
@@ -1150,8 +1182,10 @@ owner:nil];
     zoom_factor = zoom_factor / 2.0;
     zoom_percent /= 2.0;
     
-    [[self window] setTitle: [[NSString alloc] initWithFormat: @"EdenGraph : %1.0f%%", zoom_percent]];
-    
+//    [[self window] setTitle: [[NSString alloc] initWithFormat: @"EdenGraph : %1.0f%%", zoom_percent]];
+	[zoomLevelField setStringValue: [NSString stringWithFormat:@"%1.0f%%", zoom_percent]];
+    [zoomLevelSlider setFloatValue:zoom_percent];
+	
     [self drawGraph];
 }
 
@@ -1174,8 +1208,10 @@ owner:nil];
     zoom_factor = zoom_factor * 2.0;
     zoom_percent *= 2.0;
     
-    [[self window] setTitle: [[NSString alloc] initWithFormat: @"EdenGraph : %1.0f%%", zoom_percent]];
-    
+//    [[self window] setTitle: [[NSString alloc] initWithFormat: @"EdenGraph : %1.0f%%", zoom_percent]];
+	[zoomLevelField setStringValue: [NSString stringWithFormat:@"%1.0f%%", zoom_percent]];
+    [zoomLevelSlider setFloatValue:zoom_percent];
+	
     [self drawGraph];
 }
 
@@ -1197,8 +1233,10 @@ owner:nil];
     zoom_factor = zoom_factor / 2.0;
     zoom_percent /= 2.0;
     
-    [[self window] setTitle: [[NSString alloc] initWithFormat: @"EdenGraph : %1.0f%%", zoom_percent]];
-    
+//    [[self window] setTitle: [[NSString alloc] initWithFormat: @"EdenGraph : %1.0f%%", zoom_percent]];
+	[zoomLevelField setStringValue: [NSString stringWithFormat:@"%1.0f%%", zoom_percent]];
+    [zoomLevelSlider setFloatValue:zoom_percent];
+	
     [self drawGraph];
 }
 
@@ -1245,7 +1283,9 @@ owner:nil];
     }
         
    
-    [[self window] setTitle: [[NSString alloc] initWithFormat: @"EdenGraph : %1.0f%%", zoom_percent]];
+//    [[self window] setTitle: [[NSString alloc] initWithFormat: @"EdenGraph : %1.0f%%", zoom_percent]];
+	[zoomLevelField setStringValue: [NSString stringWithFormat:@"%1.0f%%", zoom_percent]];
+	
     [self drawGraph];
 }
 
@@ -1311,11 +1351,14 @@ owner:nil];
         }
     }
         
-    [[self window] setTitle: [[NSString alloc] initWithFormat: @"EdenGraph : %1.0f%%", zoom_percent]];
+//    [[self window] setTitle: [[NSString alloc] initWithFormat: @"EdenGraph : %1.0f%%", zoom_percent]];
+	[zoomLevelField setStringValue: [NSString stringWithFormat:@"%1.0f%%", zoom_percent]];
     
     [self returnToOrigin: self];
 
 }
+
+#pragma mark -
 
 // =========================================================================
 // (void) doStop: (int) which
@@ -1614,6 +1657,8 @@ owner:nil];
     [self addGraphElement:seg];
 }
 
+#pragma mark -
+#pragma mark Preferences Methods
 
 // =========================================================================
 // (void) setAxesColor: (id) sender
@@ -1808,6 +1853,8 @@ owner:nil];
 
 }
 
+#pragma mark -
+#pragma mark Edit Equations Methods
 
 // =========================================================================
 // (void) tableViewSelectionDidChange: (NSNotification *) aNotification
@@ -2004,8 +2051,38 @@ owner:nil];
 - (IBAction) editEquations : (id) sender
 {
 
+	if (editEquationsController == nil)
+	{
+		editEquationsController = [[EditEquationsController alloc] initWithWindowNibName:@"EditEquations"];
+	}
+	
+//	[editEquationsController loadEquations];
+	
+	[NSApp beginSheet: [editEquationsController window]
+       modalForWindow: Window 
+        modalDelegate: nil // editEquationsController 
+       didEndSelector: nil // @selector(didEndSheet:returnCode:contextInfo:) 
+          contextInfo: nil];
+
+	[NSApp runModalForWindow: [editEquationsController window]];
+	
+    // Dialog is up here.
+    [NSApp endSheet: [editEquationsController window]];
+    [[editEquationsController window] orderOut: self];
+	
+	[editEquationsController release], editEquationsController = nil;
+	
+	if (equationsList != nil)
+	{
+		[equationsList release], equationsList = nil;
+	}
+	
+	equationsList = [[NSMutableArray alloc] initWithContentsOfFile:equationsFile];
+	
+/*
     [NSApp beginSheet:equationsSheet modalForWindow: Window
                 modalDelegate:nil didEndSelector:nil contextInfo:nil];
+
 
 		// Reveal the scroll bar if there are a lot (generally more than 10) of saved equations
 	if ([equationsList count] > 0)
@@ -2017,6 +2094,7 @@ owner:nil];
 	      
     [NSApp endSheet: equationsSheet];
     [equationsSheet orderOut:self];
+	 */
     
 }
 
@@ -2095,6 +2173,8 @@ owner:nil];
     [self graph:self];	// Make this call instead of drawGraph so
                         // the equation is parsed properly.
 }
+
+#pragma mark -
 
 // =========================================================================
 // (void) checkOSVersion

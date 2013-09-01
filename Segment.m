@@ -166,18 +166,18 @@
     if ( [self tag] == AXES_TAG )
     {
         [ axes_color set];
-		[NSBezierPath setLineWidth: 0.05];
+//		[NSBezierPath setLineWidth: 0.05];
     }
     else if ( [self tag] == GRID_TAG )
     {
 		
         [ grid_color set];
-		[NSBezierPath setLineWidth: 0.025];
+//		[NSBezierPath setLineWidth: 0.025];
     }
     else
     {
         [color set];
-		[NSBezierPath setLineWidth: 0.025];
+//		[NSBezierPath setLineWidth: 0.025];
     }
     
     //[NSBezierPath setLineJoinStyle: NSRoundLineJoinStyle];

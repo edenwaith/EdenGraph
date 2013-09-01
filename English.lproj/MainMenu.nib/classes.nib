@@ -1,96 +1,151 @@
-{
-    IBClasses = (
-        {
-            ACTIONS = {
-                addRecord = id; 
-                closePrefsSheet = id; 
-                deleteRecord = id; 
-                insertRecord = id; 
-                openPrefsSheet = id; 
-                setColumn = id; 
-            }; 
-            CLASS = Controller; 
-            LANGUAGE = ObjC; 
-            OUTLETS = {
-                emailCB = id; 
-                emailField = id; 
-                firstNameCB = id; 
-                firstNameField = id; 
-                homePhoneCB = id; 
-                homePhoneField = id; 
-                lastNameCB = id; 
-                lastNameField = id; 
-                mainWindow = id; 
-                mobilePhoneCB = id; 
-                mobilePhoneField = id; 
-                prefsWindow = id; 
-                searchItemView = id; 
-                tableView = id; 
-                workPhoneCB = id; 
-                workPhoneField = id; 
-            }; 
-            SUPERCLASS = NSObject; 
-        }, 
-        {
-            ACTIONS = {saveDocumentTo2 = id; setSaveType = id; }; 
-            CLASS = EGController; 
-            LANGUAGE = ObjC; 
-            OUTLETS = {egView = id; savePopUpMenu = id; saveView = id; }; 
-            SUPERCLASS = NSObject; 
-        }, 
-        {
-            ACTIONS = {
-                addEquation = id; 
-                addNewEquation = id; 
-                checkForNewVersion = id; 
-                clearGraph = id; 
-                closeEquationsSheet = id; 
-                copyGraph = id; 
-                deleteEquation = id; 
-                editEquations = id; 
-                feedBack = id; 
-                goToProductPage = id; 
-                graph = id; 
-                insertEquation = id; 
-                off = id; 
-                resetGraph = id; 
-                returnToOrigin = id; 
-                saveDocumentTo = id; 
-                setAxesColor = id; 
-                setBGColor = id; 
-                setGraphColor = id; 
-                setGridColor = id; 
-                setKernel = id; 
-                setNudge = id; 
-                setPrecision = id; 
-                stopGraph = id; 
-                zoomIn = id; 
-                zoomOut = id; 
-                zoomToPercent = id; 
-            }; 
-            CLASS = EGView; 
-            LANGUAGE = ObjC; 
-            OUTLETS = {
-                Window = id; 
-                axesColorWell = NSColorWell; 
-                backgroundColorWell = NSColorWell; 
-                "delete_equation_button" = NSButton; 
-                equationsMenu = NSMenu; 
-                equationsSheet = id; 
-                equationsTable = NSTableView; 
-                formulaField = id; 
-                graphButton = id; 
-                graphColorWell = NSColorWell; 
-                gridColorWell = NSColorWell; 
-                kernelButton = NSPopUpButton; 
-                nudgeSlider = NSSlider; 
-                precisionSlider = NSSlider; 
-                xCoordField = NSTextField; 
-                yCoordField = NSTextField; 
-            }; 
-            SUPERCLASS = NSClipView; 
-        }, 
-        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
-    ); 
-    IBVersion = 1; 
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IBClasses</key>
+	<array>
+		<dict>
+			<key>ACTIONS</key>
+			<dict>
+				<key>addEquation</key>
+				<string>id</string>
+				<key>addNewEquation</key>
+				<string>id</string>
+				<key>checkForNewVersion</key>
+				<string>id</string>
+				<key>clearGraph</key>
+				<string>id</string>
+				<key>closeEquationsSheet</key>
+				<string>id</string>
+				<key>copyGraph</key>
+				<string>id</string>
+				<key>deleteEquation</key>
+				<string>id</string>
+				<key>editEquations</key>
+				<string>id</string>
+				<key>feedBack</key>
+				<string>id</string>
+				<key>goToProductPage</key>
+				<string>id</string>
+				<key>graph</key>
+				<string>id</string>
+				<key>insertEquation</key>
+				<string>id</string>
+				<key>off</key>
+				<string>id</string>
+				<key>resetGraph</key>
+				<string>id</string>
+				<key>returnToOrigin</key>
+				<string>id</string>
+				<key>saveDocumentTo</key>
+				<string>id</string>
+				<key>setAxesColor</key>
+				<string>id</string>
+				<key>setBGColor</key>
+				<string>id</string>
+				<key>setGraphColor</key>
+				<string>id</string>
+				<key>setGridColor</key>
+				<string>id</string>
+				<key>setKernel</key>
+				<string>id</string>
+				<key>setNudge</key>
+				<string>id</string>
+				<key>setPrecision</key>
+				<string>id</string>
+				<key>stopGraph</key>
+				<string>id</string>
+				<key>zoomIn</key>
+				<string>id</string>
+				<key>zoomOut</key>
+				<string>id</string>
+				<key>zoomToPercent</key>
+				<string>id</string>
+			</dict>
+			<key>CLASS</key>
+			<string>EGView</string>
+			<key>LANGUAGE</key>
+			<string>ObjC</string>
+			<key>OUTLETS</key>
+			<dict>
+				<key>Window</key>
+				<string>id</string>
+				<key>axesColorWell</key>
+				<string>NSColorWell</string>
+				<key>backgroundColorWell</key>
+				<string>NSColorWell</string>
+				<key>coordinatesField</key>
+				<string>NSTextField</string>
+				<key>delete_equation_button</key>
+				<string>NSButton</string>
+				<key>equationsMenu</key>
+				<string>NSMenu</string>
+				<key>equationsSheet</key>
+				<string>id</string>
+				<key>equationsTable</key>
+				<string>NSTableView</string>
+				<key>formulaField</key>
+				<string>id</string>
+				<key>formulaView</key>
+				<string>NSClipView</string>
+				<key>graphButton</key>
+				<string>id</string>
+				<key>graphColorWell</key>
+				<string>NSColorWell</string>
+				<key>gridColorWell</key>
+				<string>NSColorWell</string>
+				<key>kernelButton</key>
+				<string>NSPopUpButton</string>
+				<key>nudgeSlider</key>
+				<string>NSSlider</string>
+				<key>precisionSlider</key>
+				<string>NSSlider</string>
+				<key>xCoordField</key>
+				<string>NSTextField</string>
+				<key>yCoordField</key>
+				<string>NSTextField</string>
+				<key>zoomLevelField</key>
+				<string>NSTextField</string>
+				<key>zoomLevelSlider</key>
+				<string>NSSlider</string>
+			</dict>
+			<key>SUPERCLASS</key>
+			<string>NSClipView</string>
+		</dict>
+		<dict>
+			<key>CLASS</key>
+			<string>FirstResponder</string>
+			<key>LANGUAGE</key>
+			<string>ObjC</string>
+			<key>SUPERCLASS</key>
+			<string>NSObject</string>
+		</dict>
+		<dict>
+			<key>ACTIONS</key>
+			<dict>
+				<key>saveDocumentTo2</key>
+				<string>id</string>
+				<key>setSaveType</key>
+				<string>id</string>
+			</dict>
+			<key>CLASS</key>
+			<string>EGController</string>
+			<key>LANGUAGE</key>
+			<string>ObjC</string>
+			<key>OUTLETS</key>
+			<dict>
+				<key>egView</key>
+				<string>id</string>
+				<key>savePopUpMenu</key>
+				<string>id</string>
+				<key>saveView</key>
+				<string>id</string>
+			</dict>
+			<key>SUPERCLASS</key>
+			<string>NSObject</string>
+		</dict>
+	</array>
+	<key>IBVersion</key>
+	<string>1</string>
+</dict>
+</plist>

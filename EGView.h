@@ -9,13 +9,14 @@
 #import <Cocoa/Cocoa.h>
 // #include <mathlink/mathlink.h>
 #import "TheParser.h"
-
+#import "EditEquationsController.h"
 
 @interface EGView : NSClipView 
 {
     NSString 		*path;
     NSString		*equationsFile;
-
+	EditEquationsController *editEquationsController;
+	
     IBOutlet id				formulaField;
     IBOutlet id				graphButton;
     IBOutlet id				Window;
@@ -27,11 +28,16 @@
     IBOutlet NSColorWell	*gridColorWell;
     IBOutlet NSSlider		*precisionSlider;
     IBOutlet NSSlider		*nudgeSlider;
+	IBOutlet NSSlider		*zoomLevelSlider;
     IBOutlet NSPopUpButton	*kernelButton;
     IBOutlet id				equationsSheet;
     IBOutlet NSMenu			*equationsMenu;
     IBOutlet NSTableView	*equationsTable;
     IBOutlet NSButton		*delete_equation_button;
+	IBOutlet NSClipView		*formulaView;
+	
+	IBOutlet NSTextField	*coordinatesField;
+	IBOutlet NSTextField	*zoomLevelField;
     
     NSUserDefaults			*prefs;
     
