@@ -123,7 +123,11 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
+<<<<<<< HEAD
 			PBXPerProjectTemplateStateSaveDate = 397789777;
+=======
+			PBXPerProjectTemplateStateSaveDate = 396587749;
+>>>>>>> e78d66c6be2283c30fe5fb37818292e37f9cc5da
 			PBXWorkspaceContents = (
 				{
 					LeftSlideOut = {
@@ -1328,7 +1332,11 @@
 					WindowLocation = "{154, 112}";
 				},
 			);
+<<<<<<< HEAD
 			PBXWorkspaceStateSaveDate = 397789777;
+=======
+			PBXWorkspaceStateSaveDate = 396587749;
+>>>>>>> e78d66c6be2283c30fe5fb37818292e37f9cc5da
 		};
 		perUserProjectItems = {
 			8408E27317B5CA59004604E2 /* PBXTextBookmark */ = 8408E27317B5CA59004604E2 /* PBXTextBookmark */;
@@ -1541,6 +1549,7 @@
 			840FB2DA175ED4CD00B13F8A = 840FB2DA175ED4CD00B13F8A /* PBXTextBookmark */;
 			840FB2DB175ED4CD00B13F8A = 840FB2DB175ED4CD00B13F8A /* PBXTextBookmark */;
 			840FB2F2175ED6EE00B13F8A = 840FB2F2175ED6EE00B13F8A /* PBXTextBookmark */;
+<<<<<<< HEAD
 			8427B0CB17A372F900E6033A = 8427B0CB17A372F900E6033A /* PBXTextBookmark */;
 			84886DC817A4DD1300544C6E = 84886DC817A4DD1300544C6E /* PlistBookmark */;
 			84886DC917A4DD1300544C6E = 84886DC917A4DD1300544C6E /* PlistBookmark */;
@@ -1568,6 +1577,15 @@
 			84B5350C17B5BA35000F217D = 84B5350C17B5BA35000F217D /* PBXTextBookmark */;
 			84B5350D17B5BA35000F217D = 84B5350D17B5BA35000F217D /* PBXTextBookmark */;
 			84B5351F17B5BDC4000F217D = 84B5351F17B5BDC4000F217D /* PBXTextBookmark */;
+=======
+			840FB30F175EDF5300B13F8A = 840FB30F175EDF5300B13F8A /* PBXTextBookmark */;
+			840FB310175EDF5300B13F8A = 840FB310175EDF5300B13F8A /* PBXTextBookmark */;
+			840FB3391763819A00B13F8A = 840FB3391763819A00B13F8A /* PBXTextBookmark */;
+			841CD2CE17A37062008EAF22 = 841CD2CE17A37062008EAF22 /* PBXTextBookmark */;
+			8427B0CA17A372F900E6033A /* PBXTextBookmark */ = 8427B0CA17A372F900E6033A /* PBXTextBookmark */;
+			8427B0CB17A372F900E6033A /* PBXTextBookmark */ = 8427B0CB17A372F900E6033A /* PBXTextBookmark */;
+			8427B0CC17A372F900E6033A /* PlistBookmark */ = 8427B0CC17A372F900E6033A /* PlistBookmark */;
+>>>>>>> e78d66c6be2283c30fe5fb37818292e37f9cc5da
 		};
 		sourceControlManager = 843CC9920842CD090010D2A0 /* Source Control */;
 		userBuildSettings = {
@@ -3755,7 +3773,63 @@
 		vrLen = 288;
 		vrLoc = 0;
 	};
+<<<<<<< HEAD
 	842B3C9508B8239F00F5B8D5 /* EGView.m:2014 */ = {
+=======
+	840FB3391763819A00B13F8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F51C40A002B1B0EC01000002 /* Segment.m */;
+		name = "Segment.m: 187";
+		rLen = 0;
+		rLoc = 5811;
+		rType = 0;
+		vrLen = 820;
+		vrLoc = 5056;
+	};
+	841CD2CE17A37062008EAF22 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F51C40A002B1B0EC01000002 /* Segment.m */;
+		name = "Segment.m: 175";
+		rLen = 0;
+		rLoc = 5499;
+		rType = 0;
+		vrLen = 908;
+		vrLoc = 4964;
+	};
+	8427B0CA17A372F900E6033A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F51C40A002B1B0EC01000002 /* Segment.m */;
+		name = "Segment.m: 175";
+		rLen = 0;
+		rLoc = 5499;
+		rType = 0;
+		vrLen = 908;
+		vrLoc = 4964;
+	};
+	8427B0CB17A372F900E6033A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 6";
+		rLen = 0;
+		rLoc = 253;
+		rType = 0;
+		vrLen = 288;
+		vrLoc = 0;
+	};
+	8427B0CC17A372F900E6033A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 84F8835B0A296B91006A2528 /* Info-EdenGraph__Upgraded_.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleHelpBookFolder,
+		);
+		name = "/Users/admin/Programs/Mac/EdenGraph/Info-EdenGraph__Upgraded_.plist";
+		rLen = 0;
+		rLoc = 0;
+	};
+	842B3C9508B8239F00F5B8D5 /* EGView.m:1967 */ = {
+>>>>>>> e78d66c6be2283c30fe5fb37818292e37f9cc5da
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -4178,9 +4252,15 @@
 	};
 	F51C40A002B1B0EC01000002 /* Segment.m */ = {
 		uiCtxt = {
+<<<<<<< HEAD
 			sepNavIntBoundsRect = "{{0, 0}, {597, 2660}}";
 			sepNavSelRange = "{5560, 0}";
 			sepNavVisRange = "{5058, 819}";
+=======
+			sepNavIntBoundsRect = "{{0, 0}, {597, 2496}}";
+			sepNavSelRange = "{5499, 0}";
+			sepNavVisRange = "{4964, 908}";
+>>>>>>> e78d66c6be2283c30fe5fb37818292e37f9cc5da
 			sepNavVisRect = "{{0, 2310}, {675, 378}}";
 		};
 	};
