@@ -1787,6 +1787,23 @@ owner:nil];
             postNotificationName:@"SaveImageNotification" object: nil];
 }
 
+#pragma mark -
+#pragma mark Menu Actions
+
+// =========================================================================
+// (IBAction) openPreferences: (id) sender
+// -------------------------------------------------------------------------
+// Created: 1 September 2013 22:43
+// Version: 1 September 2013 22:43
+// =========================================================================
+- (IBAction) openPreferences: (id) sender
+{
+	if (preferencesController == nil)
+	{
+	}
+	
+	// show window
+}
 
 // =========================================================================
 // (IBAction) checkForNewVersion: (id) sender

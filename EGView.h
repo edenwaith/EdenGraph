@@ -10,12 +10,14 @@
 // #include <mathlink/mathlink.h>
 #import "TheParser.h"
 #import "EditEquationsController.h"
+#import "PreferencesController.h"
 
 @interface EGView : NSClipView 
 {
     NSString 		*path;
     NSString		*equationsFile;
 	EditEquationsController *editEquationsController;
+	PreferencesController	*preferencesController;
 	
     IBOutlet id				formulaField;
     IBOutlet id				graphButton;
@@ -179,6 +181,7 @@
 
 - (IBAction) saveDocumentTo: (id) sender;
 
+- (IBAction) openPreferences: (id) sender;
 - (IBAction) checkForNewVersion: (id) sender;
 - (IBAction) goToProductPage: (id) sender;
 - (IBAction) feedBack: (id)sender;
