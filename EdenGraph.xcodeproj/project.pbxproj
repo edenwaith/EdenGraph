@@ -10,6 +10,9 @@
 		8408E30F17C85737004604E2 /* EditEquations.nib in Resources */ = {isa = PBXBuildFile; fileRef = 8408E30E17C85737004604E2 /* EditEquations.nib */; };
 		8408E31417C857B7004604E2 /* EditEquationsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */; };
 		8408E31517C857B7004604E2 /* EditEquationsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */; };
+		8408E4A017D430EE004604E2 /* Preferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = 8408E49E17D430EE004604E2 /* Preferences.nib */; };
+		8408E50017D43147004604E2 /* PreferencesController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8408E4FE17D43147004604E2 /* PreferencesController.h */; };
+		8408E50117D43147004604E2 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8408E4FF17D43147004604E2 /* PreferencesController.m */; };
 		840FB2C3175ED35300B13F8A /* grammar.y in Sources */ = {isa = PBXBuildFile; fileRef = 840FB2B1175ED22F00B13F8A /* grammar.y */; };
 		840FB2C4175ED35300B13F8A /* rules.l in Sources */ = {isa = PBXBuildFile; fileRef = 840FB2B2175ED22F00B13F8A /* rules.l */; };
 		84886DF117B5ABC100544C6E /* MathCore in CopyFiles */ = {isa = PBXBuildFile; fileRef = 840FB2BE175ED33900B13F8A /* MathCore */; };
@@ -77,6 +80,9 @@
 		8408E30C17C8571B004604E2 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/EditEquations.nib; sourceTree = "<group>"; };
 		8408E31217C857B7004604E2 /* EditEquationsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditEquationsController.h; sourceTree = "<group>"; };
 		8408E31317C857B7004604E2 /* EditEquationsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditEquationsController.m; sourceTree = "<group>"; };
+		8408E49F17D430EE004604E2 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Preferences.nib; sourceTree = "<group>"; };
+		8408E4FE17D43147004604E2 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
+		8408E4FF17D43147004604E2 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
 		840FB2B1175ED22F00B13F8A /* grammar.y */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.yacc; name = grammar.y; path = MathCore/grammar.y; sourceTree = "<group>"; };
 		840FB2B2175ED22F00B13F8A /* rules.l */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.lex; name = rules.l; path = MathCore/rules.l; sourceTree = "<group>"; };
 		840FB2BE175ED33900B13F8A /* MathCore */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MathCore; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +154,8 @@
 				84A5A04C0498B7A200B6EFD8 /* TheParser.m */,
 				8408E31217C857B7004604E2 /* EditEquationsController.h */,
 				8408E31317C857B7004604E2 /* EditEquationsController.m */,
+				8408E4FE17D43147004604E2 /* PreferencesController.h */,
+				8408E4FF17D43147004604E2 /* PreferencesController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -207,6 +215,7 @@
 				8454652906EA820600237B23 /* Images */,
 				8408E30E17C85737004604E2 /* EditEquations.nib */,
 				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				8408E49E17D430EE004604E2 /* Preferences.nib */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				F51C931902A577F401C87CDC /* grammar.y */,
 				F51C931A02A577F401C87CDC /* rules.l */,
@@ -266,6 +275,7 @@
 				84F8833A0A296B91006A2528 /* EGController.h in Headers */,
 				84F8833B0A296B91006A2528 /* TheParser.h in Headers */,
 				8408E31417C857B7004604E2 /* EditEquationsController.h in Headers */,
+				8408E50017D43147004604E2 /* PreferencesController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +364,7 @@
 				84B779590A410E4A006BFE97 /* Floppy.tif in Resources */,
 				84B779940A4111B4006BFE97 /* Floppy.png in Resources */,
 				8408E30F17C85737004604E2 /* EditEquations.nib in Resources */,
+				8408E4A017D430EE004604E2 /* Preferences.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +392,7 @@
 				84F883530A296B91006A2528 /* EGController.m in Sources */,
 				84F883540A296B91006A2528 /* TheParser.m in Sources */,
 				8408E31517C857B7004604E2 /* EditEquationsController.m in Sources */,
+				8408E50117D43147004604E2 /* PreferencesController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +429,14 @@
 				8408E30C17C8571B004604E2 /* English */,
 			);
 			name = EditEquations.nib;
+			sourceTree = "<group>";
+		};
+		8408E49E17D430EE004604E2 /* Preferences.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8408E49F17D430EE004604E2 /* English */,
+			);
+			name = Preferences.nib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

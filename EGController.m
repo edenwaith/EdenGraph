@@ -15,7 +15,6 @@
     return self;
 }
 
-
 - (void) dealloc
 {
     [[NSNotificationCenter defaultCenter] removeObserver: self name: @"SaveImageNotification" object: nil];
@@ -23,12 +22,10 @@
 	[super dealloc];
 }
 
-
-- (EGView *)egView
+- (EGView *) egView
 {
-        return egView;
+	return egView;
 }
-
 
 - (NSData *) PDFForView:(NSView *)aView
 {
@@ -38,7 +35,6 @@
 
     return pdf;
 }
-
 
 - (NSData *) TIFFForView: (NSView *)aView
 {
@@ -58,14 +54,30 @@
     return eps;
 }
 
+// Create and generate an image for any of the following NSBitmapImageFileType types: BMP, GIF, JPG, PNG
+- (NSData *) imageForView: (NSView *) aView usingType: (NSBitmapImageFileType) imageType
+{
+	NSImage *image = [[NSImage alloc] initWithData: [self PDFForView:aView]];
+	[image autorelease];
+	
+    // Cache the reduced image
+    NSData *imageData = [image TIFFRepresentation];
+    NSBitmapImageRep *imageRep = [NSBitmapImageRep imageRepWithData:imageData];
+    NSDictionary *imageProps = [NSDictionary dictionaryWithObject:[NSNumber numberWithFloat:1.0] forKey:NSImageCompressionFactor];
+    imageData = [imageRep representationUsingType:imageType properties:imageProps];  
+	
+	return imageData;
+}
+
+#pragma mark -
+
 // To be able to get both the 'Format: ' string and the NSPopUpButton to be in the 
 // save panel, I needed to select both the string and the pop up button, then go to
 // Layout -> Make Subview Of -> Custom View.  This way, I can put the entire view
 // into the save panel.
 - (IBAction) saveDocumentTo2: (id) sender
 {
-
-    saveType = 2; // TIFF
+    saveType = 5; // PNG
         
     savePanel = [[NSSavePanel savePanel] retain];
     [savePanel setTitle:@"Save Graph"];
@@ -86,7 +98,6 @@
 
 - (void) savePanelDidEnd: (NSSavePanel *)sheet returnCode:(int) returnCode contextInfo:(void *)contextInfo
 {
-    
     NSData *image;
     NSString *fileType = [[[savePopUpMenu selectedCell] title] lowercaseString]; 
     
@@ -96,13 +107,29 @@
     {
         image =  [self PDFForView:egView];
     }
+	else if ([fileType isEqualToString:@"eps"])
+    {
+        image = [self EPSForView:egView];
+    }
     else if ([fileType isEqualToString:@"tiff"])
     {
         image = [self TIFFForView:egView];
     }
-    else if ([fileType isEqualToString:@"eps"])
+	else if ([fileType isEqualToString:@"bmp"])
     {
-        image = [self EPSForView:egView];
+        image = [self imageForView:egView usingType:NSBMPFileType];
+    }
+	else if ([fileType isEqualToString:@"gif"])
+    {
+        image = [self imageForView:egView usingType:NSGIFFileType];
+    }
+	else if ([fileType isEqualToString:@"jpg"])
+    {
+        image = [self imageForView:egView usingType:NSJPEGFileType];
+    }
+	else if ([fileType isEqualToString:@"png"])
+    {
+        image = [self imageForView:egView usingType:NSPNGFileType];
     }
     else
     {
@@ -111,11 +138,10 @@
     
     if ([image writeToFile:[sheet filename] atomically:NO]==NO)
     {
-        NSRunAlertPanel(nil, @"Cannot save file '%@': %s", nil, nil, nil, [sheet filename], strerror(errno));
+		NSString *errorMsg = NSLocalizedString(@"Cannot save file", @"Cannot save file");
+        NSRunAlertPanel(nil, @"%@ '%@': %s", nil, nil, nil, errorMsg, [sheet filename], strerror(errno));
     }
-    
 }
-
 
 - (IBAction) setSaveType: (id) sender
 {

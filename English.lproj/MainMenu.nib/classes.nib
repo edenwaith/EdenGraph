@@ -33,6 +33,8 @@
 				<string>id</string>
 				<key>off</key>
 				<string>id</string>
+				<key>openPreferences</key>
+				<string>id</string>
 				<key>resetGraph</key>
 				<string>id</string>
 				<key>returnToOrigin</key>
