@@ -7,6 +7,38 @@
 		<dict>
 			<key>ACTIONS</key>
 			<dict>
+				<key>saveDocumentTo2</key>
+				<string>id</string>
+				<key>setSaveType</key>
+				<string>id</string>
+			</dict>
+			<key>CLASS</key>
+			<string>EGController</string>
+			<key>LANGUAGE</key>
+			<string>ObjC</string>
+			<key>OUTLETS</key>
+			<dict>
+				<key>egView</key>
+				<string>id</string>
+				<key>savePopUpMenu</key>
+				<string>id</string>
+				<key>saveView</key>
+				<string>id</string>
+			</dict>
+			<key>SUPERCLASS</key>
+			<string>NSObject</string>
+		</dict>
+		<dict>
+			<key>CLASS</key>
+			<string>CustomSlider</string>
+			<key>LANGUAGE</key>
+			<string>ObjC</string>
+			<key>SUPERCLASS</key>
+			<string>NSSlider</string>
+		</dict>
+		<dict>
+			<key>ACTIONS</key>
+			<dict>
 				<key>addEquation</key>
 				<string>id</string>
 				<key>addNewEquation</key>
@@ -109,7 +141,7 @@
 				<key>zoomLevelField</key>
 				<string>NSTextField</string>
 				<key>zoomLevelSlider</key>
-				<string>NSSlider</string>
+				<string>CustomSlider</string>
 			</dict>
 			<key>SUPERCLASS</key>
 			<string>NSClipView</string>
@@ -119,30 +151,6 @@
 			<string>FirstResponder</string>
 			<key>LANGUAGE</key>
 			<string>ObjC</string>
-			<key>SUPERCLASS</key>
-			<string>NSObject</string>
-		</dict>
-		<dict>
-			<key>ACTIONS</key>
-			<dict>
-				<key>saveDocumentTo2</key>
-				<string>id</string>
-				<key>setSaveType</key>
-				<string>id</string>
-			</dict>
-			<key>CLASS</key>
-			<string>EGController</string>
-			<key>LANGUAGE</key>
-			<string>ObjC</string>
-			<key>OUTLETS</key>
-			<dict>
-				<key>egView</key>
-				<string>id</string>
-				<key>savePopUpMenu</key>
-				<string>id</string>
-				<key>saveView</key>
-				<string>id</string>
-			</dict>
 			<key>SUPERCLASS</key>
 			<string>NSObject</string>
 		</dict>

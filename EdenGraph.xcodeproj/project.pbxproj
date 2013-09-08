@@ -13,6 +13,12 @@
 		8408E4A017D430EE004604E2 /* Preferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = 8408E49E17D430EE004604E2 /* Preferences.nib */; };
 		8408E50017D43147004604E2 /* PreferencesController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8408E4FE17D43147004604E2 /* PreferencesController.h */; };
 		8408E50117D43147004604E2 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8408E4FF17D43147004604E2 /* PreferencesController.m */; };
+		8408E57C17DC31DF004604E2 /* CustomSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 8408E57617DC31DF004604E2 /* CustomSlider.h */; };
+		8408E57D17DC31DF004604E2 /* CustomSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8408E57717DC31DF004604E2 /* CustomSlider.m */; };
+		8408E57E17DC31DF004604E2 /* CustomSliderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8408E57817DC31DF004604E2 /* CustomSliderCell.h */; };
+		8408E57F17DC31DF004604E2 /* CustomSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8408E57917DC31DF004604E2 /* CustomSliderCell.m */; };
+		8408E58017DC31DF004604E2 /* volumeslider_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8408E57A17DC31DF004604E2 /* volumeslider_blue.png */; };
+		8408E58117DC31DF004604E2 /* volumeslider_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 8408E57B17DC31DF004604E2 /* volumeslider_normal.png */; };
 		840FB2C3175ED35300B13F8A /* grammar.y in Sources */ = {isa = PBXBuildFile; fileRef = 840FB2B1175ED22F00B13F8A /* grammar.y */; };
 		840FB2C4175ED35300B13F8A /* rules.l in Sources */ = {isa = PBXBuildFile; fileRef = 840FB2B2175ED22F00B13F8A /* rules.l */; };
 		84886DF117B5ABC100544C6E /* MathCore in CopyFiles */ = {isa = PBXBuildFile; fileRef = 840FB2BE175ED33900B13F8A /* MathCore */; };
@@ -83,6 +89,12 @@
 		8408E49F17D430EE004604E2 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Preferences.nib; sourceTree = "<group>"; };
 		8408E4FE17D43147004604E2 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
 		8408E4FF17D43147004604E2 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
+		8408E57617DC31DF004604E2 /* CustomSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSlider.h; sourceTree = "<group>"; };
+		8408E57717DC31DF004604E2 /* CustomSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSlider.m; sourceTree = "<group>"; };
+		8408E57817DC31DF004604E2 /* CustomSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSliderCell.h; sourceTree = "<group>"; };
+		8408E57917DC31DF004604E2 /* CustomSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSliderCell.m; sourceTree = "<group>"; };
+		8408E57A17DC31DF004604E2 /* volumeslider_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volumeslider_blue.png; sourceTree = "<group>"; };
+		8408E57B17DC31DF004604E2 /* volumeslider_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volumeslider_normal.png; sourceTree = "<group>"; };
 		840FB2B1175ED22F00B13F8A /* grammar.y */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.yacc; name = grammar.y; path = MathCore/grammar.y; sourceTree = "<group>"; };
 		840FB2B2175ED22F00B13F8A /* rules.l */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.lex; name = rules.l; path = MathCore/rules.l; sourceTree = "<group>"; };
 		840FB2BE175ED33900B13F8A /* MathCore */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MathCore; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,6 +168,7 @@
 				8408E31317C857B7004604E2 /* EditEquationsController.m */,
 				8408E4FE17D43147004604E2 /* PreferencesController.h */,
 				8408E4FF17D43147004604E2 /* PreferencesController.m */,
+				8408E57517DC31DF004604E2 /* TimeSlider */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -233,6 +246,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8408E57517DC31DF004604E2 /* TimeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				8408E57617DC31DF004604E2 /* CustomSlider.h */,
+				8408E57717DC31DF004604E2 /* CustomSlider.m */,
+				8408E57817DC31DF004604E2 /* CustomSliderCell.h */,
+				8408E57917DC31DF004604E2 /* CustomSliderCell.m */,
+				8408E57A17DC31DF004604E2 /* volumeslider_blue.png */,
+				8408E57B17DC31DF004604E2 /* volumeslider_normal.png */,
+			);
+			name = TimeSlider;
+			path = ../../Desktop/EdenGraph/TimeSlider;
+			sourceTree = SOURCE_ROOT;
+		};
 		840FB2AA175ED21B00B13F8A /* MathCore */ = {
 			isa = PBXGroup;
 			children = (
@@ -276,6 +303,8 @@
 				84F8833B0A296B91006A2528 /* TheParser.h in Headers */,
 				8408E31417C857B7004604E2 /* EditEquationsController.h in Headers */,
 				8408E50017D43147004604E2 /* PreferencesController.h in Headers */,
+				8408E57C17DC31DF004604E2 /* CustomSlider.h in Headers */,
+				8408E57E17DC31DF004604E2 /* CustomSliderCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +394,8 @@
 				84B779940A4111B4006BFE97 /* Floppy.png in Resources */,
 				8408E30F17C85737004604E2 /* EditEquations.nib in Resources */,
 				8408E4A017D430EE004604E2 /* Preferences.nib in Resources */,
+				8408E58017DC31DF004604E2 /* volumeslider_blue.png in Resources */,
+				8408E58117DC31DF004604E2 /* volumeslider_normal.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +424,8 @@
 				84F883540A296B91006A2528 /* TheParser.m in Sources */,
 				8408E31517C857B7004604E2 /* EditEquationsController.m in Sources */,
 				8408E50117D43147004604E2 /* PreferencesController.m in Sources */,
+				8408E57D17DC31DF004604E2 /* CustomSlider.m in Sources */,
+				8408E57F17DC31DF004604E2 /* CustomSliderCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

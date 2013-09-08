@@ -11,6 +11,7 @@
 #import "TheParser.h"
 #import "EditEquationsController.h"
 #import "PreferencesController.h"
+#import "CustomSlider.h"
 
 @interface EGView : NSClipView 
 {
@@ -30,7 +31,7 @@
     IBOutlet NSColorWell	*gridColorWell;
     IBOutlet NSSlider		*precisionSlider;
     IBOutlet NSSlider		*nudgeSlider;
-	IBOutlet NSSlider		*zoomLevelSlider;
+	IBOutlet CustomSlider		*zoomLevelSlider;
     IBOutlet NSPopUpButton	*kernelButton;
     IBOutlet id				equationsSheet;
     IBOutlet NSMenu			*equationsMenu;
