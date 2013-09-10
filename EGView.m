@@ -1874,6 +1874,114 @@ owner:nil];
 #pragma mark Edit Equations Methods
 
 // =========================================================================
+// (IBAction) addEquation: (id) sender
+// -------------------------------------------------------------------------
+// Version: 27. June 2004 15:19
+// Created: 9 September 2013 22:25
+// -------------------------------------------------------------------------
+// This is called from the Save Equation menu item.
+// Need to check that the item isn't already in the list.  This should be 
+// a simple check through the array before adding.  Also, the equation
+// shouldn't be empty.
+// =========================================================================
+- (IBAction) addEquation : (id) sender
+{
+    if ( [equationsList containsObject: [formulaField stringValue]] == NO &&
+		[[formulaField stringValue] isEqual: @""] == NO)
+    {
+        // if there are no items yet, add a spacer into the menu
+        if ([equationsList count] == 0)
+        {
+			[equationsMenu addItem: [NSMenuItem separatorItem]];
+        }
+		
+        [equationsList addObject: [formulaField stringValue]];
+        [equationsMenu addItemWithTitle: [formulaField stringValue] action:@selector(insertEquation:) keyEquivalent: @""];
+        
+        [equationsList writeToFile:equationsFile atomically:YES];
+		
+		//		[equationsTable reloadData];
+    }
+}
+
+// =========================================================================
+// (IBAction) editEquations: (id) sender
+// -------------------------------------------------------------------------
+// Created: 13. June 2004 15:41
+// Version: 31 August 2013
+// -------------------------------------------------------------------------
+// Drop down the equations sheet to add, delete, and modify equations.
+// =========================================================================
+- (IBAction) editEquations : (id) sender
+{
+	
+	if (editEquationsController == nil)
+	{
+		editEquationsController = [[EditEquationsController alloc] initWithWindowNibName:@"EditEquations"];
+	}
+	
+	//	[editEquationsController loadEquations];
+	
+	[NSApp beginSheet: [editEquationsController window]
+       modalForWindow: Window 
+        modalDelegate: nil // editEquationsController 
+       didEndSelector: nil // @selector(didEndSheet:returnCode:contextInfo:) 
+          contextInfo: nil];
+	
+	[NSApp runModalForWindow: [editEquationsController window]];
+	
+    // Dialog is up here.
+    [NSApp endSheet: [editEquationsController window]];
+    [[editEquationsController window] orderOut: self];
+	
+	[editEquationsController release], editEquationsController = nil;
+	
+	if (equationsList != nil)
+	{
+		[equationsList release], equationsList = nil;
+	}
+	
+	equationsList = [[NSMutableArray alloc] initWithContentsOfFile:equationsFile];
+	
+	/*
+	 [NSApp beginSheet:equationsSheet modalForWindow: Window
+	 modalDelegate:nil didEndSelector:nil contextInfo:nil];
+	 
+	 
+	 // Reveal the scroll bar if there are a lot (generally more than 10) of saved equations
+	 if ([equationsList count] > 0)
+	 {
+	 [equationsTable reloadData];
+	 }
+	 
+	 [NSApp runModalForWindow:equationsSheet];
+	 
+	 [NSApp endSheet: equationsSheet];
+	 [equationsSheet orderOut:self];
+	 */
+    
+}
+
+// =========================================================================
+// (IBAction) insertEquation: (id) sender
+// -------------------------------------------------------------------------
+// Version: 13. June 2004 15:44
+// Created: 25. August 2005 21:47
+// =========================================================================
+- (IBAction) insertEquation : (id) sender
+{
+    [formulaField setStringValue: [sender title]];
+    [ [self window] makeFirstResponder:formulaField];
+    [self graph:self];	// Make this call instead of drawGraph so
+	// the equation is parsed properly.
+}
+
+
+#pragma mark -
+#pragma mark Old Edit Equations Methods
+
+/*
+// =========================================================================
 // (void) tableViewSelectionDidChange: (NSNotification *) aNotification
 // -------------------------------------------------------------------------
 // Version: 19. June 2004 1:30
@@ -1973,39 +2081,11 @@ owner:nil];
     [equationsTable reloadData]; // refresh the table
 
 }
-
-// =========================================================================
-// (IBAction) addEquation: (id) sender
-// -------------------------------------------------------------------------
-// Version: 27. June 2004 15:19
-// Created: 24 May 2006
-// -------------------------------------------------------------------------
-// This is called from the Save Equation menu item.
-// Need to check that the item isn't already in the list.  This should be 
-// a simple check through the array before adding.  Also, the equation
-// shouldn't be empty.
-// =========================================================================
-- (IBAction) addEquation : (id) sender
-{
-    if ( [equationsList containsObject: [formulaField stringValue]] == NO &&
-         [[formulaField stringValue] isEqual: @""] == NO)
-    {
-        // if there are no items yet, add a spacer into the menu
-        if ([equationsList count] == 0)
-        {
-			[equationsMenu addItem: [NSMenuItem separatorItem]];
-        }
-    
-        [equationsList addObject: [formulaField stringValue]];
-        [equationsMenu addItemWithTitle: [formulaField stringValue] action:@selector(insertEquation:) keyEquivalent: @""];
-        
-        [equationsList writeToFile:equationsFile atomically:YES];
-		
-		[equationsTable reloadData];
-    }
-}
+*/
 
 
+
+/*
 // =========================================================================
 // (IBAction) addNewEquation: (id) sender
 // -------------------------------------------------------------------------
@@ -2055,67 +2135,11 @@ owner:nil];
 	[equationsTable editColumn: 0 row:[equationsList count] - 1 withEvent: nil select: YES];
     
 }
+*/
 
 
-// =========================================================================
-// (IBAction) editEquations: (id) sender
-// -------------------------------------------------------------------------
-// Created: 13. June 2004 15:41
-// Version: 20 July 2006 21:53
-// -------------------------------------------------------------------------
-// Drop down the equations sheet to add, delete, and modify equations.
-// =========================================================================
-- (IBAction) editEquations : (id) sender
-{
 
-	if (editEquationsController == nil)
-	{
-		editEquationsController = [[EditEquationsController alloc] initWithWindowNibName:@"EditEquations"];
-	}
-	
-//	[editEquationsController loadEquations];
-	
-	[NSApp beginSheet: [editEquationsController window]
-       modalForWindow: Window 
-        modalDelegate: nil // editEquationsController 
-       didEndSelector: nil // @selector(didEndSheet:returnCode:contextInfo:) 
-          contextInfo: nil];
-
-	[NSApp runModalForWindow: [editEquationsController window]];
-	
-    // Dialog is up here.
-    [NSApp endSheet: [editEquationsController window]];
-    [[editEquationsController window] orderOut: self];
-	
-	[editEquationsController release], editEquationsController = nil;
-	
-	if (equationsList != nil)
-	{
-		[equationsList release], equationsList = nil;
-	}
-	
-	equationsList = [[NSMutableArray alloc] initWithContentsOfFile:equationsFile];
-	
 /*
-    [NSApp beginSheet:equationsSheet modalForWindow: Window
-                modalDelegate:nil didEndSelector:nil contextInfo:nil];
-
-
-		// Reveal the scroll bar if there are a lot (generally more than 10) of saved equations
-	if ([equationsList count] > 0)
-	{
-		[equationsTable reloadData];
-	}
-
-    [NSApp runModalForWindow:equationsSheet];
-	      
-    [NSApp endSheet: equationsSheet];
-    [equationsSheet orderOut:self];
-	 */
-    
-}
-
-
 // =========================================================================
 // (IBAction) closeEquationsSheet: (id) sender
 // -------------------------------------------------------------------------
@@ -2175,21 +2199,8 @@ owner:nil];
    }
 
 }
+*/
 
-
-// =========================================================================
-// (IBAction) insertEquation: (id) sender
-// -------------------------------------------------------------------------
-// Version: 13. June 2004 15:44
-// Created: 25. August 2005 21:47
-// =========================================================================
-- (IBAction) insertEquation : (id) sender
-{
-    [formulaField setStringValue: [sender title]];
-    [ [self window] makeFirstResponder:formulaField];
-    [self graph:self];	// Make this call instead of drawGraph so
-                        // the equation is parsed properly.
-}
 
 #pragma mark -
 

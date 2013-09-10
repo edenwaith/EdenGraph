@@ -35,8 +35,8 @@
     IBOutlet NSPopUpButton	*kernelButton;
     IBOutlet id				equationsSheet;
     IBOutlet NSMenu			*equationsMenu;
-    IBOutlet NSTableView	*equationsTable;
-    IBOutlet NSButton		*delete_equation_button;
+//    IBOutlet NSTableView	*equationsTable;
+//    IBOutlet NSButton		*delete_equation_button;
 	IBOutlet NSClipView		*formulaView;
 	
 	IBOutlet NSTextField	*coordinatesField;
@@ -187,16 +187,17 @@
 - (IBAction) goToProductPage: (id) sender;
 - (IBAction) feedBack: (id)sender;
 
-- (void) tableViewSelectionDidChange: (NSNotification *) aNotification;
-- (int)numberOfRowsInTableView:(NSTableView*)table;
-- (id)tableView:(NSTableView*)table objectValueForTableColumn:(NSTableColumn*)col row:(int)rowIndex;
-- (void) tableView: (NSTableView *)aTableView setObjectValue: (id)object forTableColumn:(NSTableColumn *)inColumn row:(int) rowIndex;
 - (IBAction) addEquation : (id) sender;
-- (IBAction) addNewEquation : (id) sender;
 - (IBAction) editEquations : (id) sender;
-- (IBAction) closeEquationsSheet : (id) sender;
-- (IBAction) deleteEquation: (id) sender;
 - (IBAction) insertEquation : (id) sender;
+
+//- (void) tableViewSelectionDidChange: (NSNotification *) aNotification;
+//- (int)numberOfRowsInTableView:(NSTableView*)table;
+//- (id)tableView:(NSTableView*)table objectValueForTableColumn:(NSTableColumn*)col row:(int)rowIndex;
+//- (void) tableView: (NSTableView *)aTableView setObjectValue: (id)object forTableColumn:(NSTableColumn *)inColumn row:(int) rowIndex;
+//- (IBAction) addNewEquation : (id) sender;
+//- (IBAction) closeEquationsSheet : (id) sender;
+//- (IBAction) deleteEquation: (id) sender;
 
 - (void) checkOSVersion;
 

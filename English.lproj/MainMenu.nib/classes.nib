@@ -5,30 +5,6 @@
 	<key>IBClasses</key>
 	<array>
 		<dict>
-			<key>ACTIONS</key>
-			<dict>
-				<key>saveDocumentTo2</key>
-				<string>id</string>
-				<key>setSaveType</key>
-				<string>id</string>
-			</dict>
-			<key>CLASS</key>
-			<string>EGController</string>
-			<key>LANGUAGE</key>
-			<string>ObjC</string>
-			<key>OUTLETS</key>
-			<dict>
-				<key>egView</key>
-				<string>id</string>
-				<key>savePopUpMenu</key>
-				<string>id</string>
-				<key>saveView</key>
-				<string>id</string>
-			</dict>
-			<key>SUPERCLASS</key>
-			<string>NSObject</string>
-		</dict>
-		<dict>
 			<key>CLASS</key>
 			<string>CustomSlider</string>
 			<key>LANGUAGE</key>
@@ -41,17 +17,11 @@
 			<dict>
 				<key>addEquation</key>
 				<string>id</string>
-				<key>addNewEquation</key>
-				<string>id</string>
 				<key>checkForNewVersion</key>
 				<string>id</string>
 				<key>clearGraph</key>
 				<string>id</string>
-				<key>closeEquationsSheet</key>
-				<string>id</string>
 				<key>copyGraph</key>
-				<string>id</string>
-				<key>deleteEquation</key>
 				<string>id</string>
 				<key>editEquations</key>
 				<string>id</string>
@@ -110,14 +80,10 @@
 				<string>NSColorWell</string>
 				<key>coordinatesField</key>
 				<string>NSTextField</string>
-				<key>delete_equation_button</key>
-				<string>NSButton</string>
 				<key>equationsMenu</key>
 				<string>NSMenu</string>
 				<key>equationsSheet</key>
 				<string>id</string>
-				<key>equationsTable</key>
-				<string>NSTableView</string>
 				<key>formulaField</key>
 				<string>id</string>
 				<key>formulaView</key>
@@ -151,6 +117,30 @@
 			<string>FirstResponder</string>
 			<key>LANGUAGE</key>
 			<string>ObjC</string>
+			<key>SUPERCLASS</key>
+			<string>NSObject</string>
+		</dict>
+		<dict>
+			<key>ACTIONS</key>
+			<dict>
+				<key>saveDocumentTo2</key>
+				<string>id</string>
+				<key>setSaveType</key>
+				<string>id</string>
+			</dict>
+			<key>CLASS</key>
+			<string>EGController</string>
+			<key>LANGUAGE</key>
+			<string>ObjC</string>
+			<key>OUTLETS</key>
+			<dict>
+				<key>egView</key>
+				<string>id</string>
+				<key>savePopUpMenu</key>
+				<string>id</string>
+				<key>saveView</key>
+				<string>id</string>
+			</dict>
 			<key>SUPERCLASS</key>
 			<string>NSObject</string>
 		</dict>
