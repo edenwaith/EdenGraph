@@ -51,6 +51,8 @@
 		84F883530A296B91006A2528 /* EGController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53C6E5B03E7DFA5015A706C /* EGController.m */; };
 		84F883540A296B91006A2528 /* TheParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A5A04C0498B7A200B6EFD8 /* TheParser.m */; };
 		84F883560A296B91006A2528 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		84F8886017F3DB7700ED8B58 /* zoomout.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F8885E17F3DB7700ED8B58 /* zoomout.png */; };
+		84F8886117F3DB7700ED8B58 /* zoomin.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F8885F17F3DB7700ED8B58 /* zoomin.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +117,8 @@
 		84DB33E409C67AC4005CF812 /* RemoveEquation.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = RemoveEquation.tiff; sourceTree = "<group>"; };
 		84F8835B0A296B91006A2528 /* Info-EdenGraph__Upgraded_.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-EdenGraph__Upgraded_.plist"; sourceTree = "<group>"; };
 		84F8835C0A296B91006A2528 /* EdenGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdenGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F8885E17F3DB7700ED8B58 /* zoomout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zoomout.png; path = images/zoomout.png; sourceTree = "<group>"; };
+		84F8885F17F3DB7700ED8B58 /* zoomin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zoomin.png; path = images/zoomin.png; sourceTree = "<group>"; };
 		F5172A5B032A8B9001219549 /* ToolbarDelegateCategory.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ToolbarDelegateCategory.h; sourceTree = "<group>"; };
 		F5172A5D032A8C1601219549 /* ToolbarDelegateCategory.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ToolbarDelegateCategory.m; sourceTree = "<group>"; };
 		F51C409F02B1B0EC01000002 /* Segment.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Segment.h; sourceTree = "<group>"; };
@@ -283,6 +287,8 @@
 				849B0D2906F7C53E00211E73 /* EdenGraph.icns */,
 				849B0D2D06F7C5BA00211E73 /* ZoomIn.tif */,
 				849B0D2E06F7C5BA00211E73 /* ZoomOut.tif */,
+				84F8885E17F3DB7700ED8B58 /* zoomout.png */,
+				84F8885F17F3DB7700ED8B58 /* zoomin.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -395,6 +401,8 @@
 				8408E4A017D430EE004604E2 /* Preferences.nib in Resources */,
 				8408E60B17DC47EB004604E2 /* volumeslider_blue.png in Resources */,
 				8408E60C17DC47EB004604E2 /* volumeslider_normal.png in Resources */,
+				84F8886017F3DB7700ED8B58 /* zoomout.png in Resources */,
+				84F8886117F3DB7700ED8B58 /* zoomin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

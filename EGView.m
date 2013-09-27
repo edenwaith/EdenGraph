@@ -1312,7 +1312,7 @@ owner:nil];
 // -------------------------------------------------------------------------
 // Reset the graph to 100% zoom and move the graph back to the origin.
 // -------------------------------------------------------------------------
-// Version: 20. February 2005 11:44
+// Version: 25 September 2013 22:19
 // Created: 20. February 2005 11:44
 // =========================================================================
 - (IBAction) resetGraph: (id) sender
@@ -1353,7 +1353,8 @@ owner:nil];
         
 //    [[self window] setTitle: [[NSString alloc] initWithFormat: @"EdenGraph : %1.0f%%", zoom_percent]];
 	[zoomLevelField setStringValue: [NSString stringWithFormat:@"%1.0f%%", zoom_percent]];
-    
+    [zoomLevelSlider setFloatValue:zoom_percent];
+	
     [self returnToOrigin: self];
 
 }

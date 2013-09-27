@@ -19,6 +19,12 @@
     IBOutlet NSSlider		*nudgeSlider;
 }
 
++ (PreferencesController *) sharedWindowController;
++ (NSString *) nibName;
+
+- (void) prefWindowClosed: (NSNotification *) aNotification;
+- (void) loadSettings;
+
 // TODO: Implement these methods
 //- (void) setAxesColor:(id)sender;
 //- (void) setBGColor:(id)sender;
