@@ -16,7 +16,7 @@
     IBOutlet NSColorWell	*backgroundColorWell;
     IBOutlet NSColorWell	*gridColorWell;
     IBOutlet NSSlider		*precisionSlider;
-    IBOutlet NSSlider		*nudgeSlider;
+//    IBOutlet NSSlider		*nudgeSlider;
 }
 
 + (PreferencesController *) sharedWindowController;
@@ -26,11 +26,11 @@
 - (void) loadSettings;
 
 // TODO: Implement these methods
-//- (void) setAxesColor:(id)sender;
-//- (void) setBGColor:(id)sender;
-//- (void) setGraphColor:(id)sender;
-//- (void) setGridColor:(id)sender;
-//- (IBAction) setPrecision: (id) sender;
+- (IBAction) setAxesColor:(id)sender;
+- (IBAction) setBGColor:(id)sender;
+- (IBAction) setGraphColor:(id)sender;
+- (IBAction) setGridColor:(id)sender;
+- (IBAction) setPrecision: (id) sender;
 //- (IBAction) setNudge: (id) sender;
 
 @end

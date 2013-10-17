@@ -17,17 +17,24 @@ static PreferencesController *_sharedWindowController = nil;
 	if (_sharedWindowController == NULL)
 	{
 		_sharedWindowController = [[self alloc] initWithWindowNibName: [self nibName]];
+		
 	}
 	
-	[_sharedWindowController window];	// load the nib
-	// Do any preperations here
+//	[_sharedWindowController window];	// load the nib
+//	// Do any preperations here
 //	[_sharedWindowController loadSettings];
-	[_sharedWindowController showWindow: NULL];
-//	[[NSApplication sharedApplication] runModalForWindow: [_sharedWindowController window]];
+//	[_sharedWindowController showWindow: NULL];
 	
-	// Need to also register when the window closes
 	
-	return NULL;
+	
+	return _sharedWindowController;
+}
+
+- (id) init
+{
+	self = [super initWithWindowNibName: @"Preferences"];
+
+	return self;
 }
 
 - (void) dealloc
@@ -42,15 +49,40 @@ static PreferencesController *_sharedWindowController = nil;
 	return @"Preferences";
 }
 
-- (void) awakeFromNib
+- (IBAction) showWindow: (id) sender 
 {
-	[[self window] center];
+	if (![[self window] isVisible])
+		[[self window] center];
+	
+	[super showWindow:sender];
+}
 
+// similar to awakeFromNib or windowControllerDidLoadNib:
+- (void) windowDidLoad
+{
+	[super windowDidLoad];
+	
 	[[NSNotificationCenter defaultCenter] addObserver:self
 											 selector:@selector(prefWindowClosed:)
 												 name:NSWindowWillCloseNotification
-											   object: [_sharedWindowController window]];
+											   object: [self window]];
+
 }
+
+- (void) hideWindow
+{
+	[[self window] orderOut:self];
+}
+
+//- (void) awakeFromNib
+//{
+//	[[self window] center];
+//
+//	[[NSNotificationCenter defaultCenter] addObserver:self
+//											 selector:@selector(prefWindowClosed:)
+//												 name:NSWindowWillCloseNotification
+//											   object: [_sharedWindowController window]];
+//}
 
 #pragma mark -
 
@@ -67,5 +99,22 @@ static PreferencesController *_sharedWindowController = nil;
 - (void) loadSettings
 {
 }
+
+#pragma mark -
+
+- (IBAction) setAxesColor:(id)sender
+{}
+
+- (IBAction) setBGColor:(id)sender
+{}
+
+- (IBAction) setGraphColor:(id)sender
+{}
+
+- (IBAction) setGridColor:(id)sender
+{}
+
+- (IBAction) setPrecision: (id) sender
+{}
 
 @end

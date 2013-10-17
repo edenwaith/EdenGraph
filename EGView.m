@@ -1801,9 +1801,17 @@ owner:nil];
 {
 	if (preferencesController == nil)
 	{
+		preferencesController = [[PreferencesController alloc] init];
 	}
 	
-	// show window
+	[preferencesController showWindow: self];
+	
+//	if (preferencesController == nil)
+//	{
+//	}
+//	
+//	// show window
+//	[PreferencesController sharedWindowController];
 }
 
 // =========================================================================
@@ -2218,6 +2226,7 @@ owner:nil];
 // =========================================================================
 - (void) checkOSVersion
 {
+	// TODO: Might need to fix this, since this might not be reliable
     if ( floor(NSAppKitVersionNumber) <= 577 )
     {
         os_version = 1000;
@@ -2238,6 +2247,10 @@ owner:nil];
 	{
         os_version = 1040;
     }
+//	else if ( floor(NSAppKitVersionNumber) <= 1038)
+//	{
+//		os_version = 1060;
+//	}
 }
 
 // =========================================================================

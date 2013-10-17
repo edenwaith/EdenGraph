@@ -102,6 +102,7 @@
 		840FB2BE175ED33900B13F8A /* MathCore */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MathCore; sourceTree = BUILT_PRODUCTS_DIR; };
 		842376D708DBE33E0097FFDB /* Clear.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Clear.tiff; sourceTree = "<group>"; };
 		84886DDF17AF2E7300544C6E /* MathCore */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = MathCore; path = ../builds/EdenGraph/build/Development/MathCore; sourceTree = SOURCE_ROOT; };
+		8488E290180B5B22005C6792 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
 		849B0D2906F7C53E00211E73 /* EdenGraph.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = EdenGraph.icns; sourceTree = "<group>"; };
 		849B0D2B06F7C55600211E73 /* Origin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Origin.png; sourceTree = "<group>"; };
 		849B0D2D06F7C5BA00211E73 /* ZoomIn.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ZoomIn.tif; sourceTree = "<group>"; };
@@ -206,6 +207,7 @@
 		29B97314FDCFA39411CA2CEA /* EdenGraph */ = {
 			isa = PBXGroup;
 			children = (
+				8488E290180B5B22005C6792 /* TODO */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				840FB2AA175ED21B00B13F8A /* MathCore */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
