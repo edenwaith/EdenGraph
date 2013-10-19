@@ -8,7 +8,7 @@
 		<string key="IBDocument.HIToolboxVersion">353.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="2"/>
+			<integer value="1"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -447,6 +447,14 @@
 					</object>
 					<int key="connectionID">33</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">window</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="1005"/>
+					</object>
+					<int key="connectionID">36</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -694,11 +702,11 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>{{366, 151}, {271, 302}}</string>
 					<string>{{366, 151}, {271, 302}}</string>
-					<integer value="1"/>
+					<boolean value="YES" id="5"/>
 					<string>{196, 240}</string>
 					<string>{{357, 418}, {480, 270}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<boolean value="YES" id="5"/>
+					<reference ref="5"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="5"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -753,7 +761,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">33</int>
+			<int key="maxID">36</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -788,7 +796,6 @@
 							<string>backgroundColorWell</string>
 							<string>graphColorWell</string>
 							<string>gridColorWell</string>
-							<string>nudgeSlider</string>
 							<string>precisionSlider</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
@@ -797,7 +804,6 @@
 							<string>NSColorWell</string>
 							<string>NSColorWell</string>
 							<string>NSColorWell</string>
-							<string>NSSlider</string>
 							<string>NSSlider</string>
 						</object>
 					</object>

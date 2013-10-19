@@ -8,6 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 
+#define kGraphColorKey		@"Graph Color"
+#define kAxesColorKey		@"Axes Color"
+#define kBackgroundColorKey	@"Background Color"
+#define kGridColorKey		@"Grid Color"
+#define kPrecisionSliderKey	@"Precision"
 
 @interface PreferencesController : NSWindowController 
 {
@@ -16,21 +21,17 @@
     IBOutlet NSColorWell	*backgroundColorWell;
     IBOutlet NSColorWell	*gridColorWell;
     IBOutlet NSSlider		*precisionSlider;
-//    IBOutlet NSSlider		*nudgeSlider;
+	
+	NSUserDefaults			*prefs;
 }
-
-+ (PreferencesController *) sharedWindowController;
-+ (NSString *) nibName;
 
 - (void) prefWindowClosed: (NSNotification *) aNotification;
 - (void) loadSettings;
 
-// TODO: Implement these methods
 - (IBAction) setAxesColor:(id)sender;
 - (IBAction) setBGColor:(id)sender;
 - (IBAction) setGraphColor:(id)sender;
 - (IBAction) setGridColor:(id)sender;
 - (IBAction) setPrecision: (id) sender;
-//- (IBAction) setNudge: (id) sender;
 
 @end
