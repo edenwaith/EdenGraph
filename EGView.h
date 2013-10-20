@@ -173,6 +173,8 @@
 - (void) addGrid: (NSPoint)pt1 to:(NSPoint)pt2;
 
 // preferences
+- (void) preferencesUpdated: (NSNotification *) aNotification;
+- (void) updatePreferences;
 - (void) setAxesColor:(id)sender;
 - (void) setBGColor:(id)sender;
 - (void) setGraphColor:(id)sender;

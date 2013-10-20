@@ -42,7 +42,7 @@
 
 - (void) prefWindowClosed: (NSNotification *) aNotification
 {	
-	[prefs synchronize];	// Force the defaults to update
+//	[self sendPreferencesUpdatedNotification: ];	// Force the defaults to update
 }
 
 - (void) loadSettings
@@ -119,34 +119,31 @@
 #pragma mark - Setter Methods
 
 - (IBAction) setAxesColor: (id) sender
-{
-//    [axesColor autorelease];
-//    NSColor *axesColor = [[sender color] retain];
-    
+{    
     NSData *colorAsData = [NSArchiver archivedDataWithRootObject: [sender color]];
     [prefs setObject:colorAsData forKey: kAxesColorKey];
-	[prefs synchronize];
+	[self sendPreferencesUpdatedNotification: kAxesColorKey];
 }
 
 - (IBAction) setBGColor: (id) sender
 {
     NSData *colorAsData = [NSArchiver archivedDataWithRootObject: [sender color]];
     [prefs setObject:colorAsData forKey: kBackgroundColorKey];
-	[prefs synchronize];
+	[self sendPreferencesUpdatedNotification: kBackgroundColorKey];
 }
 
 - (IBAction) setGraphColor: (id) sender
 {
     NSData *colorAsData = [NSArchiver archivedDataWithRootObject: [sender color]];
     [prefs setObject:colorAsData forKey: kGraphColorKey];
-	[prefs synchronize];
+	[self sendPreferencesUpdatedNotification: kGraphColorKey];
 }
 
 - (IBAction) setGridColor: (id) sender
 {
     NSData *colorAsData = [NSArchiver archivedDataWithRootObject: [sender color]];
     [prefs setObject:colorAsData forKey: kGridColorKey];
-	[prefs synchronize];
+	[self sendPreferencesUpdatedNotification: kGridColorKey];
 }
 
 - (IBAction) setPrecision: (id) sender
@@ -168,7 +165,14 @@
     }
     
     [prefs setFloat: precison forKey: kPrecisionSliderKey];
+	[self sendPreferencesUpdatedNotification: kPrecisionSliderKey];
+}
+
+- (void) sendPreferencesUpdatedNotification: (NSString *) key
+{
 	[prefs synchronize];
+	
+	[[NSNotificationCenter defaultCenter] postNotificationName:kPreferencesUpdatedNotification object: key];
 }
 
 @end

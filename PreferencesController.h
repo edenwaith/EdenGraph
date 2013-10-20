@@ -13,6 +13,7 @@
 #define kBackgroundColorKey	@"Background Color"
 #define kGridColorKey		@"Grid Color"
 #define kPrecisionSliderKey	@"Precision"
+#define kPreferencesUpdatedNotification @"PreferencesUpdatedNotification"
 
 @interface PreferencesController : NSWindowController 
 {
@@ -33,5 +34,6 @@
 - (IBAction) setGraphColor:(id)sender;
 - (IBAction) setGridColor:(id)sender;
 - (IBAction) setPrecision: (id) sender;
+- (void) sendPreferencesUpdatedNotification: (NSString *) key;
 
 @end

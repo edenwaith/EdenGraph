@@ -90,7 +90,7 @@
 
         [fromEvaluator readInBackgroundAndNotify];
         
-        [ [self window] setAcceptsMouseMovedEvents:YES];
+        [[self window] setAcceptsMouseMovedEvents:YES];
         
         // set initial values for the min and max values
         temp_xmin 	= -5.0; //[xminCell doubleValue];
@@ -131,14 +131,6 @@
         
     }
 
-    // The notification below causes the getFormAndScaleView
-    // method to be invoked whenever this view is resized.
-    [ [NSNotificationCenter defaultCenter]
-                    addObserver:self
-                       selector:@selector(getFormAndScaleView)
-                           name:NSViewFrameDidChangeNotification
-                         object:self];
-
     return self;
 }
 
@@ -149,10 +141,13 @@
 // Garfinkel & Mahoney's notes: dealloc is missing from G&M Book; does it 
 // really need to be here, as it is never called?
 // ========================================================================= 
-- (void)dealloc
+- (void) dealloc
 {
-    [evaluator  release];
-    [evaluator  terminate];
+	[[NSNotificationCenter defaultCenter] removeObserver: self name: NSViewFrameDidChangeNotification object: nil];
+	[[NSNotificationCenter defaultCenter] removeObserver: self name: kPreferencesUpdatedNotification object: nil];
+	
+    [evaluator  release], evaluator = nil;
+    [evaluator  terminate]; // or should this terminate, then release?
     
     [graphColor release];
     [axesColor release];
@@ -216,103 +211,22 @@
     
     [self setString]; // initialize the x_string and y_strings
     
+	[self updatePreferences];
+	
 //	[formulaView setBackgroundColor: [NSColor lightGrayColor]];
-    
-    if ([prefs floatForKey:@"Precision"] != nil)
-    {
+	// The notification below causes the getFormAndScaleView
+    // method to be invoked whenever this view is resized.
+    [ [NSNotificationCenter defaultCenter] addObserver:self
+											 selector:@selector(getFormAndScaleView)
+												name:NSViewFrameDidChangeNotification
+											  object:self];
+	
+	[[NSNotificationCenter defaultCenter] addObserver:self 
+											 selector:@selector(preferencesUpdated:) 
+												 name:kPreferencesUpdatedNotification 
+											   object:nil]; 
+	
 
-        xstep = [prefs floatForKey: @"Precision"];
-
-        [precisionSlider setFloatValue: xstep];
-        
-        if ([precisionSlider floatValue] < 0.1)
-        {
-            
-            [precisionSlider setFloatValue: 0.1 + fabs([precisionSlider floatValue] - 0.1)];
-        }
-        else
-        {
-            [precisionSlider setFloatValue: 0.1 - fabs([precisionSlider floatValue] - 0.1)];
-        }
-    
-    }
-    else
-    {
-        [precisionSlider setFloatValue: 0.18f];
-        xstep = 0.1;
-    }
-    
-    // Nudge
-    if ([prefs floatForKey:@"Nudge"] != nil)
-    {
-        nudge_step = [prefs floatForKey: @"Nudge"];  
-        [nudgeSlider setFloatValue: nudge_step];
-    }
-    else
-    {
-        [nudgeSlider setFloatValue: 1.0f];
-        nudge_step = 1.0;
-    }
-    
-    if ([prefs objectForKey: @"Axes Color"] != nil)
-    {
-        NSData *colorAsData = [prefs objectForKey: @"Axes Color"];
-        [axesColorWell setColor: [NSUnarchiver unarchiveObjectWithData:colorAsData]];
-    }
-    else
-    {
-        [axesColorWell setColor: [NSColor lightGrayColor]];
-    }
-    
-    if ([prefs objectForKey: @"Graph Color"] != nil)
-    {
-        NSData *colorAsData = [prefs objectForKey: @"Graph Color"];
-        [graphColorWell setColor: [NSUnarchiver unarchiveObjectWithData:colorAsData]];
-    }
-    else
-    {
-        [graphColorWell setColor: [NSColor redColor]];
-    }
-    
-    if ([prefs objectForKey: @"Background Color"] != nil)
-    {
-        NSData *colorAsData = [prefs objectForKey: @"Background Color"];
-        [backgroundColorWell setColor: [NSUnarchiver unarchiveObjectWithData:colorAsData]];
-    }
-    else
-    {
-        [backgroundColorWell setColor: [NSColor whiteColor]];
-    }
-    
-    if ([prefs objectForKey: @"Grid Color"] != nil)
-    {
-        NSData *colorAsData = [prefs objectForKey: @"Grid Color"];
-        [gridColorWell setColor: [NSUnarchiver unarchiveObjectWithData:colorAsData]];
-    }
-    else
-    {
-        [gridColorWell setColor: [NSColor colorWithCalibratedRed: 0.8 green: 1.0 blue: 1.0 alpha:1.0]];
-    }
-    
-    if ([prefs objectForKey: @"Kernel Type"] != nil)
-    {
-        NSData *textAsData = [prefs objectForKey: @"Kernel Type"];
-        [kernelButton selectItemWithTitle: [NSUnarchiver unarchiveObjectWithData:textAsData]];
-    }
-    else
-    {
-        [kernelButton selectItemWithTitle: @"EdenGraph"];
-    }
-    
-    if (xstep <= 0.001)
-    {
-        xstep = 0.001;
-    }
-            
-    axesColor = [[axesColorWell color] retain];
-    graphColor = [[graphColorWell color] retain];
-    backgroundColor = [[backgroundColorWell color] retain];
-    gridColor = [[gridColorWell color] retain];
     
     // [kernelType setString: [kernelButton titleOfSelectedItem]];
     
@@ -1660,6 +1574,130 @@ owner:nil];
 
 #pragma mark -
 #pragma mark Preferences Methods
+
+// =========================================================================
+// (void) preferencesUpdated: (NSNotification *) aNotification
+// -------------------------------------------------------------------------
+// Created: 19 October 2013
+// Version: 19 October 2013
+// =========================================================================
+- (void) preferencesUpdated: (NSNotification *) aNotification
+{
+	[self updatePreferences];	
+	[self drawGraph];
+}
+
+// =========================================================================
+// (void) updatePreferences
+// -------------------------------------------------------------------------
+// Created: 19 October 2013
+// Version: 19 October 2013
+// =========================================================================
+- (void) updatePreferences
+{
+	prefs = [NSUserDefaults standardUserDefaults];
+	
+	// Precision of drawn graph
+	if ([prefs floatForKey: kPrecisionSliderKey] != nil)
+    {
+        xstep = [prefs floatForKey: kPrecisionSliderKey];
+		
+        [precisionSlider setFloatValue: xstep];
+        
+        if ([precisionSlider floatValue] < 0.1)
+        {
+            
+            [precisionSlider setFloatValue: 0.1 + fabs([precisionSlider floatValue] - 0.1)];
+        }
+        else
+        {
+            [precisionSlider setFloatValue: 0.1 - fabs([precisionSlider floatValue] - 0.1)];
+        }
+		
+    }
+    else
+    {
+        [precisionSlider setFloatValue: 0.18f];
+        xstep = 0.1;
+    }
+    
+    // Nudge -- No longer used in EdenGraph 1.3
+    if ([prefs floatForKey:@"Nudge"] != nil)
+    {
+        nudge_step = [prefs floatForKey: @"Nudge"];  
+        [nudgeSlider setFloatValue: nudge_step];
+    }
+    else
+    {
+        [nudgeSlider setFloatValue: 1.0f];
+        nudge_step = 1.0;
+    }
+    
+	// Axes Color
+    if ([prefs objectForKey: kAxesColorKey] != nil)
+    {
+        NSData *colorAsData = [prefs objectForKey: kAxesColorKey];
+        [axesColorWell setColor: [NSUnarchiver unarchiveObjectWithData:colorAsData]];
+    }
+    else
+    {
+        [axesColorWell setColor: [NSColor lightGrayColor]];
+    }
+    
+	// Graph Color
+    if ([prefs objectForKey: kGraphColorKey] != nil)
+    {
+        NSData *colorAsData = [prefs objectForKey: kGraphColorKey];
+        [graphColorWell setColor: [NSUnarchiver unarchiveObjectWithData:colorAsData]];
+    }
+    else
+    {
+        [graphColorWell setColor: [NSColor redColor]];
+    }
+    
+	// Background color
+    if ([prefs objectForKey: kBackgroundColorKey] != nil)
+    {
+        NSData *colorAsData = [prefs objectForKey: kBackgroundColorKey];
+        [backgroundColorWell setColor: [NSUnarchiver unarchiveObjectWithData:colorAsData]];
+    }
+    else
+    {
+        [backgroundColorWell setColor: [NSColor whiteColor]];
+    }
+    
+	// Grid color
+    if ([prefs objectForKey: kGridColorKey] != nil)
+    {
+        NSData *colorAsData = [prefs objectForKey: kGridColorKey];
+        [gridColorWell setColor: [NSUnarchiver unarchiveObjectWithData:colorAsData]];
+    }
+    else
+    {
+        [gridColorWell setColor: [NSColor colorWithCalibratedRed: 0.8 green: 1.0 blue: 1.0 alpha:1.0]];
+    }
+    
+	// Math kernel -- no longer used
+    if ([prefs objectForKey: @"Kernel Type"] != nil)
+    {
+        NSData *textAsData = [prefs objectForKey: @"Kernel Type"];
+        [kernelButton selectItemWithTitle: [NSUnarchiver unarchiveObjectWithData:textAsData]];
+    }
+    else
+    {
+        [kernelButton selectItemWithTitle: @"EdenGraph"];
+    }
+    
+    if (xstep <= 0.001)
+    {
+        xstep = 0.001;
+    }
+	
+    axesColor = [[axesColorWell color] retain];
+    graphColor = [[graphColorWell color] retain];
+    backgroundColor = [[backgroundColorWell color] retain];
+    gridColor = [[gridColorWell color] retain];
+}
 
 // =========================================================================
 // (void) setAxesColor: (id) sender
