@@ -1,8 +1,8 @@
 TODO EdenGraph 1.3.0
 + Separate equation list editor into its own controller and nib
 + Separate preferences into its own controller and nib
-- Be able to organize the functions in the drop down sheet
+/ Be able to organize the functions in the drop down sheet
 - Resize the main window and display more graph area
 - Display a list of available equations or have auto-complete
-- Additional UI improvements
+- Additional UI improvements, icon enhancements, etc.
 - Zoom at arbitrary increments

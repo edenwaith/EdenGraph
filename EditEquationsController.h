@@ -8,6 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
+#define kEquationsTableDataType @"EquationsTableDataType"
 
 @interface EditEquationsController : NSWindowController 
 {
@@ -20,7 +21,7 @@
     NSMutableArray			*equationsList;
 }
 
-- (void) loadEquations;
+//- (void) loadEquations;
 - (IBAction) closePanel: (id) sender;
 - (IBAction) addEquation: (id) sender;
 - (IBAction) deleteEquation: (id) sender;

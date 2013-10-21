@@ -42,6 +42,8 @@
     
     // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
 
+	[equationsTable registerForDraggedTypes: [NSArray arrayWithObject: kEquationsTableDataType] ];
+	
 	if (equationsFile != nil)
 	{
 		[equationsFile release], equationsFile = nil;
@@ -72,6 +74,7 @@
 - (IBAction) closePanel: (id) sender
 {
 	[equationsTable deselectAll:self];
+	[equationsList writeToFile:equationsFile atomically:YES];
 	
 	// Update Equations menu
 	int menuItemsCount = [[equationsMenu itemArray] count];
@@ -96,7 +99,6 @@
 		}
 	}
 	
-//	[[self window] close];
 	[NSApp stopModal];
 }
 
@@ -192,17 +194,13 @@
 }
 
 // =========================================================================
-// (void) tableView:
+// (void) tableView:setObjectValue:forTableColumn:row
 // -------------------------------------------------------------------------
-// Version: 30. June 2004 20:39
 // Created: 17. June 2004 22:38
+// Version: 19 October 2013
 // =========================================================================
 - (void) tableView: (NSTableView *)aTableView setObjectValue: (id)object forTableColumn:(NSTableColumn *)inColumn row:(int) rowIndex
 {
-//    int index 	= 0;
-    // add three since the first three slots of the Equations menu are already filled up
-//    index = rowIndex+3;
-
 	// It cannot be blank
 	// It cannot previously or currently exist
 	// If this is new, it cannot match anything else already existing
@@ -226,5 +224,103 @@
     [equationsTable reloadData]; // refresh the table
 }
 
+// =========================================================================
+// (NSDragOperation)tableView:(NSTableView*)tv validateDrop:(id <NSDraggingInfo>)info proposedRow:(int)row proposedDropOperation:(NSTableViewDropOperation)op
+// -------------------------------------------------------------------------
+// http://developer.apple.com/documentation/Cocoa/Conceptual/DragandDrop/UsingDragAndDrop.html#//apple_ref/doc/uid/20000726-BABFIDAB
+// -------------------------------------------------------------------------
+// Created: 20 October 2013 21:03
+// Version: 20 October 2013 21:03
+// =========================================================================
+- (NSDragOperation)tableView:(NSTableView*)tv validateDrop:(id <NSDraggingInfo>)info proposedRow:(int)row proposedDropOperation:(NSTableViewDropOperation)op
+{
+    // Add code here to validate the drop
+    return NSDragOperationEvery;
+}	
+
+// =========================================================================
+// - (BOOL)tableView:(NSTableView *)tv writeRowsWithIndexes:(NSIndexSet *)rowIndexes toPasteboard:(NSPasteboard*)pboard
+// -------------------------------------------------------------------------
+// 
+// -------------------------------------------------------------------------
+// Created: 20 October 2013 21:15
+// Version: 20 October 2013 21:15
+// =========================================================================
+- (BOOL)tableView:(NSTableView *)tv writeRowsWithIndexes:(NSIndexSet *)rowIndexes toPasteboard:(NSPasteboard*)pboard
+{
+	// Copy the row numbers to the pasteboard.
+	NSData *data = [NSKeyedArchiver archivedDataWithRootObject:rowIndexes];
+	[pboard declareTypes:[NSArray arrayWithObject:kEquationsTableDataType] owner:self];
+	[pboard setData:data forType: kEquationsTableDataType];
+	
+	return YES; 
+}	
+
+// =========================================================================
+// (BOOL)tableView:(NSTableView *)aTableView acceptDrop:(id <NSDraggingInfo>)info row:(int)row dropOperation:(NSTableViewDropOperation)operation
+// -------------------------------------------------------------------------
+// 
+// -------------------------------------------------------------------------
+// Created: 20 October 2013 21:19
+// Version: 20 October 2013 21:19
+// =========================================================================
+- (BOOL)tableView:(NSTableView *)aTableView acceptDrop:(id <NSDraggingInfo>)info row:(int)row dropOperation:(NSTableViewDropOperation)operation
+{
+    NSPasteboard* pboard = [info draggingPasteboard];
+    NSData* rowData = [pboard dataForType: kEquationsTableDataType];
+    NSIndexSet* rowIndexes = [NSKeyedUnarchiver unarchiveObjectWithData:rowData];
+	//    int dragRow = [rowIndexes firstIndex];
+	
+	int		insertionRow;
+	int		newIndex;
+	int		firstDragRowIndex;
+	NSArray	*draggedItems;
+	draggedItems = [equationsList objectsAtIndexes: rowIndexes];
+	
+	if (draggedItems != NULL) 
+	{
+		
+		[equationsList removeObjectsAtIndexes: rowIndexes];
+		
+		//	the row number for insertion is before we removed the dragged items, if the insertion is below the removal
+		//	we need to adjust the insertion row. We also need to honor the drag operation
+		
+		//	ddwr - this code will not work for non-contiguous selection of table rows
+		
+		insertionRow = row;
+		firstDragRowIndex = [rowIndexes firstIndex];
+		if (insertionRow >  firstDragRowIndex) {
+			insertionRow -= [draggedItems count];
+		}
+		
+		if (operation == NSTableViewDropOn) {
+			insertionRow++;
+		}
+		
+		NSMutableIndexSet *insertionIndexSet = [[[NSMutableIndexSet alloc] init] autorelease];
+		
+		//	insert them back in the reverse order so they keep the order that they were selected
+		for (newIndex = [draggedItems count] - 1; newIndex >= 0; newIndex--) {
+			
+			if (insertionRow >= (int) [equationsList count]) {
+				[equationsList addObject: [draggedItems objectAtIndex: newIndex]];
+			} else {
+				[equationsList insertObject: [draggedItems objectAtIndex: newIndex] atIndex: insertionRow];
+			}
+			
+			[insertionIndexSet addIndex: insertionRow];
+		}
+		
+		[equationsTable deselectAll:self];
+		//		[table selectRowIndexes:insertionIndexSet byExtendingSelection:YES];	// select row(s) at new location
+//		[self updateChangeCount:NSChangeDone]; // Not sure if this is needed...
+		[equationsTable reloadData];
+		
+	}
+    // Move the specified row to its new location...
+	
+	return YES;
+	
+}
 
 @end

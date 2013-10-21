@@ -1906,6 +1906,33 @@
 			8488E4A3181375EB005C6792 /* PBXTextBookmark */ = 8488E4A3181375EB005C6792 /* PBXTextBookmark */;
 			8488E4A4181375EB005C6792 /* PBXTextBookmark */ = 8488E4A4181375EB005C6792 /* PBXTextBookmark */;
 			8488E4A5181375EB005C6792 /* PBXTextBookmark */ = 8488E4A5181375EB005C6792 /* PBXTextBookmark */;
+			8488E4C21814C304005C6792 /* PBXTextBookmark */ = 8488E4C21814C304005C6792 /* PBXTextBookmark */;
+			8488E4C31814C304005C6792 /* PBXTextBookmark */ = 8488E4C31814C304005C6792 /* PBXTextBookmark */;
+			8488E4C41814C304005C6792 /* PBXTextBookmark */ = 8488E4C41814C304005C6792 /* PBXTextBookmark */;
+			8488E4C51814C304005C6792 /* PBXTextBookmark */ = 8488E4C51814C304005C6792 /* PBXTextBookmark */;
+			8488E4C61814C304005C6792 /* PBXTextBookmark */ = 8488E4C61814C304005C6792 /* PBXTextBookmark */;
+			8488E4C71814C304005C6792 /* PBXTextBookmark */ = 8488E4C71814C304005C6792 /* PBXTextBookmark */;
+			8488E4C81814C304005C6792 /* PBXTextBookmark */ = 8488E4C81814C304005C6792 /* PBXTextBookmark */;
+			8488E4C91814C3D7005C6792 /* PBXTextBookmark */ = 8488E4C91814C3D7005C6792 /* PBXTextBookmark */;
+			8488E4CA1814C3D8005C6792 /* PBXTextBookmark */ = 8488E4CA1814C3D8005C6792 /* PBXTextBookmark */;
+			8488E4D21814C7EB005C6792 /* PBXTextBookmark */ = 8488E4D21814C7EB005C6792 /* PBXTextBookmark */;
+			8488E4D31814C7EB005C6792 /* PBXTextBookmark */ = 8488E4D31814C7EB005C6792 /* PBXTextBookmark */;
+			8488E4D41814C7EB005C6792 /* PBXTextBookmark */ = 8488E4D41814C7EB005C6792 /* PBXTextBookmark */;
+			8488E4D51814C7EB005C6792 /* PBXTextBookmark */ = 8488E4D51814C7EB005C6792 /* PBXTextBookmark */;
+			8488E4D61814C7EB005C6792 /* PBXTextBookmark */ = 8488E4D61814C7EB005C6792 /* PBXTextBookmark */;
+			8488E4D71814C7EB005C6792 /* PBXTextBookmark */ = 8488E4D71814C7EB005C6792 /* PBXTextBookmark */;
+			8488E4D81814C7EB005C6792 /* PBXTextBookmark */ = 8488E4D81814C7EB005C6792 /* PBXTextBookmark */;
+			8488E4D91814C7EB005C6792 /* PBXTextBookmark */ = 8488E4D91814C7EB005C6792 /* PBXTextBookmark */;
+			8488E4DA1814C7EB005C6792 /* PBXTextBookmark */ = 8488E4DA1814C7EB005C6792 /* PBXTextBookmark */;
+			8488E4DB1814C7EB005C6792 /* PBXTextBookmark */ = 8488E4DB1814C7EB005C6792 /* PBXTextBookmark */;
+			8488E4DD1814C91A005C6792 /* PBXTextBookmark */ = 8488E4DD1814C91A005C6792 /* PBXTextBookmark */;
+			8488E4DE1814C91A005C6792 /* PBXTextBookmark */ = 8488E4DE1814C91A005C6792 /* PBXTextBookmark */;
+			8488E4DF1814CA1A005C6792 /* PBXTextBookmark */ = 8488E4DF1814CA1A005C6792 /* PBXTextBookmark */;
+			8488E4E01814CA1A005C6792 /* PBXTextBookmark */ = 8488E4E01814CA1A005C6792 /* PBXTextBookmark */;
+			8488E4E11814CA1A005C6792 /* PBXTextBookmark */ = 8488E4E11814CA1A005C6792 /* PBXTextBookmark */;
+			8488E4E21814CA1A005C6792 /* PBXTextBookmark */ = 8488E4E21814CA1A005C6792 /* PBXTextBookmark */;
+			8488E4E31814CA1A005C6792 /* PBXTextBookmark */ = 8488E4E31814CA1A005C6792 /* PBXTextBookmark */;
+			8488E4E41814CA1A005C6792 /* PBXTextBookmark */ = 8488E4E41814CA1A005C6792 /* PBXTextBookmark */;
 			84B534F217B5B905000F217D = 84B534F217B5B905000F217D /* PBXTextBookmark */;
 			84B534F317B5B905000F217D = 84B534F317B5B905000F217D /* PBXTextBookmark */;
 			84B534F517B5B905000F217D = 84B534F517B5B905000F217D /* PBXTextBookmark */;
@@ -2223,16 +2250,16 @@
 	};
 	8408E31217C857B7004604E2 /* EditEquationsController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {771, 471}}";
-			sepNavSelRange = "{478, 0}";
-			sepNavVisRange = "{0, 604}";
+			sepNavIntBoundsRect = "{{0, 0}, {771, 494}}";
+			sepNavSelRange = "{495, 13}";
+			sepNavVisRange = "{0, 664}";
 		};
 	};
 	8408E31317C857B7004604E2 /* EditEquationsController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {792, 3500}}";
-			sepNavSelRange = "{792, 0}";
-			sepNavVisRange = "{146, 646}";
+			sepNavIntBoundsRect = "{{0, 0}, {954, 4606}}";
+			sepNavSelRange = "{6685, 0}";
+			sepNavVisRange = "{10002, 1048}";
 		};
 	};
 	8408E31917C85990004604E2 /* PBXTextBookmark */ = {
@@ -2240,7 +2267,7 @@
 		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
 		name = "EditEquationsController.h: 13";
 		rLen = 0;
-		rLoc = 451;
+		rLoc = 509;
 		rType = 0;
 		vrLen = 248;
 		vrLoc = 0;
@@ -2290,7 +2317,7 @@
 		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
 		name = "EditEquationsController.h: 13";
 		rLen = 0;
-		rLoc = 451;
+		rLoc = 509;
 		rType = 0;
 		vrLen = 248;
 		vrLoc = 0;
@@ -2390,7 +2417,7 @@
 		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
 		name = "EditEquationsController.h: 13";
 		rLen = 0;
-		rLoc = 451;
+		rLoc = 509;
 		rType = 0;
 		vrLen = 248;
 		vrLoc = 0;
@@ -2410,7 +2437,7 @@
 		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
 		name = "EditEquationsController.h: 13";
 		rLen = 0;
-		rLoc = 451;
+		rLoc = 509;
 		rType = 0;
 		vrLen = 248;
 		vrLoc = 0;
@@ -2530,7 +2557,7 @@
 		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
 		name = "EditEquationsController.h: 16";
 		rLen = 37;
-		rLoc = 479;
+		rLoc = 539;
 		rType = 0;
 		vrLen = 280;
 		vrLoc = 0;
@@ -2550,7 +2577,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 38";
 		rLen = 0;
-		rLoc = 2225;
+		rLoc = 2356;
 		rType = 0;
 		vrLen = 520;
 		vrLoc = 183;
@@ -2570,7 +2597,7 @@
 		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
 		name = "EditEquationsController.h: 16";
 		rLen = 37;
-		rLoc = 479;
+		rLoc = 539;
 		rType = 0;
 		vrLen = 280;
 		vrLoc = 0;
@@ -2580,7 +2607,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 38";
 		rLen = 0;
-		rLoc = 2225;
+		rLoc = 2356;
 		rType = 0;
 		vrLen = 520;
 		vrLoc = 183;
@@ -2600,7 +2627,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 38";
 		rLen = 0;
-		rLoc = 2225;
+		rLoc = 2356;
 		rType = 0;
 		vrLen = 539;
 		vrLoc = 147;
@@ -2609,8 +2636,8 @@
 		isa = PBXTextBookmark;
 		comments = "error: 'window' undeclared (first use in this function)";
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
-		rLen = 1;
-		rLoc = 98;
+		rLen = 0;
+		rLoc = 100;
 		rType = 1;
 	};
 	8408E35217C86092004604E2 /* PBXTextBookmark */ = {
@@ -2618,7 +2645,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 38";
 		rLen = 0;
-		rLoc = 2225;
+		rLoc = 2356;
 		rType = 0;
 		vrLen = 514;
 		vrLoc = 185;
@@ -2628,7 +2655,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 38";
 		rLen = 0;
-		rLoc = 2225;
+		rLoc = 2356;
 		rType = 0;
 		vrLen = 514;
 		vrLoc = 185;
@@ -2648,7 +2675,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 38";
 		rLen = 0;
-		rLoc = 2225;
+		rLoc = 2356;
 		rType = 0;
 		vrLen = 514;
 		vrLoc = 185;
@@ -2668,7 +2695,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 38";
 		rLen = 0;
-		rLoc = 2190;
+		rLoc = 2336;
 		rType = 0;
 		vrLen = 277;
 		vrLoc = 414;
@@ -2698,7 +2725,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 38";
 		rLen = 0;
-		rLoc = 2225;
+		rLoc = 2356;
 		rType = 0;
 		vrLen = 515;
 		vrLoc = 184;
@@ -2718,7 +2745,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 39";
 		rLen = 0;
-		rLoc = 2225;
+		rLoc = 2356;
 		rType = 0;
 		vrLen = 531;
 		vrLoc = 184;
@@ -2728,7 +2755,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 39";
 		rLen = 0;
-		rLoc = 2206;
+		rLoc = 2337;
 		rType = 0;
 		vrLen = 533;
 		vrLoc = 184;
@@ -2738,7 +2765,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 38";
 		rLen = 0;
-		rLoc = 2182;
+		rLoc = 2336;
 		rType = 0;
 		vrLen = 531;
 		vrLoc = 184;
@@ -2758,7 +2785,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 38";
 		rLen = 0;
-		rLoc = 2182;
+		rLoc = 2336;
 		rType = 0;
 		vrLen = 533;
 		vrLoc = 183;
@@ -2768,7 +2795,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 38";
 		rLen = 0;
-		rLoc = 2182;
+		rLoc = 2336;
 		rType = 0;
 		vrLen = 531;
 		vrLoc = 184;
@@ -2788,7 +2815,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 38";
 		rLen = 0;
-		rLoc = 2182;
+		rLoc = 2336;
 		rType = 0;
 		vrLen = 530;
 		vrLoc = 183;
@@ -2798,7 +2825,7 @@
 		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
 		name = "EditEquationsController.h: 19";
 		rLen = 80;
-		rLoc = 517;
+		rLoc = 577;
 		rType = 0;
 		vrLen = 423;
 		vrLoc = 0;
@@ -2808,7 +2835,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 38";
 		rLen = 0;
-		rLoc = 2182;
+		rLoc = 2336;
 		rType = 0;
 		vrLen = 532;
 		vrLoc = 183;
@@ -2818,7 +2845,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 38";
 		rLen = 0;
-		rLoc = 2182;
+		rLoc = 2336;
 		rType = 0;
 		vrLen = 532;
 		vrLoc = 183;
@@ -2828,7 +2855,7 @@
 		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
 		name = "EditEquationsController.h: 19";
 		rLen = 80;
-		rLoc = 517;
+		rLoc = 577;
 		rType = 0;
 		vrLen = 423;
 		vrLoc = 0;
@@ -2838,7 +2865,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 46";
 		rLen = 0;
-		rLoc = 2590;
+		rLoc = 2721;
 		rType = 0;
 		vrLen = 466;
 		vrLoc = 371;
@@ -2848,7 +2875,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 46";
 		rLen = 0;
-		rLoc = 2590;
+		rLoc = 2721;
 		rType = 0;
 		vrLen = 466;
 		vrLoc = 371;
@@ -2858,7 +2885,7 @@
 		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
 		name = "EditEquationsController.h: 19";
 		rLen = 80;
-		rLoc = 517;
+		rLoc = 577;
 		rType = 0;
 		vrLen = 423;
 		vrLoc = 0;
@@ -2868,7 +2895,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 46";
 		rLen = 0;
-		rLoc = 2590;
+		rLoc = 2721;
 		rType = 0;
 		vrLen = 466;
 		vrLoc = 371;
@@ -2878,7 +2905,7 @@
 		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
 		name = "EditEquationsController.h: 15";
 		rLen = 0;
-		rLoc = 292;
+		rLoc = 350;
 		rType = 0;
 		vrLen = 441;
 		vrLoc = 0;
@@ -2892,7 +2919,7 @@
 		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
 		name = "EditEquationsController.h: 18";
 		rLen = 0;
-		rLoc = 415;
+		rLoc = 473;
 		rType = 0;
 		vrLen = 570;
 		vrLoc = 0;
@@ -2910,7 +2937,7 @@
 		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
 		name = "EditEquationsController.h: 22";
 		rLen = 0;
-		rLoc = 603;
+		rLoc = 663;
 		rType = 0;
 		vrLen = 441;
 		vrLoc = 0;
@@ -2920,7 +2947,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 155";
 		rLen = 0;
-		rLoc = 6635;
+		rLoc = 7561;
 		rType = 0;
 		vrLen = 1552;
 		vrLoc = 2683;
@@ -2930,7 +2957,7 @@
 		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
 		name = "EditEquationsController.h: 18";
 		rLen = 0;
-		rLoc = 415;
+		rLoc = 473;
 		rType = 0;
 		vrLen = 570;
 		vrLoc = 0;
@@ -2940,7 +2967,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 135";
 		rLen = 0;
-		rLoc = 6217;
+		rLoc = 6239;
 		rType = 0;
 		vrLen = 1335;
 		vrLoc = 3631;
@@ -2977,7 +3004,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 123";
 		rLen = 0;
-		rLoc = 5618;
+		rLoc = 5757;
 		rType = 0;
 		vrLen = 1307;
 		vrLoc = 2891;
@@ -2997,7 +3024,7 @@
 		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
 		name = "EditEquationsController.h: 18";
 		rLen = 0;
-		rLoc = 386;
+		rLoc = 444;
 		rType = 0;
 		vrLen = 580;
 		vrLoc = 0;
@@ -3016,7 +3043,7 @@
 		isa = PBXTextBookmark;
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		rLen = 0;
-		rLoc = 43;
+		rLoc = 45;
 		rType = 1;
 	};
 	8408E3BB17D293F3004604E2 /* PBXTextBookmark */ = {
@@ -3024,7 +3051,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 50";
 		rLen = 0;
-		rLoc = 2179;
+		rLoc = 2336;
 		rType = 0;
 		vrLen = 692;
 		vrLoc = 491;
@@ -3034,7 +3061,7 @@
 		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
 		name = "EditEquationsController.h: 18";
 		rLen = 0;
-		rLoc = 451;
+		rLoc = 509;
 		rType = 0;
 		vrLen = 572;
 		vrLoc = 0;
@@ -3044,7 +3071,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 77";
 		rLen = 0;
-		rLoc = 3079;
+		rLoc = 3210;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 1079;
@@ -3054,7 +3081,7 @@
 		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
 		name = "EditEquationsController.h: 17";
 		rLen = 0;
-		rLoc = 358;
+		rLoc = 416;
 		rType = 0;
 		vrLen = 552;
 		vrLoc = 0;
@@ -3064,7 +3091,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 72";
 		rLen = 0;
-		rLoc = 2635;
+		rLoc = 2766;
 		rType = 0;
 		vrLen = 1101;
 		vrLoc = 1946;
@@ -3074,7 +3101,7 @@
 		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
 		name = "EditEquationsController.h: 18";
 		rLen = 0;
-		rLoc = 386;
+		rLoc = 444;
 		rType = 0;
 		vrLen = 580;
 		vrLoc = 0;
@@ -3084,7 +3111,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 38";
 		rLen = 0;
-		rLoc = 792;
+		rLoc = 890;
 		rType = 0;
 		vrLen = 860;
 		vrLoc = 371;
@@ -3104,7 +3131,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 46";
 		rLen = 0;
-		rLoc = 792;
+		rLoc = 890;
 		rType = 0;
 		vrLen = 855;
 		vrLoc = 376;
@@ -3124,7 +3151,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 66";
 		rLen = 0;
-		rLoc = 2271;
+		rLoc = 2402;
 		rType = 0;
 		vrLen = 1117;
 		vrLoc = 1733;
@@ -3144,7 +3171,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 70";
 		rLen = 0;
-		rLoc = 2310;
+		rLoc = 2441;
 		rType = 0;
 		vrLen = 1258;
 		vrLoc = 1409;
@@ -3164,7 +3191,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 101";
 		rLen = 0;
-		rLoc = 2560;
+		rLoc = 2691;
 		rType = 0;
 		vrLen = 1264;
 		vrLoc = 1611;
@@ -3184,7 +3211,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 70";
 		rLen = 0;
-		rLoc = 2310;
+		rLoc = 2441;
 		rType = 0;
 		vrLen = 1165;
 		vrLoc = 1735;
@@ -3204,7 +3231,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 183";
 		rLen = 99;
-		rLoc = 4941;
+		rLoc = 5072;
 		rType = 0;
 		vrLen = 998;
 		vrLoc = 5644;
@@ -3224,7 +3251,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 75";
 		rLen = 0;
-		rLoc = 2519;
+		rLoc = 2650;
 		rType = 0;
 		vrLen = 1180;
 		vrLoc = 1475;
@@ -3244,7 +3271,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 72";
 		rLen = 0;
-		rLoc = 2341;
+		rLoc = 2472;
 		rType = 0;
 		vrLen = 917;
 		vrLoc = 1144;
@@ -3264,7 +3291,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 78";
 		rLen = 0;
-		rLoc = 2589;
+		rLoc = 2720;
 		rType = 0;
 		vrLen = 831;
 		vrLoc = 1144;
@@ -3284,7 +3311,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 77";
 		rLen = 0;
-		rLoc = 2520;
+		rLoc = 2651;
 		rType = 0;
 		vrLen = 966;
 		vrLoc = 1754;
@@ -3304,7 +3331,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 202";
 		rLen = 0;
-		rLoc = 6467;
+		rLoc = 6489;
 		rType = 0;
 		vrLen = 1019;
 		vrLoc = 5623;
@@ -3324,7 +3351,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 61";
 		rLen = 0;
-		rLoc = 1735;
+		rLoc = 1892;
 		rType = 0;
 		vrLen = 838;
 		vrLoc = 1099;
@@ -3344,7 +3371,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 59";
 		rLen = 0;
-		rLoc = 1692;
+		rLoc = 1849;
 		rType = 0;
 		vrLen = 883;
 		vrLoc = 1099;
@@ -3381,7 +3408,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 63";
 		rLen = 0;
-		rLoc = 1735;
+		rLoc = 1892;
 		rType = 0;
 		vrLen = 845;
 		vrLoc = 1099;
@@ -3408,7 +3435,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 63";
 		rLen = 0;
-		rLoc = 1735;
+		rLoc = 1892;
 		rType = 0;
 		vrLen = 844;
 		vrLoc = 1098;
@@ -3428,7 +3455,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 63";
 		rLen = 0;
-		rLoc = 1776;
+		rLoc = 1933;
 		rType = 0;
 		vrLen = 850;
 		vrLoc = 1098;
@@ -3448,7 +3475,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 63";
 		rLen = 0;
-		rLoc = 1775;
+		rLoc = 1932;
 		rType = 0;
 		vrLen = 865;
 		vrLoc = 1098;
@@ -3468,7 +3495,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 60";
 		rLen = 0;
-		rLoc = 1734;
+		rLoc = 1891;
 		rType = 0;
 		vrLen = 823;
 		vrLoc = 1098;
@@ -3488,7 +3515,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 98";
 		rLen = 0;
-		rLoc = 2766;
+		rLoc = 2897;
 		rType = 0;
 		vrLen = 1211;
 		vrLoc = 4150;
@@ -3548,7 +3575,7 @@
 		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
 		name = "EditEquationsController.h: 12";
 		rLen = 18;
-		rLoc = 210;
+		rLoc = 268;
 		rType = 0;
 		vrLen = 580;
 		vrLoc = 0;
@@ -3558,7 +3585,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 44";
 		rLen = 0;
-		rLoc = 1473;
+		rLoc = 1571;
 		rType = 0;
 		vrLen = 863;
 		vrLoc = 393;
@@ -3568,7 +3595,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 44";
 		rLen = 0;
-		rLoc = 1473;
+		rLoc = 1571;
 		rType = 0;
 		vrLen = 861;
 		vrLoc = 395;
@@ -3578,7 +3605,7 @@
 		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
 		name = "EditEquationsController.h: 18";
 		rLen = 0;
-		rLoc = 386;
+		rLoc = 444;
 		rType = 0;
 		vrLen = 580;
 		vrLoc = 0;
@@ -3588,7 +3615,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 44";
 		rLen = 0;
-		rLoc = 1473;
+		rLoc = 1571;
 		rType = 0;
 		vrLen = 863;
 		vrLoc = 393;
@@ -3598,7 +3625,7 @@
 		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
 		name = "EditEquationsController.h: 12";
 		rLen = 18;
-		rLoc = 210;
+		rLoc = 268;
 		rType = 0;
 		vrLen = 580;
 		vrLoc = 0;
@@ -3608,7 +3635,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 49";
 		rLen = 0;
-		rLoc = 1473;
+		rLoc = 1571;
 		rType = 0;
 		vrLen = 775;
 		vrLoc = 393;
@@ -3628,7 +3655,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 45";
 		rLen = 0;
-		rLoc = 1473;
+		rLoc = 1571;
 		rType = 0;
 		vrLen = 862;
 		vrLoc = 393;
@@ -3648,7 +3675,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 44";
 		rLen = 0;
-		rLoc = 792;
+		rLoc = 890;
 		rType = 0;
 		vrLen = 862;
 		vrLoc = 393;
@@ -3708,7 +3735,7 @@
 		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
 		name = "EditEquationsController.h: 23";
 		rLen = 0;
-		rLoc = 478;
+		rLoc = 538;
 		rType = 0;
 		vrLen = 604;
 		vrLoc = 0;
@@ -3718,7 +3745,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 51";
 		rLen = 0;
-		rLoc = 792;
+		rLoc = 890;
 		rType = 0;
 		vrLen = 822;
 		vrLoc = 414;
@@ -3728,7 +3755,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 51";
 		rLen = 0;
-		rLoc = 792;
+		rLoc = 890;
 		rType = 0;
 		vrLen = 822;
 		vrLoc = 414;
@@ -3738,7 +3765,7 @@
 		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
 		name = "EditEquationsController.h: 23";
 		rLen = 0;
-		rLoc = 478;
+		rLoc = 538;
 		rType = 0;
 		vrLen = 604;
 		vrLoc = 0;
@@ -3748,7 +3775,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 48";
 		rLen = 0;
-		rLoc = 1470;
+		rLoc = 1568;
 		rType = 0;
 		vrLen = 772;
 		vrLoc = 365;
@@ -3768,7 +3795,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 48";
 		rLen = 0;
-		rLoc = 1470;
+		rLoc = 1568;
 		rType = 0;
 		vrLen = 772;
 		vrLoc = 365;
@@ -3848,7 +3875,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 55";
 		rLen = 0;
-		rLoc = 922;
+		rLoc = 1020;
 		rType = 0;
 		vrLen = 946;
 		vrLoc = 658;
@@ -3868,7 +3895,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 44";
 		rLen = 0;
-		rLoc = 792;
+		rLoc = 890;
 		rType = 0;
 		vrLen = 819;
 		vrLoc = 575;
@@ -3888,7 +3915,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 44";
 		rLen = 0;
-		rLoc = 792;
+		rLoc = 890;
 		rType = 0;
 		vrLen = 819;
 		vrLoc = 575;
@@ -3908,7 +3935,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 44";
 		rLen = 0;
-		rLoc = 792;
+		rLoc = 890;
 		rType = 0;
 		vrLen = 819;
 		vrLoc = 575;
@@ -3928,7 +3955,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 44";
 		rLen = 0;
-		rLoc = 792;
+		rLoc = 890;
 		rType = 0;
 		vrLen = 819;
 		vrLoc = 575;
@@ -3948,7 +3975,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 53";
 		rLen = 80;
-		rLoc = 876;
+		rLoc = 974;
 		rType = 0;
 		vrLen = 819;
 		vrLoc = 575;
@@ -3968,7 +3995,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 65";
 		rLen = 0;
-		rLoc = 1401;
+		rLoc = 1499;
 		rType = 0;
 		vrLen = 926;
 		vrLoc = 629;
@@ -3985,7 +4012,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 65";
 		rLen = 0;
-		rLoc = 1401;
+		rLoc = 1499;
 		rType = 0;
 		vrLen = 926;
 		vrLoc = 629;
@@ -4019,9 +4046,9 @@
 	};
 	8408E4FF17D43147004604E2 /* PreferencesController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {771, 2562}}";
-			sepNavSelRange = "{4485, 61}";
-			sepNavVisRange = "{3803, 884}";
+			sepNavIntBoundsRect = "{{0, 0}, {750, 2604}}";
+			sepNavSelRange = "{3257, 0}";
+			sepNavVisRange = "{2985, 530}";
 		};
 	};
 	8408E52817D43576004604E2 /* PBXTextBookmark */ = {
@@ -4039,7 +4066,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 44";
 		rLen = 0;
-		rLoc = 792;
+		rLoc = 890;
 		rType = 0;
 		vrLen = 992;
 		vrLoc = 603;
@@ -4099,7 +4126,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 44";
 		rLen = 0;
-		rLoc = 792;
+		rLoc = 890;
 		rType = 0;
 		vrLen = 992;
 		vrLoc = 603;
@@ -5890,8 +5917,8 @@
 	8488E290180B5B22005C6792 /* TODO */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {771, 494}}";
-			sepNavSelRange = "{270, 0}";
-			sepNavVisRange = "{0, 270}";
+			sepNavSelRange = "{141, 0}";
+			sepNavVisRange = "{0, 398}";
 		};
 	};
 	8488E2EF180B6FD8005C6792 /* PBXTextBookmark */ = {
@@ -5899,7 +5926,7 @@
 		fRef = 8488E290180B5B22005C6792 /* TODO */;
 		name = "TODO: 6";
 		rLen = 0;
-		rLoc = 373;
+		rLoc = 398;
 		rType = 0;
 		vrLen = 270;
 		vrLoc = 0;
@@ -5949,7 +5976,7 @@
 		fRef = 8488E290180B5B22005C6792 /* TODO */;
 		name = "TODO: 6";
 		rLen = 0;
-		rLoc = 373;
+		rLoc = 398;
 		rType = 0;
 		vrLen = 270;
 		vrLoc = 0;
@@ -6207,7 +6234,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 44";
 		rLen = 0;
-		rLoc = 792;
+		rLoc = 890;
 		rType = 0;
 		vrLen = 646;
 		vrLoc = 146;
@@ -6277,7 +6304,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 44";
 		rLen = 0;
-		rLoc = 792;
+		rLoc = 890;
 		rType = 0;
 		vrLen = 646;
 		vrLoc = 146;
@@ -7867,6 +7894,276 @@
 		vrLen = 1136;
 		vrLoc = 55414;
 	};
+	8488E4C21814C304005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8408E4FE17D43147004604E2 /* PreferencesController.h */;
+		name = "PreferencesController.h: 29";
+		rLen = 0;
+		rLoc = 806;
+		rType = 0;
+		vrLen = 1043;
+		vrLoc = 48;
+	};
+	8488E4C31814C304005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8488E290180B5B22005C6792 /* TODO */;
+		name = "TODO: 4";
+		rLen = 59;
+		rLoc = 140;
+		rType = 0;
+		vrLen = 398;
+		vrLoc = 0;
+	};
+	8488E4C41814C304005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
+		name = "EditEquationsController.m: 44";
+		rLen = 0;
+		rLoc = 890;
+		rType = 0;
+		vrLen = 646;
+		vrLoc = 146;
+	};
+	8488E4C51814C304005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8408E4FE17D43147004604E2 /* PreferencesController.h */;
+		name = "PreferencesController.h: 29";
+		rLen = 0;
+		rLoc = 806;
+		rType = 0;
+		vrLen = 1043;
+		vrLoc = 48;
+	};
+	8488E4C61814C304005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8488E290180B5B22005C6792 /* TODO */;
+		name = "TODO: 4";
+		rLen = 59;
+		rLoc = 140;
+		rType = 0;
+		vrLen = 398;
+		vrLoc = 0;
+	};
+	8488E4C71814C304005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
+		name = "EditEquationsController.m: 230";
+		rLen = 0;
+		rLoc = 7247;
+		rType = 0;
+		vrLen = 1744;
+		vrLoc = 5667;
+	};
+	8488E4C81814C304005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
+		name = "EGView.m: 1579";
+		rLen = 0;
+		rLoc = 52886;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 52604;
+	};
+	8488E4C91814C3D7005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
+		name = "EditEquationsController.m: 45";
+		rLen = 0;
+		rLoc = 888;
+		rType = 0;
+		vrLen = 980;
+		vrLoc = 575;
+	};
+	8488E4CA1814C3D8005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
+		name = "EGView.m: 1579";
+		rLen = 0;
+		rLoc = 52886;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 52604;
+	};
+	8488E4D21814C7EB005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
+		name = "EditEquationsController.h: 21";
+		rLen = 13;
+		rLoc = 495;
+		rType = 0;
+		vrLen = 664;
+		vrLoc = 0;
+	};
+	8488E4D31814C7EB005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
+		name = "EditEquationsController.m: 277";
+		rLen = 0;
+		rLoc = 9508;
+		rType = 0;
+		vrLen = 1430;
+		vrLoc = 8121;
+	};
+	8488E4D41814C7EB005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
+		name = "EditEquationsController.m: 55";
+		rLen = 0;
+		rLoc = 1054;
+		rType = 0;
+		vrLen = 980;
+		vrLoc = 575;
+	};
+	8488E4D51814C7EB005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
+		name = "EditEquationsController.h: 11";
+		rLen = 23;
+		rLoc = 180;
+		rType = 0;
+		vrLen = 662;
+		vrLoc = 0;
+	};
+	8488E4D61814C7EB005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
+		name = "EditEquationsController.m: 254";
+		rLen = 0;
+		rLoc = 8442;
+		rType = 0;
+		vrLen = 1721;
+		vrLoc = 6667;
+	};
+	8488E4D71814C7EB005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
+		name = "EditEquationsController.h: 24";
+		rLen = 2;
+		rLoc = 513;
+		rType = 0;
+		vrLen = 664;
+		vrLoc = 0;
+	};
+	8488E4D81814C7EB005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
+		name = "EditEquationsController.m: 277";
+		rLen = 0;
+		rLoc = 9508;
+		rType = 0;
+		vrLen = 1430;
+		vrLoc = 8121;
+	};
+	8488E4D91814C7EB005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
+		name = "EditEquationsController.h: 21";
+		rLen = 13;
+		rLoc = 495;
+		rType = 0;
+		vrLen = 664;
+		vrLoc = 0;
+	};
+	8488E4DA1814C7EB005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
+		name = "EditEquationsController.m: 307";
+		rLen = 0;
+		rLoc = 10545;
+		rType = 0;
+		vrLen = 1179;
+		vrLoc = 9761;
+	};
+	8488E4DB1814C7EB005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
+		name = "EGView.m: 1579";
+		rLen = 0;
+		rLoc = 52886;
+		rType = 0;
+		vrLen = 1151;
+		vrLoc = 52604;
+	};
+	8488E4DD1814C91A005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
+		name = "EditEquationsController.m: 78";
+		rLen = 0;
+		rLoc = 1753;
+		rType = 0;
+		vrLen = 858;
+		vrLoc = 1270;
+	};
+	8488E4DE1814C91A005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
+		name = "EGView.m: 1579";
+		rLen = 0;
+		rLoc = 52886;
+		rType = 0;
+		vrLen = 1151;
+		vrLoc = 52604;
+	};
+	8488E4DF1814CA1A005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
+		name = "EditEquationsController.m: 228";
+		rLen = 0;
+		rLoc = 6685;
+		rType = 0;
+		vrLen = 1048;
+		vrLoc = 10002;
+	};
+	8488E4E01814CA1A005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
+		name = "EditEquationsController.h: 21";
+		rLen = 13;
+		rLoc = 495;
+		rType = 0;
+		vrLen = 664;
+		vrLoc = 0;
+	};
+	8488E4E11814CA1A005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
+		name = "EditEquationsController.m: 228";
+		rLen = 0;
+		rLoc = 6685;
+		rType = 0;
+		vrLen = 1048;
+		vrLoc = 10002;
+	};
+	8488E4E21814CA1A005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8408E31217C857B7004604E2 /* EditEquationsController.h */;
+		name = "EditEquationsController.h: 21";
+		rLen = 13;
+		rLoc = 495;
+		rType = 0;
+		vrLen = 664;
+		vrLoc = 0;
+	};
+	8488E4E31814CA1A005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8488E290180B5B22005C6792 /* TODO */;
+		name = "TODO: 4";
+		rLen = 0;
+		rLoc = 141;
+		rType = 0;
+		vrLen = 398;
+		vrLoc = 0;
+	};
+	8488E4E41814CA1A005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
+		name = "EGView.m: 1579";
+		rLen = 0;
+		rLoc = 52886;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 52604;
+	};
 	849B0D2D06F7C5BA00211E73 /* ZoomIn.tif */ = {
 		uiCtxt = {
 			sepNavWindowFrame = "{{15, 183}, {750, 558}}";
@@ -8238,9 +8535,9 @@
 	};
 	F543F6CF02A7181601C28F32 /* EGView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {804, 33600}}";
-			sepNavSelRange = "{55742, 0}";
-			sepNavVisRange = "{55414, 1136}";
+			sepNavIntBoundsRect = "{{0, 0}, {804, 33404}}";
+			sepNavSelRange = "{52886, 0}";
+			sepNavVisRange = "{52604, 1208}";
 			sepNavVisRect = "{{0, 2744}, {675, 378}}";
 			sepNavWindowFrame = "{{15, 112}, {794, 629}}";
 		};
