@@ -224,6 +224,8 @@
     [equationsTable reloadData]; // refresh the table
 }
 
+#pragma mark Drag-and-drop
+
 // =========================================================================
 // (NSDragOperation)tableView:(NSTableView*)tv validateDrop:(id <NSDraggingInfo>)info proposedRow:(int)row proposedDropOperation:(NSTableViewDropOperation)op
 // -------------------------------------------------------------------------
@@ -274,8 +276,7 @@
 	int		insertionRow;
 	int		newIndex;
 	int		firstDragRowIndex;
-	NSArray	*draggedItems;
-	draggedItems = [equationsList objectsAtIndexes: rowIndexes];
+	NSArray	*draggedItems = [equationsList objectsAtIndexes: rowIndexes];
 	
 	if (draggedItems != NULL) 
 	{

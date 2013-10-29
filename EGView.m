@@ -425,16 +425,11 @@ owner:nil];
 {
     [ [self window] setAcceptsMouseMovedEvents:YES];
     [ [self window] makeFirstResponder:self];
-    //NSLog(@"Entering...");
 }
 
 - (void)mouseExited: (NSEvent *) event
 {
-    
-    // [self setString];    
     [ [self window] setAcceptsMouseMovedEvents:NO];
-    
-    // NSLog(@"Exiting...");
 }
 
 // =========================================================================
@@ -471,11 +466,11 @@ owner:nil];
     // Track mouse dragging around the screen
     while(1) 
     {
-        NSEvent*	evt = [NSApp nextEventMatchingMask:(NSLeftMouseDraggedMask | NSLeftMouseDownMask | NSLeftMouseUpMask) untilDate:nil inMode:NSEventTrackingRunLoopMode dequeue:YES];
+        NSEvent *evt = [NSApp nextEventMatchingMask:(NSLeftMouseDraggedMask | NSLeftMouseDownMask | NSLeftMouseUpMask) untilDate:nil inMode:NSEventTrackingRunLoopMode dequeue:YES];
         
         isDragging = YES;
 		
-        if([evt type] == NSLeftMouseUp) 
+        if ([evt type] == NSLeftMouseUp) 
         {
             break; // break out of the loop
         }
@@ -650,13 +645,7 @@ owner:nil];
         // redraw the graph after shifting
         [self drawGraph];
 
-    }
-    else
-    {
-        NSLog(@"in the ELSE part of mouseUp");
-    }
-
-        
+    }       
 }
 
 // =========================================================================
@@ -837,15 +826,10 @@ owner:nil];
             
         [self drawGraph];
     }
-    else
-    {
-        NSLog(@"keyDown: %@.", input);
-    }
 }
 
 - (void)keyUp: (NSEvent *) event
 {
-    NSLog(@"in keyUp:");
     isDragging = NO;
     [self drawGraph];
 }
@@ -995,7 +979,7 @@ owner:nil];
         sending = YES;
         receiving = YES;
 
-        [graphButton setTitle:@"Stop"];
+        [graphButton setTitle:NSLocalizedString(@"Stop", nil)];
         [graphButton setAction:@selector(stopGraph:)];
 
         [NSThread detachNewThreadSelector:@selector(sendData)
@@ -1222,7 +1206,7 @@ owner:nil];
 
 
 // =========================================================================
-// (IBAction) returnToOrigin: (id) sender
+// (IBAction) resetGraph: (id) sender
 // -------------------------------------------------------------------------
 // Reset the graph to 100% zoom and move the graph back to the origin.
 // -------------------------------------------------------------------------
@@ -1390,23 +1374,15 @@ owner:nil];
 // =========================================================================
 - (void)sendData
 {
-    NSAutoreleasePool *threadPool =
-                     [ [NSAutoreleasePool alloc] init];
-    NSString *formula_string;
+    NSAutoreleasePool *threadPool = [[NSAutoreleasePool alloc] init];
+    NSString *formula_string = [formulaField stringValue];
     double x;
     int i;
-    //BOOL is_x = FALSE;
-
-    formula_string = [formulaField stringValue];
 
     for (x=xmin; stop_sending==NO && x<=xmax; x+=xstep) 
     {
-
-        NSMutableString *fsend =
-              [NSMutableString stringWithString:@"x,"];
+        NSMutableString *fsend = [NSMutableString stringWithString:@"x,"];
         NSString *xString = [NSString stringWithFormat:@"%g",x];
-
-
 
         [fsend appendString:formula_string];
         [fsend appendString:@"\n"];
@@ -1699,122 +1675,9 @@ owner:nil];
     gridColor = [[gridColorWell color] retain];
 }
 
-// =========================================================================
-// (void) setAxesColor: (id) sender
-// -------------------------------------------------------------------------
-// Version: 24. November 2003 11:11
-// Created: 24. November 2003 11:11
-// =========================================================================
-- (void) setAxesColor:(id)sender
-{
-    [axesColor autorelease];
-    axesColor = [[sender color] retain];
-    
-    NSData *colorAsData = [NSArchiver archivedDataWithRootObject: axesColor];
-    [prefs setObject:colorAsData forKey:@"Axes Color"];
-    
-    [self drawGraph];    
-}
 
-// Links on working with Preferences
-// http://www.macdevcenter.com/pub/a/mac/2001/09/17/cocoa.html?page=5
-// http://www.projectomega.org/article.php?lg=en&php=tuts_cocoa3&p=2
-// =========================================================================
-// (void) setBGColor: (id) sender
-// -------------------------------------------------------------------------
-// =========================================================================
-- (void) setBGColor:(id)sender
-{
-    [backgroundColor autorelease];
-    backgroundColor = [[sender color] retain];
-    
-    NSData *colorAsData = [NSArchiver archivedDataWithRootObject: backgroundColor];
-    [prefs setObject:colorAsData forKey:@"Background Color"];
-    
-    [self setNeedsDisplay:YES];
-}
-
-// =========================================================================
-// (void) setGraphColor: (id) sender
-// -------------------------------------------------------------------------
-// =========================================================================
-- (void) setGraphColor:(id)sender
-{
-    [graphColor autorelease];
-    graphColor = [[sender color] retain];
-    
-    NSData *colorAsData = [NSArchiver archivedDataWithRootObject: graphColor];
-    [prefs setObject:colorAsData forKey:@"Graph Color"];
-    
-    [self setNeedsDisplay:YES];
-}
-
-// =========================================================================
-// (void) setGridColor: (id) sender
-// -------------------------------------------------------------------------
-// =========================================================================
-- (void) setGridColor:(id)sender
-{
-    [gridColor autorelease];
-    gridColor = [[sender color] retain];
-    
-    NSData *colorAsData = [NSArchiver archivedDataWithRootObject: gridColor];
-    [prefs setObject:colorAsData forKey:@"Grid Color"];
-    
-    [self drawGraph];
-}
-
-// =========================================================================
-// (IBAction) setPrecision: (id) sender
-// -------------------------------------------------------------------------
-// Version: 28. July 2003
-// Created: 11. July 2003
-// -------------------------------------------------------------------------
-// This isn't completely correct.  Will probably just need a multiplier
-// instead of directly changing xstep, since xstep changes with zooms,
-// so changing the precision when zoomed in or out mucks things up.
-// =========================================================================
-- (IBAction) setPrecision: (id) sender
-{   
-    if ([precisionSlider floatValue] < 0.1)
-    {
-        xstep = 0.1 + fabs([precisionSlider floatValue] - 0.1);
-    }
-    else
-    {
-        xstep = 0.1 - fabs([precisionSlider floatValue] - 0.1);
-    }
-    
-    if (xstep <= 0.001)
-    {
-        xstep = 0.001;
-    }
-    
-    [prefs setFloat: xstep forKey:@"Precision"];
-    
-    [self drawGraph];
-}
-
-
-// =========================================================================
-// (IBAction) setNudge: (id) sender
-// -------------------------------------------------------------------------
-// Version: 28. July 2003
-// Created: 11. July 2003
-// -------------------------------------------------------------------------
-// Set the nudge_step variable
-// =========================================================================
-- (IBAction) setNudge: (id) sender
-{   
-    nudge_step = [nudgeSlider floatValue];
-    
-    NSLog(@"nudge_step: %f", nudge_step);
-    
-    [prefs setFloat: nudge_step forKey:@"Nudge"];
-    
-    [self drawGraph];
-}
-
+#pragma mark -
+#pragma mark Menu Actions
 
 // =========================================================================
 // (void) saveDocumentTo: (id) sender
@@ -1823,17 +1686,14 @@ owner:nil];
 - (IBAction) saveDocumentTo: (id) sender
 {    
     [[NSNotificationCenter defaultCenter] 
-            postNotificationName:@"SaveImageNotification" object: nil];
+	 postNotificationName:@"SaveImageNotification" object: nil];
 }
-
-#pragma mark -
-#pragma mark Menu Actions
 
 // =========================================================================
 // (IBAction) openPreferences: (id) sender
 // -------------------------------------------------------------------------
 // Created: 1 September 2013 22:43
-// Version: 1 September 2013 22:43
+// Version: 28 October 2013 22:22
 // =========================================================================
 - (IBAction) openPreferences: (id) sender
 {
@@ -1843,13 +1703,6 @@ owner:nil];
 	}
 	
 	[preferencesController showWindow: self];
-	
-//	if (preferencesController == nil)
-//	{
-//	}
-//	
-//	// show window
-//	[PreferencesController sharedWindowController];
 }
 
 // =========================================================================
@@ -2022,232 +1875,6 @@ owner:nil];
     [self graph:self];	// Make this call instead of drawGraph so
 	// the equation is parsed properly.
 }
-
-
-#pragma mark -
-#pragma mark Old Edit Equations Methods
-
-/*
-// =========================================================================
-// (void) tableViewSelectionDidChange: (NSNotification *) aNotification
-// -------------------------------------------------------------------------
-// Version: 19. June 2004 1:30
-// Created: 17. June 2004 22:38
-// -------------------------------------------------------------------------
-// This method is called when the selection (or highlighting) of table rows
-// changes.  This is useful in reacting, such as enabling or disabling buttons
-// =========================================================================
-- (void) tableViewSelectionDidChange: (NSNotification *) aNotification
-{
-    if ([equationsTable numberOfSelectedRows] > 0)
-    {
-        [delete_equation_button setEnabled: YES];
-    }
-    else
-    {
-        [delete_equation_button setEnabled: NO];
-    }
-}
-
-
-// =========================================================================
-// (int) numberOfRowsInTableView: 
-// -------------------------------------------------------------------------
-// Version: 17. June 2004 22:38
-// Created: 17. June 2004 22:38
-// =========================================================================
-- (int)numberOfRowsInTableView:(NSTableView*)table
-{
-    return [equationsList count];
-}
-
-
-// =========================================================================
-// (id) tableView:
-// -------------------------------------------------------------------------
-// Version: 17. June 2004 22:38
-// Created: 17. June 2004 22:38
-// =========================================================================
-- (id)tableView:(NSTableView*)table objectValueForTableColumn:(NSTableColumn*)col row:(int)rowIndex
-{
-    id result = nil;
-
-    result = [equationsList objectAtIndex:rowIndex];
-    
-    return result;
-}
-
-// =========================================================================
-// (void) tableView:
-// -------------------------------------------------------------------------
-// Version: 30. June 2004 20:39
-// Created: 17. June 2004 22:38
-// =========================================================================
-- (void) tableView: (NSTableView *)aTableView setObjectValue: (id)object forTableColumn:(NSTableColumn *)inColumn row:(int) rowIndex
-{
-    int index 	= 0;
-    int i	= 0;
-    
-    // add three since the first three slots of the Equations menu are already filled up
-    index = rowIndex+3;
-
-	// It cannot be blank
-	// It cannot previously or currently exist
-	// If this is new, it cannot match anything else already existing
-	// if the changed/added item is not empty
-	// If this is a valid item, make sure it has proper placing in the table list and menu
-	if ( [object isEqualTo: @""] == NO && 
-		([equationsList containsObject: object] == NO || ([equationsList containsObject: object] == YES && [equationsList indexOfObject: object] == rowIndex)) )
-    {
-        [equationsMenu removeItemAtIndex: index];
-        [equationsMenu insertItemWithTitle: object action:@selector(insertEquation:) keyEquivalent: @"" atIndex: index];
-        [equationsList replaceObjectAtIndex:rowIndex withObject:object];        
-    }
-    else // if the selection is empty or a duplicate equation
-    {
-        // check if this is a new item?
-        [equationsMenu removeItemAtIndex: index];
-        [equationsList removeObjectAtIndex: rowIndex];
-        
-        // Erase an unnecessary empty spaces in the menu
-        if ( [equationsList count] == 0 )
-        {
-            if ( [equationsMenu numberOfItems] > 2 )
-            {
-                for (i = [equationsMenu numberOfItems] - 1; i >= 2; i--)
-                {
-                    [equationsMenu removeItemAtIndex: i];
-                }
-            }
-        }
-        
-    }
-    
-    [equationsList writeToFile:equationsFile atomically:YES];
-
-    [equationsTable reloadData]; // refresh the table
-
-}
-*/
-
-
-
-/*
-// =========================================================================
-// (IBAction) addNewEquation: (id) sender
-// -------------------------------------------------------------------------
-// Version: 19. June 2004 19:49
-// Created: 24 May 2006
-// -------------------------------------------------------------------------
-// Add a new equation in the Equations editor window by clicking on the +
-// symbol
-// =========================================================================
-- (IBAction) addNewEquation : (id) sender
-{
-    // if there are no items yet, add a spacer into the menu
-    if ([equationsList count] == 0)
-    {
-		[equationsMenu addItem: [NSMenuItem separatorItem]];
-    }
-    
-
-    [equationsList addObject: @""];
-    [equationsMenu addItemWithTitle: @"" action:@selector(insertEquation:) keyEquivalent: @""];
-	
-	[equationsTable reloadData];
-    
-	// Due to compiling as an 'older' application, this code kept jumping to the next step,
-	// but it viewed this as running on Jaguar.
-    if (os_version < 1030) // if using before Mac OS 10.3
-    {
-        [equationsTable selectRow:[equationsList count]-1 byExtendingSelection: YES];
-    }
-    else
-    {
-    #ifdef os_version >= 1030
-
-		[equationsTable selectRow:[equationsList count]-1 byExtendingSelection: YES];
-		
-		// A bunch of experimental equations and such...
-		// [[equationsTable selectedRowIndexes] lastIndex]
-		// [[NSIndexSet alloc] initWithIndex:indexOfCompletion];
-		// [equationsTable selectedRowIndexes: [[NSIndexSet alloc] initWithIndex:5] byExtendingSelection:YES];
-        // [equationsTable selectedRowIndexes: el_count-1 byExtendingSelection:YES];
-		// [equationsTable reloadData];
-	#else
-		[equationsTable selectRow:[equationsList count]-1 byExtendingSelection: YES];
-    #endif
-    }
-
-	[equationsTable editColumn: 0 row:[equationsList count] - 1 withEvent: nil select: YES];
-    
-}
-*/
-
-
-
-/*
-// =========================================================================
-// (IBAction) closeEquationsSheet: (id) sender
-// -------------------------------------------------------------------------
-// Version: 13. June 2004 15:44
-// Created: 13. June 2004 15:44
-// -------------------------------------------------------------------------
-// Need to save the lists, table, etc. when closing to make sure that any
-// new and/or edited data is saved.
-// =========================================================================
-- (IBAction) closeEquationsSheet : (id) sender
-{   
-    [NSApp stopModal];
-	
-    [equationsTable deselectAll:self];
-}
-
-
-// =========================================================================
-// (IBAction) deleteEquation: (id) sender
-// -------------------------------------------------------------------------
-// Version: 27. June 2004 15:13
-// Created: 17. June 2004 23:23
-// =========================================================================
-- (IBAction) deleteEquation: (id) sender
-{
-    NSEnumerator *enumerator;
-    NSNumber *index;
-    NSMutableArray *tempArray  = [[NSMutableArray alloc] init];
-    id tempObject;
-    int temp_index;
- 
-    if ( [equationsTable numberOfSelectedRows] > 0 )
-    {
-        enumerator = [equationsTable selectedRowEnumerator];
-        
-        while ( (index = [enumerator nextObject]) ) 
-        {
-            tempObject = [equationsList objectAtIndex:[index intValue]];
-            [tempArray addObject:tempObject];
-            
-            temp_index = [equationsMenu indexOfItemWithTitle: tempObject];
-            [equationsMenu removeItemAtIndex: temp_index];
-        }
- 
-        [equationsList removeObjectsInArray:tempArray];
-        [tempArray release];
-        
-        if ([equationsList count] == 0)
-        {
-            [equationsMenu removeItemAtIndex: 2]; // assume that the spacer is
-                                                  // at index 2 for now.
-        }
-        
-        [equationsList writeToFile:equationsFile atomically:YES];
-        
-        [equationsTable reloadData];
-   }
-
-}
-*/
-
 
 #pragma mark -
 

@@ -175,12 +175,12 @@
 // preferences
 - (void) preferencesUpdated: (NSNotification *) aNotification;
 - (void) updatePreferences;
-- (void) setAxesColor:(id)sender;
-- (void) setBGColor:(id)sender;
-- (void) setGraphColor:(id)sender;
-- (void) setGridColor:(id)sender;
-- (IBAction) setPrecision: (id) sender;
-- (IBAction) setNudge: (id) sender;
+//- (void) setAxesColor:(id)sender;
+//- (void) setBGColor:(id)sender;
+//- (void) setGraphColor:(id)sender;
+//- (void) setGridColor:(id)sender;
+//- (IBAction) setPrecision: (id) sender;
+//- (IBAction) setNudge: (id) sender;
 
 - (IBAction) saveDocumentTo: (id) sender;
 

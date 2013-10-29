@@ -1933,6 +1933,25 @@
 			8488E4E21814CA1A005C6792 /* PBXTextBookmark */ = 8488E4E21814CA1A005C6792 /* PBXTextBookmark */;
 			8488E4E31814CA1A005C6792 /* PBXTextBookmark */ = 8488E4E31814CA1A005C6792 /* PBXTextBookmark */;
 			8488E4E41814CA1A005C6792 /* PBXTextBookmark */ = 8488E4E41814CA1A005C6792 /* PBXTextBookmark */;
+			8488E4E518161E46005C6792 /* PBXTextBookmark */ = 8488E4E518161E46005C6792 /* PBXTextBookmark */;
+			8488E4E618161E46005C6792 /* PBXTextBookmark */ = 8488E4E618161E46005C6792 /* PBXTextBookmark */;
+			8488E4E718161E46005C6792 /* PBXTextBookmark */ = 8488E4E718161E46005C6792 /* PBXTextBookmark */;
+			8488E4E818161E46005C6792 /* PBXTextBookmark */ = 8488E4E818161E46005C6792 /* PBXTextBookmark */;
+			8488E4E918161E46005C6792 /* PBXTextBookmark */ = 8488E4E918161E46005C6792 /* PBXTextBookmark */;
+			8488E4EA18161E46005C6792 /* PBXTextBookmark */ = 8488E4EA18161E46005C6792 /* PBXTextBookmark */;
+			8488E4EB181F5EDB005C6792 /* PBXTextBookmark */ = 8488E4EB181F5EDB005C6792 /* PBXTextBookmark */;
+			8488E4EC181F5EDB005C6792 /* PBXTextBookmark */ = 8488E4EC181F5EDB005C6792 /* PBXTextBookmark */;
+			8488E4ED181F5EDB005C6792 /* PBXTextBookmark */ = 8488E4ED181F5EDB005C6792 /* PBXTextBookmark */;
+			8488E4EE181F5EDB005C6792 /* PBXTextBookmark */ = 8488E4EE181F5EDB005C6792 /* PBXTextBookmark */;
+			8488E4EF181F5EDB005C6792 /* PBXTextBookmark */ = 8488E4EF181F5EDB005C6792 /* PBXTextBookmark */;
+			8488E4F4181F6215005C6792 /* PBXTextBookmark */ = 8488E4F4181F6215005C6792 /* PBXTextBookmark */;
+			8488E4F5181F6215005C6792 /* PBXTextBookmark */ = 8488E4F5181F6215005C6792 /* PBXTextBookmark */;
+			8488E4F6181F6215005C6792 /* PBXTextBookmark */ = 8488E4F6181F6215005C6792 /* PBXTextBookmark */;
+			8488E4F7181F6215005C6792 /* PBXTextBookmark */ = 8488E4F7181F6215005C6792 /* PBXTextBookmark */;
+			8488E4F8181F6215005C6792 /* PBXTextBookmark */ = 8488E4F8181F6215005C6792 /* PBXTextBookmark */;
+			8488E4F9181F6215005C6792 /* PBXTextBookmark */ = 8488E4F9181F6215005C6792 /* PBXTextBookmark */;
+			8488E4FB181F6361005C6792 /* PBXTextBookmark */ = 8488E4FB181F6361005C6792 /* PBXTextBookmark */;
+			8488E4FC181F6361005C6792 /* PBXTextBookmark */ = 8488E4FC181F6361005C6792 /* PBXTextBookmark */;
 			84B534F217B5B905000F217D = 84B534F217B5B905000F217D /* PBXTextBookmark */;
 			84B534F317B5B905000F217D = 84B534F317B5B905000F217D /* PBXTextBookmark */;
 			84B534F517B5B905000F217D = 84B534F517B5B905000F217D /* PBXTextBookmark */;
@@ -2023,7 +2042,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1133";
 		rLen = 0;
-		rLoc = 35976;
+		rLoc = 35748;
 		rType = 0;
 		vrLen = 1120;
 		vrLoc = 36522;
@@ -2033,7 +2052,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1133";
 		rLen = 0;
-		rLoc = 35976;
+		rLoc = 35748;
 		rType = 0;
 		vrLen = 1120;
 		vrLoc = 36522;
@@ -2043,7 +2062,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1132";
 		rLen = 0;
-		rLoc = 35907;
+		rLoc = 35679;
 		rType = 0;
 		vrLen = 1120;
 		vrLoc = 36522;
@@ -2053,7 +2072,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1132";
 		rLen = 0;
-		rLoc = 35907;
+		rLoc = 35679;
 		rType = 0;
 		vrLen = 1085;
 		vrLoc = 36522;
@@ -2073,7 +2092,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2200";
 		rLen = 0;
-		rLoc = 80326;
+		rLoc = 67854;
 		rType = 0;
 		vrLen = 1334;
 		vrLoc = 75336;
@@ -2093,7 +2112,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2200";
 		rLen = 0;
-		rLoc = 80332;
+		rLoc = 67860;
 		rType = 0;
 		vrLen = 1327;
 		vrLoc = 75336;
@@ -2103,7 +2122,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 687";
 		rLen = 0;
-		rLoc = 22116;
+		rLoc = 22020;
 		rType = 0;
 		vrLen = 1491;
 		vrLoc = 23062;
@@ -2113,7 +2132,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 687";
 		rLen = 0;
-		rLoc = 22160;
+		rLoc = 22064;
 		rType = 0;
 		vrLen = 1299;
 		vrLoc = 23062;
@@ -2123,7 +2142,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 681";
 		rLen = 0;
-		rLoc = 21859;
+		rLoc = 21763;
 		rType = 0;
 		vrLen = 1360;
 		vrLoc = 23062;
@@ -2133,7 +2152,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 688";
 		rLen = 0;
-		rLoc = 22193;
+		rLoc = 22097;
 		rType = 0;
 		vrLen = 1295;
 		vrLoc = 23062;
@@ -2143,7 +2162,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 689";
 		rLen = 0;
-		rLoc = 22249;
+		rLoc = 22153;
 		rType = 0;
 		vrLen = 1216;
 		vrLoc = 23062;
@@ -2153,7 +2172,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 689";
 		rLen = 0;
-		rLoc = 22249;
+		rLoc = 22153;
 		rType = 0;
 		vrLen = 1253;
 		vrLoc = 23062;
@@ -2183,7 +2202,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 696";
 		rLen = 99;
-		rLoc = 21980;
+		rLoc = 21884;
 		rType = 0;
 		vrLen = 1208;
 		vrLoc = 23535;
@@ -2257,9 +2276,9 @@
 	};
 	8408E31317C857B7004604E2 /* EditEquationsController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {954, 4606}}";
-			sepNavSelRange = "{6685, 0}";
-			sepNavVisRange = "{10002, 1048}";
+			sepNavIntBoundsRect = "{{0, 0}, {954, 4368}}";
+			sepNavSelRange = "{10919, 0}";
+			sepNavVisRange = "{9987, 1048}";
 		};
 	};
 	8408E31917C85990004604E2 /* PBXTextBookmark */ = {
@@ -2287,7 +2306,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2065";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 946;
 		vrLoc = 70189;
@@ -2307,7 +2326,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2052";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1181;
 		vrLoc = 69962;
@@ -2337,7 +2356,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2065";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 946;
 		vrLoc = 70189;
@@ -2357,7 +2376,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2063";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 946;
 		vrLoc = 70189;
@@ -2367,7 +2386,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2056";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1142;
 		vrLoc = 69860;
@@ -2397,7 +2416,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2056";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1142;
 		vrLoc = 69860;
@@ -2477,7 +2496,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2056";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1209;
 		vrLoc = 69783;
@@ -2507,7 +2526,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2056";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1209;
 		vrLoc = 69783;
@@ -2547,7 +2566,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2061";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 69783;
@@ -2566,8 +2585,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2096";
-		rLen = 18;
-		rLoc = 75037;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1051;
 		vrLoc = 71000;
@@ -2586,8 +2605,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2096";
-		rLen = 18;
-		rLoc = 75037;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1052;
 		vrLoc = 70999;
@@ -2616,8 +2635,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2096";
-		rLen = 18;
-		rLoc = 75037;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1051;
 		vrLoc = 71000;
@@ -2664,8 +2683,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2096";
-		rLen = 18;
-		rLoc = 75037;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1051;
 		vrLoc = 71000;
@@ -2684,8 +2703,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2096";
-		rLen = 18;
-		rLoc = 75037;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1136;
 		vrLoc = 69860;
@@ -2704,8 +2723,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2096";
-		rLen = 18;
-		rLoc = 75037;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 981;
 		vrLoc = 70767;
@@ -2715,7 +2734,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2066";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 962;
 		vrLoc = 70347;
@@ -2735,7 +2754,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2066";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 962;
 		vrLoc = 70347;
@@ -2775,7 +2794,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2069";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 984;
 		vrLoc = 70347;
@@ -2805,7 +2824,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2069";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 984;
 		vrLoc = 70347;
@@ -2947,7 +2966,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 155";
 		rLen = 0;
-		rLoc = 7561;
+		rLoc = 7589;
 		rType = 0;
 		vrLen = 1552;
 		vrLoc = 2683;
@@ -3013,8 +3032,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1868";
-		rLen = 70;
-		rLoc = 69296;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1408;
 		vrLoc = 62527;
@@ -3034,7 +3053,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2054";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1382;
 		vrLoc = 69783;
@@ -3121,7 +3140,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2054";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1382;
 		vrLoc = 69783;
@@ -3140,8 +3159,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2116";
-		rLen = 1057;
-		rLoc = 75481;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1314;
 		vrLoc = 71345;
@@ -3160,8 +3179,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2003";
-		rLen = 1339;
-		rLoc = 73096;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 67896;
@@ -3180,8 +3199,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2003";
-		rLen = 1339;
-		rLoc = 73096;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 67896;
@@ -3200,8 +3219,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2003";
-		rLen = 1339;
-		rLoc = 73096;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1293;
 		vrLoc = 67896;
@@ -3220,8 +3239,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2003";
-		rLen = 1339;
-		rLoc = 73096;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 67896;
@@ -3240,8 +3259,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2003";
-		rLen = 1339;
-		rLoc = 73096;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 67896;
@@ -3260,8 +3279,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2003";
-		rLen = 1339;
-		rLoc = 73096;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 67896;
@@ -3280,8 +3299,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2003";
-		rLen = 1339;
-		rLoc = 73096;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 67896;
@@ -3300,8 +3319,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2003";
-		rLen = 1339;
-		rLoc = 73096;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 67896;
@@ -3320,8 +3339,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2003";
-		rLen = 1339;
-		rLoc = 73096;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 67896;
@@ -3340,8 +3359,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2003";
-		rLen = 1339;
-		rLoc = 73096;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 67896;
@@ -3360,8 +3379,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2003";
-		rLen = 1339;
-		rLoc = 73096;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 67896;
@@ -3380,8 +3399,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2003";
-		rLen = 1339;
-		rLoc = 73096;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 67896;
@@ -3444,8 +3463,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2003";
-		rLen = 1339;
-		rLoc = 73096;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 67896;
@@ -3464,8 +3483,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2003";
-		rLen = 1339;
-		rLoc = 73096;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 67896;
@@ -3484,8 +3503,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2003";
-		rLen = 1339;
-		rLoc = 73096;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 67896;
@@ -3504,8 +3523,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2003";
-		rLen = 1339;
-		rLoc = 73096;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 67896;
@@ -3524,8 +3543,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2003";
-		rLen = 1339;
-		rLoc = 73096;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 67896;
@@ -3545,7 +3564,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2006";
 		rLen = 0;
-		rLoc = 73253;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1433;
 		vrLoc = 66719;
@@ -3565,7 +3584,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2006";
 		rLen = 0;
-		rLoc = 73253;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1433;
 		vrLoc = 66719;
@@ -3645,7 +3664,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2051";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1034;
 		vrLoc = 70310;
@@ -3665,7 +3684,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2051";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1034;
 		vrLoc = 70310;
@@ -3685,7 +3704,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2051";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1034;
 		vrLoc = 70310;
@@ -3705,7 +3724,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2051";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1034;
 		vrLoc = 70310;
@@ -3785,7 +3804,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2061";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1171;
 		vrLoc = 69579;
@@ -3805,7 +3824,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2061";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1171;
 		vrLoc = 69579;
@@ -3825,7 +3844,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2069";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1045;
 		vrLoc = 70350;
@@ -3845,7 +3864,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2069";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1043;
 		vrLoc = 70350;
@@ -3865,7 +3884,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2067";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1037;
 		vrLoc = 70350;
@@ -3885,7 +3904,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2057";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1036;
 		vrLoc = 70307;
@@ -3905,7 +3924,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2073";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1096;
 		vrLoc = 70189;
@@ -3925,7 +3944,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2059";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1098;
 		vrLoc = 70189;
@@ -3945,7 +3964,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2059";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1433;
 		vrLoc = 66796;
@@ -3965,7 +3984,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2059";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1433;
 		vrLoc = 66796;
@@ -3985,7 +4004,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2079";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 70118;
@@ -4004,7 +4023,7 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		rLen = 0;
-		rLoc = 2131;
+		rLoc = 1877;
 		rType = 1;
 	};
 	8408E48617D2E39C004604E2 /* PBXTextBookmark */ = {
@@ -4022,7 +4041,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1973";
 		rLen = 0;
-		rLoc = 72557;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1433;
 		vrLoc = 66719;
@@ -4032,7 +4051,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2087";
 		rLen = 0;
-		rLoc = 74447;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 935;
 		vrLoc = 70814;
@@ -4056,7 +4075,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1973";
 		rLen = 0;
-		rLoc = 72557;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1318;
 		vrLoc = 69782;
@@ -4116,7 +4135,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1973";
 		rLen = 0;
-		rLoc = 72557;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1318;
 		vrLoc = 69782;
@@ -4225,8 +4244,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2108";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1163;
 		vrLoc = 71448;
@@ -4245,8 +4264,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2108";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1163;
 		vrLoc = 71448;
@@ -4365,8 +4384,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2108";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1163;
 		vrLoc = 71448;
@@ -4425,8 +4444,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2108";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1206;
 		vrLoc = 71448;
@@ -4476,7 +4495,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1799";
 		rLen = 41;
-		rLoc = 61362;
+		rLoc = 56921;
 		rType = 0;
 		vrLen = 1558;
 		vrLoc = 59383;
@@ -4566,7 +4585,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1799";
 		rLen = 41;
-		rLoc = 61362;
+		rLoc = 56921;
 		rType = 0;
 		vrLen = 1558;
 		vrLoc = 59383;
@@ -4576,7 +4595,7 @@
 		fRef = F543F6CE02A7181601C28F32 /* EGView.h */;
 		name = "EGView.h: 184";
 		rLen = 0;
-		rLoc = 4920;
+		rLoc = 4932;
 		rType = 0;
 		vrLen = 1266;
 		vrLoc = 4055;
@@ -4585,8 +4604,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2125";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1177;
 		vrLoc = 71543;
@@ -4596,7 +4615,7 @@
 		fRef = F543F6CE02A7181601C28F32 /* EGView.h */;
 		name = "EGView.h: 184";
 		rLen = 0;
-		rLoc = 4920;
+		rLoc = 4932;
 		rType = 0;
 		vrLen = 1266;
 		vrLoc = 4055;
@@ -4606,7 +4625,7 @@
 		fRef = F543F6CE02A7181601C28F32 /* EGView.h */;
 		name = "EGView.h: 184";
 		rLen = 0;
-		rLoc = 4920;
+		rLoc = 4932;
 		rType = 0;
 		vrLen = 1266;
 		vrLoc = 4055;
@@ -4616,7 +4635,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1806";
 		rLen = 0;
-		rLoc = 61605;
+		rLoc = 57161;
 		rType = 0;
 		vrLen = 1301;
 		vrLoc = 59383;
@@ -4625,8 +4644,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2126";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1055;
 		vrLoc = 71538;
@@ -4636,7 +4655,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1805";
 		rLen = 0;
-		rLoc = 61605;
+		rLoc = 57161;
 		rType = 0;
 		vrLen = 1558;
 		vrLoc = 59383;
@@ -4645,8 +4664,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2125";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1157;
 		vrLoc = 71540;
@@ -4688,7 +4707,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1805";
 		rLen = 0;
-		rLoc = 61605;
+		rLoc = 57161;
 		rType = 0;
 		vrLen = 1558;
 		vrLoc = 59383;
@@ -4698,7 +4717,7 @@
 		fRef = F543F6CE02A7181601C28F32 /* EGView.h */;
 		name = "EGView.h: 184";
 		rLen = 0;
-		rLoc = 4920;
+		rLoc = 4932;
 		rType = 0;
 		vrLen = 1266;
 		vrLoc = 4055;
@@ -4708,7 +4727,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1805";
 		rLen = 0;
-		rLoc = 61605;
+		rLoc = 57161;
 		rType = 0;
 		vrLen = 1558;
 		vrLoc = 59383;
@@ -4727,8 +4746,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2125";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1157;
 		vrLoc = 71540;
@@ -5137,8 +5156,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2125";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1157;
 		vrLoc = 71540;
@@ -5347,8 +5366,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2125";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1157;
 		vrLoc = 71540;
@@ -5367,8 +5386,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2125";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1157;
 		vrLoc = 71540;
@@ -5398,7 +5417,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1805";
 		rLen = 0;
-		rLoc = 61605;
+		rLoc = 57161;
 		rType = 0;
 		vrLen = 1558;
 		vrLoc = 59383;
@@ -5438,7 +5457,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1805";
 		rLen = 0;
-		rLoc = 61605;
+		rLoc = 57161;
 		rType = 0;
 		vrLen = 1558;
 		vrLoc = 59383;
@@ -5457,8 +5476,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2125";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1105;
 		vrLoc = 71540;
@@ -5472,7 +5491,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1880";
 		rLen = 0;
-		rLoc = 65179;
+		rLoc = 60616;
 		rType = 0;
 		vrLen = 1357;
 		vrLoc = 63183;
@@ -5481,7 +5500,7 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CE02A7181601C28F32 /* EGView.h */;
 		name = "EGView.h: 176";
-		rLen = 210;
+		rLen = 222;
 		rLoc = 4623;
 		rType = 0;
 		vrLen = 1192;
@@ -5512,7 +5531,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1978";
 		rLen = 0;
-		rLoc = 72556;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1381;
 		vrLoc = 67093;
@@ -5532,7 +5551,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2180";
 		rLen = 0;
-		rLoc = 76544;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1326;
 		vrLoc = 74079;
@@ -5542,7 +5561,7 @@
 		fRef = F543F6CE02A7181601C28F32 /* EGView.h */;
 		name = "EGView.h: 190";
 		rLen = 366;
-		rLoc = 5172;
+		rLoc = 5184;
 		rType = 0;
 		vrLen = 1211;
 		vrLoc = 4468;
@@ -5552,7 +5571,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1880";
 		rLen = 0;
-		rLoc = 65179;
+		rLoc = 60616;
 		rType = 0;
 		vrLen = 1357;
 		vrLoc = 63183;
@@ -5561,7 +5580,7 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CE02A7181601C28F32 /* EGView.h */;
 		name = "EGView.h: 176";
-		rLen = 210;
+		rLen = 222;
 		rLoc = 4623;
 		rType = 0;
 		vrLen = 1192;
@@ -5591,8 +5610,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2149";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1294;
 		vrLoc = 71370;
@@ -5611,7 +5630,7 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		rLen = 0;
-		rLoc = 2018;
+		rLoc = 1871;
 		rType = 1;
 	};
 	8408E63117DECAA8004604E2 /* PBXTextBookmark */ = {
@@ -5629,7 +5648,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1973";
 		rLen = 0;
-		rLoc = 68478;
+		rLoc = 63915;
 		rType = 0;
 		vrLen = 1228;
 		vrLoc = 66230;
@@ -5648,8 +5667,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2149";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1287;
 		vrLoc = 71370;
@@ -5817,7 +5836,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1974";
 		rLen = 0;
-		rLoc = 68478;
+		rLoc = 63915;
 		rType = 0;
 		vrLen = 1084;
 		vrLoc = 66205;
@@ -5836,8 +5855,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2149";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1283;
 		vrLoc = 71330;
@@ -5863,7 +5882,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2241";
 		rLen = 0;
-		rLoc = 77731;
+		rLoc = 65259;
 		rType = 0;
 		vrLen = 1031;
 		vrLoc = 75030;
@@ -5889,7 +5908,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2221";
 		rLen = 0;
-		rLoc = 77330;
+		rLoc = 64858;
 		rType = 0;
 		vrLen = 1095;
 		vrLoc = 75030;
@@ -5908,8 +5927,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2149";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1374;
 		vrLoc = 71330;
@@ -5917,7 +5936,7 @@
 	8488E290180B5B22005C6792 /* TODO */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {771, 494}}";
-			sepNavSelRange = "{141, 0}";
+			sepNavSelRange = "{291, 0}";
 			sepNavVisRange = "{0, 398}";
 		};
 	};
@@ -5946,7 +5965,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2243";
 		rLen = 83;
-		rLoc = 77731;
+		rLoc = 65259;
 		rType = 0;
 		vrLen = 1025;
 		vrLoc = 75528;
@@ -5966,7 +5985,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2221";
 		rLen = 0;
-		rLoc = 77330;
+		rLoc = 64858;
 		rType = 0;
 		vrLen = 1040;
 		vrLoc = 74928;
@@ -6066,7 +6085,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1807";
 		rLen = 0;
-		rLoc = 61724;
+		rLoc = 57161;
 		rType = 0;
 		vrLen = 1518;
 		vrLoc = 59235;
@@ -6086,7 +6105,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2243";
 		rLen = 83;
-		rLoc = 77731;
+		rLoc = 65259;
 		rType = 0;
 		vrLen = 1025;
 		vrLoc = 75528;
@@ -6115,8 +6134,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2150";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1350;
 		vrLoc = 71305;
@@ -6126,7 +6145,7 @@
 		comments = "error: syntax error before 'else'";
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		rLen = 1;
-		rLoc = 2287;
+		rLoc = 1914;
 		rType = 1;
 	};
 	8488E354180B76D4005C6792 /* PBXTextBookmark */ = {
@@ -6134,7 +6153,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2247";
 		rLen = 0;
-		rLoc = 77676;
+		rLoc = 65204;
 		rType = 0;
 		vrLen = 256;
 		vrLoc = 75940;
@@ -6144,7 +6163,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1806";
 		rLen = 0;
-		rLoc = 61559;
+		rLoc = 57118;
 		rType = 0;
 		vrLen = 1215;
 		vrLoc = 59235;
@@ -6174,7 +6193,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1806";
 		rLen = 0;
-		rLoc = 61559;
+		rLoc = 57118;
 		rType = 0;
 		vrLen = 1215;
 		vrLoc = 59235;
@@ -6203,8 +6222,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2157";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1292;
 		vrLoc = 71137;
@@ -6224,7 +6243,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1806";
 		rLen = 0;
-		rLoc = 61559;
+		rLoc = 57118;
 		rType = 0;
 		vrLen = 1350;
 		vrLoc = 59569;
@@ -6284,7 +6303,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1806";
 		rLen = 0;
-		rLoc = 61559;
+		rLoc = 57118;
 		rType = 0;
 		vrLen = 1350;
 		vrLoc = 59569;
@@ -6333,8 +6352,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2157";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1292;
 		vrLoc = 71137;
@@ -6344,7 +6363,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1806";
 		rLen = 0;
-		rLoc = 61559;
+		rLoc = 57118;
 		rType = 0;
 		vrLen = 1350;
 		vrLoc = 59569;
@@ -6384,7 +6403,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1806";
 		rLen = 0;
-		rLoc = 61559;
+		rLoc = 57118;
 		rType = 0;
 		vrLen = 1350;
 		vrLoc = 59569;
@@ -6433,8 +6452,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2157";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1292;
 		vrLoc = 71137;
@@ -6463,8 +6482,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2157";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1292;
 		vrLoc = 71137;
@@ -6493,8 +6512,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2157";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1292;
 		vrLoc = 71137;
@@ -6523,8 +6542,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2157";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1292;
 		vrLoc = 71137;
@@ -6553,8 +6572,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2157";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1292;
 		vrLoc = 71137;
@@ -6583,8 +6602,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2157";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1346;
 		vrLoc = 71137;
@@ -6613,8 +6632,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2157";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1292;
 		vrLoc = 71137;
@@ -6643,8 +6662,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2157";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1292;
 		vrLoc = 71137;
@@ -6673,8 +6692,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2157";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1292;
 		vrLoc = 71137;
@@ -6703,8 +6722,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2157";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1292;
 		vrLoc = 71137;
@@ -6733,8 +6752,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2157";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1346;
 		vrLoc = 71137;
@@ -6763,8 +6782,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2157";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1292;
 		vrLoc = 71137;
@@ -6793,8 +6812,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2157";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1292;
 		vrLoc = 71137;
@@ -6823,8 +6842,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2157";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1346;
 		vrLoc = 71137;
@@ -6853,8 +6872,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2157";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1292;
 		vrLoc = 71137;
@@ -6883,8 +6902,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 2157";
-		rLen = 4;
-		rLoc = 74805;
+		rLen = 0;
+		rLoc = 64121;
 		rType = 0;
 		vrLen = 1292;
 		vrLoc = 71137;
@@ -7153,7 +7172,7 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CE02A7181601C28F32 /* EGView.h */;
 		rLen = 0;
-		rLoc = 2147483738;
+		rLoc = 2147483750;
 		rType = 0;
 	};
 	8488E41118124171005C6792 /* PBXTextBookmark */ = {
@@ -7250,8 +7269,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1672";
-		rLen = 208;
-		rLoc = 56849;
+		rLen = 0;
+		rLoc = 56156;
 		rType = 0;
 		vrLen = 1414;
 		vrLoc = 54650;
@@ -7270,8 +7289,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1672";
-		rLen = 208;
-		rLoc = 56849;
+		rLen = 0;
+		rLoc = 56156;
 		rType = 0;
 		vrLen = 1414;
 		vrLoc = 54650;
@@ -7290,8 +7309,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1741";
-		rLen = 322;
-		rLoc = 59592;
+		rLen = 0;
+		rLoc = 56156;
 		rType = 0;
 		vrLen = 1125;
 		vrLoc = 57465;
@@ -7362,8 +7381,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1673";
-		rLen = 36;
-		rLoc = 56882;
+		rLen = 0;
+		rLoc = 56156;
 		rType = 0;
 		vrLen = 1344;
 		vrLoc = 54835;
@@ -7392,8 +7411,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1673";
-		rLen = 36;
-		rLoc = 56882;
+		rLen = 0;
+		rLoc = 56156;
 		rType = 0;
 		vrLen = 1262;
 		vrLoc = 54835;
@@ -7422,8 +7441,8 @@
 		isa = PBXTextBookmark;
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1673";
-		rLen = 36;
-		rLoc = 56882;
+		rLen = 0;
+		rLoc = 56156;
 		rType = 0;
 		vrLen = 1262;
 		vrLoc = 54835;
@@ -7443,7 +7462,7 @@
 		comments = "error: 'preferenceController' undeclared (first use in this function)";
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		rLen = 1;
-		rLoc = 1839;
+		rLoc = 1699;
 		rType = 1;
 	};
 	8488E44A18132ED2005C6792 /* PBXTextBookmark */ = {
@@ -7451,7 +7470,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1802";
 		rLen = 0;
-		rLoc = 61486;
+		rLoc = 57045;
 		rType = 0;
 		vrLen = 385;
 		vrLoc = 59793;
@@ -7561,7 +7580,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1815";
 		rLen = 0;
-		rLoc = 61486;
+		rLoc = 57045;
 		rType = 0;
 		vrLen = 477;
 		vrLoc = 59699;
@@ -7571,7 +7590,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1815";
 		rLen = 0;
-		rLoc = 61486;
+		rLoc = 57045;
 		rType = 0;
 		vrLen = 477;
 		vrLoc = 59699;
@@ -7589,7 +7608,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1815";
 		rLen = 0;
-		rLoc = 61486;
+		rLoc = 57045;
 		rType = 0;
 		vrLen = 477;
 		vrLoc = 59699;
@@ -7679,7 +7698,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1671";
 		rLen = 61;
-		rLoc = 53097;
+		rLoc = 52780;
 		rType = 0;
 		vrLen = 1319;
 		vrLoc = 54882;
@@ -7689,7 +7708,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1671";
 		rLen = 61;
-		rLoc = 53097;
+		rLoc = 52780;
 		rType = 0;
 		vrLen = 1319;
 		vrLoc = 54882;
@@ -7709,7 +7728,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1671";
 		rLen = 18;
-		rLoc = 53106;
+		rLoc = 52789;
 		rType = 0;
 		vrLen = 1157;
 		vrLoc = 54879;
@@ -7729,7 +7748,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1673";
 		rLen = 0;
-		rLoc = 53160;
+		rLoc = 52843;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 54879;
@@ -7749,7 +7768,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1673";
 		rLen = 0;
-		rLoc = 53160;
+		rLoc = 52843;
 		rType = 0;
 		vrLen = 1211;
 		vrLoc = 54879;
@@ -7769,7 +7788,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1674";
 		rLen = 0;
-		rLoc = 53160;
+		rLoc = 52843;
 		rType = 0;
 		vrLen = 1193;
 		vrLoc = 54879;
@@ -7789,7 +7808,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1673";
 		rLen = 0;
-		rLoc = 53160;
+		rLoc = 52843;
 		rType = 0;
 		vrLen = 1197;
 		vrLoc = 54879;
@@ -7839,7 +7858,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1607";
 		rLen = 26;
-		rLoc = 53526;
+		rLoc = 53209;
 		rType = 0;
 		vrLen = 964;
 		vrLoc = 53591;
@@ -7849,7 +7868,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1690";
 		rLen = 0;
-		rLoc = 53160;
+		rLoc = 52843;
 		rType = 0;
 		vrLen = 1076;
 		vrLoc = 55439;
@@ -7869,7 +7888,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1607";
 		rLen = 26;
-		rLoc = 53526;
+		rLoc = 53209;
 		rType = 0;
 		vrLen = 964;
 		vrLoc = 53591;
@@ -7889,7 +7908,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1690";
 		rLen = 0;
-		rLoc = 55893;
+		rLoc = 55576;
 		rType = 0;
 		vrLen = 1136;
 		vrLoc = 55414;
@@ -7949,7 +7968,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 230";
 		rLen = 0;
-		rLoc = 7247;
+		rLoc = 7275;
 		rType = 0;
 		vrLen = 1744;
 		vrLoc = 5667;
@@ -7959,7 +7978,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1579";
 		rLen = 0;
-		rLoc = 52886;
+		rLoc = 52569;
 		rType = 0;
 		vrLen = 1208;
 		vrLoc = 52604;
@@ -7979,7 +7998,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1579";
 		rLen = 0;
-		rLoc = 52886;
+		rLoc = 52569;
 		rType = 0;
 		vrLen = 1208;
 		vrLoc = 52604;
@@ -7999,7 +8018,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 277";
 		rLen = 0;
-		rLoc = 9508;
+		rLoc = 9521;
 		rType = 0;
 		vrLen = 1430;
 		vrLoc = 8121;
@@ -8029,7 +8048,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 254";
 		rLen = 0;
-		rLoc = 8442;
+		rLoc = 8470;
 		rType = 0;
 		vrLen = 1721;
 		vrLoc = 6667;
@@ -8049,7 +8068,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 277";
 		rLen = 0;
-		rLoc = 9508;
+		rLoc = 9521;
 		rType = 0;
 		vrLen = 1430;
 		vrLoc = 8121;
@@ -8069,7 +8088,7 @@
 		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
 		name = "EditEquationsController.m: 307";
 		rLen = 0;
-		rLoc = 10545;
+		rLoc = 10558;
 		rType = 0;
 		vrLen = 1179;
 		vrLoc = 9761;
@@ -8079,7 +8098,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1579";
 		rLen = 0;
-		rLoc = 52886;
+		rLoc = 52569;
 		rType = 0;
 		vrLen = 1151;
 		vrLoc = 52604;
@@ -8099,7 +8118,7 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1579";
 		rLen = 0;
-		rLoc = 52886;
+		rLoc = 52569;
 		rType = 0;
 		vrLen = 1151;
 		vrLoc = 52604;
@@ -8159,10 +8178,200 @@
 		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
 		name = "EGView.m: 1579";
 		rLen = 0;
-		rLoc = 52886;
+		rLoc = 52569;
 		rType = 0;
 		vrLen = 1208;
 		vrLoc = 52604;
+	};
+	8488E4E518161E46005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
+		name = "EditEquationsController.m: 317";
+		rLen = 0;
+		rLoc = 10919;
+		rType = 0;
+		vrLen = 1048;
+		vrLoc = 9987;
+	};
+	8488E4E618161E46005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8488E290180B5B22005C6792 /* TODO */;
+		name = "TODO: 4";
+		rLen = 0;
+		rLoc = 141;
+		rType = 0;
+		vrLen = 398;
+		vrLoc = 0;
+	};
+	8488E4E718161E46005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8488E290180B5B22005C6792 /* TODO */;
+		name = "TODO: 4";
+		rLen = 0;
+		rLoc = 141;
+		rType = 0;
+		vrLen = 398;
+		vrLoc = 0;
+	};
+	8488E4E818161E46005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8408E31317C857B7004604E2 /* EditEquationsController.m */;
+		name = "EditEquationsController.m: 317";
+		rLen = 0;
+		rLoc = 10919;
+		rType = 0;
+		vrLen = 1048;
+		vrLoc = 9987;
+	};
+	8488E4E918161E46005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8488E290180B5B22005C6792 /* TODO */;
+		name = "TODO: 6";
+		rLen = 0;
+		rLoc = 291;
+		rType = 0;
+		vrLen = 398;
+		vrLoc = 0;
+	};
+	8488E4EA18161E46005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
+		name = "EGView.m: 1579";
+		rLen = 0;
+		rLoc = 52569;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 52604;
+	};
+	8488E4EB181F5EDB005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8488E290180B5B22005C6792 /* TODO */;
+		name = "TODO: 6";
+		rLen = 0;
+		rLoc = 291;
+		rType = 0;
+		vrLen = 398;
+		vrLoc = 0;
+	};
+	8488E4EC181F5EDB005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
+		name = "EGView.m: 1844";
+		rLen = 0;
+		rLoc = 57118;
+		rType = 0;
+		vrLen = 960;
+		vrLoc = 59548;
+	};
+	8488E4ED181F5EDB005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8488E290180B5B22005C6792 /* TODO */;
+		name = "TODO: 6";
+		rLen = 0;
+		rLoc = 291;
+		rType = 0;
+		vrLen = 398;
+		vrLoc = 0;
+	};
+	8488E4EE181F5EDB005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
+		name = "EGView.m: 1722";
+		rLen = 0;
+		rLoc = 56156;
+		rType = 0;
+		vrLen = 1346;
+		vrLoc = 56258;
+	};
+	8488E4EF181F5EDB005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
+		name = "EGView.m: 1579";
+		rLen = 0;
+		rLoc = 52569;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 52604;
+	};
+	8488E4F4181F6215005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F543F6CE02A7181601C28F32 /* EGView.h */;
+		name = "EGView.h: 178";
+		rLen = 222;
+		rLoc = 4623;
+		rType = 0;
+		vrLen = 1409;
+		vrLoc = 4281;
+	};
+	8488E4F5181F6215005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
+		name = "EGView.m: 1722";
+		rLen = 0;
+		rLoc = 56156;
+		rType = 0;
+		vrLen = 1346;
+		vrLoc = 56258;
+	};
+	8488E4F6181F6215005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
+		name = "EGView.m: 1722";
+		rLen = 0;
+		rLoc = 56156;
+		rType = 0;
+		vrLen = 1346;
+		vrLoc = 56258;
+	};
+	8488E4F7181F6215005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F543F6CE02A7181601C28F32 /* EGView.h */;
+		name = "EGView.h: 178";
+		rLen = 222;
+		rLoc = 4623;
+		rType = 0;
+		vrLen = 1409;
+		vrLoc = 4281;
+	};
+	8488E4F8181F6215005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
+		name = "EGView.m: 1902";
+		rLen = 0;
+		rLoc = 64121;
+		rType = 0;
+		vrLen = 1424;
+		vrLoc = 63858;
+	};
+	8488E4F9181F6215005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
+		name = "EGView.m: 1579";
+		rLen = 0;
+		rLoc = 52569;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 52624;
+	};
+	8488E4FB181F6361005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
+		name = "EGView.m: 1386";
+		rLen = 0;
+		rLoc = 46088;
+		rType = 0;
+		vrLen = 1181;
+		vrLoc = 45459;
+	};
+	8488E4FC181F6361005C6792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F543F6CF02A7181601C28F32 /* EGView.m */;
+		name = "EGView.m: 1555";
+		rLen = 0;
+		rLoc = 52569;
+		rType = 0;
+		vrLen = 1228;
+		vrLoc = 52570;
 	};
 	849B0D2D06F7C5BA00211E73 /* ZoomIn.tif */ = {
 		uiCtxt = {
@@ -8526,18 +8735,18 @@
 	};
 	F543F6CE02A7181601C28F32 /* EGView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {735, 3178}}";
-			sepNavSelRange = "{4622, 0}";
-			sepNavVisRange = "{3967, 1079}";
+			sepNavIntBoundsRect = "{{0, 0}, {822, 3164}}";
+			sepNavSelRange = "{4623, 222}";
+			sepNavVisRange = "{4281, 1409}";
 			sepNavVisRect = "{{0, 152}, {675, 378}}";
 			sepNavWindowFrame = "{{500, 330}, {750, 502}}";
 		};
 	};
 	F543F6CF02A7181601C28F32 /* EGView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {804, 33404}}";
-			sepNavSelRange = "{52886, 0}";
-			sepNavVisRange = "{52604, 1208}";
+			sepNavIntBoundsRect = "{{0, 0}, {804, 28140}}";
+			sepNavSelRange = "{52569, 0}";
+			sepNavVisRange = "{52570, 1228}";
 			sepNavVisRect = "{{0, 2744}, {675, 378}}";
 			sepNavWindowFrame = "{{15, 112}, {794, 629}}";
 		};
