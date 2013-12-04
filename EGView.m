@@ -1394,7 +1394,6 @@ owner:nil];
             if ([fsend characterAtIndex:i] == 'x') {
                 [fsend replaceCharactersInRange:NSMakeRange(i,1)
                                      withString:xString];
-                //is_x = TRUE;
             }
         }
         
